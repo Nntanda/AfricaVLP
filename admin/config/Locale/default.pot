@@ -1,0 +1,3130 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2020-08-10 15:02+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Controller/AdminsController.php:81
+#: Controller/AdminsController.php:107
+msgid "The admin has been saved."
+msgstr ""
+
+#: Controller/AdminsController.php:85
+#: Controller/AdminsController.php:111
+msgid "The admin could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/AdminsController.php:130
+msgid "The admin has been deleted."
+msgstr ""
+
+#: Controller/AdminsController.php:132
+msgid "The admin could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/BlogPostsController.php:76
+#: Controller/BlogPostsController.php:110
+msgid "The blog post has been saved."
+msgstr ""
+
+#: Controller/BlogPostsController.php:80
+#: Controller/BlogPostsController.php:114
+msgid "The blog post could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/BlogPostsController.php:102
+#: Controller/CitiesController.php:69
+#: Controller/CitiesController.php:125
+#: Controller/CitiesController.php:150
+#: Controller/CountriesController.php:70
+#: Controller/CountriesController.php:126
+#: Controller/CountriesController.php:151
+#: Controller/InstitutionTypesController.php:44
+#: Controller/InstitutionTypesController.php:84
+#: Controller/InstitutionTypesController.php:121
+#: Controller/NewsController.php:65
+#: Controller/NewsController.php:109
+#: Controller/NewsController.php:149
+#: Controller/OrganizationTypesController.php:44
+#: Controller/OrganizationTypesController.php:84
+#: Controller/OrganizationTypesController.php:121
+#: Controller/OrganizationsController.php:115
+#: Controller/OrganizationsController.php:145
+#: Controller/ResourceTypesController.php:44
+#: Controller/ResourceTypesController.php:84
+#: Controller/ResourceTypesController.php:121
+#: Controller/ResourcesController.php:83
+#: Controller/ResourcesController.php:127
+#: Controller/ResourcesController.php:167
+#: Controller/VolunteeringRolesController.php:46
+#: Controller/VolunteeringRolesController.php:106
+#: Controller/VolunteeringRolesController.php:143
+msgid "The record was not found."
+msgstr ""
+
+#: Controller/BlogPostsController.php:135
+msgid "The blog post has been deleted."
+msgstr ""
+
+#: Controller/BlogPostsController.php:137
+msgid "The blog post could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/CategoryOfResourcesController.php:55
+#: Controller/CategoryOfResourcesController.php:80
+msgid "The category of resource has been saved."
+msgstr ""
+
+#: Controller/CategoryOfResourcesController.php:59
+#: Controller/CategoryOfResourcesController.php:84
+msgid "The category of resource could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/CategoryOfResourcesController.php:102
+msgid "The category of resource has been deleted."
+msgstr ""
+
+#: Controller/CategoryOfResourcesController.php:104
+msgid "The category of resource could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/CitiesController.php:88
+#: Controller/CitiesController.php:115
+msgid "The city has been saved."
+msgstr ""
+
+#: Controller/CitiesController.php:92
+#: Controller/CitiesController.php:119
+msgid "The city could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/CitiesController.php:145
+msgid "The city has been deleted."
+msgstr ""
+
+#: Controller/CitiesController.php:147
+msgid "The city could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/CountriesController.php:89
+#: Controller/CountriesController.php:116
+msgid "The country has been saved."
+msgstr ""
+
+#: Controller/CountriesController.php:93
+#: Controller/CountriesController.php:120
+msgid "The country could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/CountriesController.php:146
+msgid "The country has been deleted."
+msgstr ""
+
+#: Controller/CountriesController.php:148
+msgid "The country could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/DashboardController.php:64
+msgid "Invalid credentials, try again"
+msgstr ""
+
+#: Controller/EventsController.php:93
+msgid "The event has been saved."
+msgstr ""
+
+#: Controller/EventsController.php:97
+msgid "The event could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/EventsController.php:119
+msgid "The event has been deleted."
+msgstr ""
+
+#: Controller/EventsController.php:121
+msgid "The event could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/InstitutionTypesController.php:62
+#: Controller/InstitutionTypesController.php:92
+msgid "The institution type has been saved."
+msgstr ""
+
+#: Controller/InstitutionTypesController.php:66
+#: Controller/InstitutionTypesController.php:96
+msgid "The institution type could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/InstitutionTypesController.php:115
+msgid "The institution type has been deleted."
+msgstr ""
+
+#: Controller/InstitutionTypesController.php:117
+msgid "The institution type could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/NewsController.php:82
+#: Controller/NewsController.php:117
+msgid "The news has been saved."
+msgstr ""
+
+#: Controller/NewsController.php:86
+#: Controller/NewsController.php:121
+msgid "The news could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/NewsController.php:143
+msgid "The news has been deleted."
+msgstr ""
+
+#: Controller/NewsController.php:145
+msgid "The news could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/OrganizationTypesController.php:62
+#: Controller/OrganizationTypesController.php:92
+msgid "The organization type has been saved."
+msgstr ""
+
+#: Controller/OrganizationTypesController.php:66
+#: Controller/OrganizationTypesController.php:96
+msgid "The organization type could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/OrganizationTypesController.php:115
+msgid "The organization type has been deleted."
+msgstr ""
+
+#: Controller/OrganizationTypesController.php:117
+msgid "The organization type could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/OrganizationsController.php:64
+msgid "Unverified"
+msgstr ""
+
+#: Controller/OrganizationsController.php:64
+msgid "Verified"
+msgstr ""
+
+#: Controller/OrganizationsController.php:136
+msgid "The organization has been saved."
+msgstr ""
+
+#: Controller/OrganizationsController.php:140
+msgid "The organization could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/ResourceTypesController.php:62
+#: Controller/ResourceTypesController.php:92
+msgid "The resource type has been saved."
+msgstr ""
+
+#: Controller/ResourceTypesController.php:66
+#: Controller/ResourceTypesController.php:96
+msgid "The resource type could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/ResourceTypesController.php:115
+msgid "The resource type has been deleted."
+msgstr ""
+
+#: Controller/ResourceTypesController.php:117
+msgid "The resource type could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/ResourcesController.php:102
+#: Controller/ResourcesController.php:135
+msgid "The resource has been saved."
+msgstr ""
+
+#: Controller/ResourcesController.php:106
+#: Controller/ResourcesController.php:139
+msgid "The resource could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/ResourcesController.php:161
+msgid "The resource has been deleted."
+msgstr ""
+
+#: Controller/ResourcesController.php:163
+msgid "The resource could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/SupportController.php:58
+msgid "Invalid Organization"
+msgstr ""
+
+#: Controller/SupportController.php:88
+#: Controller/SupportController.php:111
+msgid "The message has been sent."
+msgstr ""
+
+#: Controller/SupportController.php:93
+msgid "The message could not been sent."
+msgstr ""
+
+#: Controller/SupportController.php:115
+msgid "The message could not be sent. Please, try again."
+msgstr ""
+
+#: Controller/UsersController.php:129
+msgid "The user has been saved."
+msgstr ""
+
+#: Controller/UsersController.php:133
+msgid "The user could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/UsersController.php:153
+msgid "The user has been deleted."
+msgstr ""
+
+#: Controller/UsersController.php:155
+msgid "The user could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/VolunteeringCategoriesController.php:55
+#: Controller/VolunteeringCategoriesController.php:79
+msgid "The volunteering category has been saved."
+msgstr ""
+
+#: Controller/VolunteeringCategoriesController.php:59
+#: Controller/VolunteeringCategoriesController.php:83
+msgid "The volunteering category could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/VolunteeringCategoriesController.php:101
+msgid "The volunteering category has been deleted."
+msgstr ""
+
+#: Controller/VolunteeringCategoriesController.php:103
+msgid "The volunteering category could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/VolunteeringRolesController.php:64
+#: Controller/VolunteeringRolesController.php:114
+msgid "The volunteering role has been saved."
+msgstr ""
+
+#: Controller/VolunteeringRolesController.php:68
+#: Controller/VolunteeringRolesController.php:118
+msgid "The volunteering role could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/VolunteeringRolesController.php:137
+msgid "The volunteering role has been deleted."
+msgstr ""
+
+#: Controller/VolunteeringRolesController.php:139
+msgid "The volunteering role could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/WidgetsController.php:65
+#: Controller/WidgetsController.php:89
+msgid "The widget has been saved."
+msgstr ""
+
+#: Controller/WidgetsController.php:69
+#: Controller/WidgetsController.php:93
+msgid "The widget could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/WidgetsController.php:111
+msgid "The widget has been deleted."
+msgstr ""
+
+#: Controller/WidgetsController.php:113
+msgid "The widget could not be deleted. Please, try again."
+msgstr ""
+
+#: Model/Table/BlogPostsTable.php:129
+#: Model/Table/NewsTable.php:125
+#: Model/Table/ResourcesTable.php:134
+#: Model/Table/WidgetsTable.php:111
+msgid "The provided file type is invalid. Support file types are: {0}"
+msgstr ""
+
+#: Model/Table/BlogPostsTable.php:138
+#: Model/Table/NewsTable.php:134
+#: Model/Table/ResourcesTable.php:143
+#: Model/Table/WidgetsTable.php:120
+msgid "Image must be less than {0}"
+msgstr ""
+
+#: Template/Admins/add.ctp:12
+msgid "Add Admin"
+msgstr ""
+
+#: Template/Admins/add.ctp:16
+#: Template/Admins/edit.ctp:16
+msgid "Back to Admins"
+msgstr ""
+
+#: Template/Admins/add.ctp:39
+msgid "Admin Information"
+msgstr ""
+
+#: Template/Admins/add.ctp:70
+#: Template/BlogPosts/add.ctp:118
+#: Template/BlogPosts/edit.ctp:119
+#: Template/CategoryOfResources/add.ctp:49
+#: Template/CategoryOfResources/edit.ctp:56
+#: Template/Cities/add.ctp:68
+#: Template/Cities/edit.ctp:68
+#: Template/Countries/edit.ctp:71
+#: Template/InstitutionTypes/add.ctp:75
+#: Template/InstitutionTypes/edit.ctp:75
+#: Template/News/add.ctp:118
+#: Template/News/edit.ctp:118
+#: Template/OrganizationTypes/add.ctp:84
+#: Template/OrganizationTypes/edit.ctp:85
+#: Template/Organizations/edit.ctp:76
+#: Template/ResourceTypes/add.ctp:84
+#: Template/ResourceTypes/edit.ctp:84
+#: Template/Resources/add.ctp:119
+#: Template/Resources/edit.ctp:120
+#: Template/Users/edit.ctp:76
+#: Template/VolunteeringCategories/add.ctp:84
+#: Template/VolunteeringRoles/add.ctp:84
+#: Template/VolunteeringRoles/edit.ctp:79
+#: Template/Widgets/add.ctp:56
+#: Template/Widgets/edit.ctp:61
+#: View/Helper/FormHelper.php:2028
+msgid "Submit"
+msgstr ""
+
+#: Template/Admins/edit.ctp:12
+msgid "Admin Profile"
+msgstr ""
+
+#: Template/Admins/edit.ctp:39
+msgid "Edit Admin Information"
+msgstr ""
+
+#: Template/Admins/edit.ctp:70
+msgid "Save Changes"
+msgstr ""
+
+#: Template/Admins/index.ctp:12
+#: Template/Element/Navigation/aside.ctp:41
+msgid "Admins"
+msgstr ""
+
+#: Template/Admins/index.ctp:45
+#: Template/Cities/index.ctp:54
+#: Template/InstitutionTypes/index.ctp:43
+#: Template/OrganizationTypes/index.ctp:43
+#: Template/Organizations/index.ctp:72
+#: Template/ResourceTypes/index.ctp:43
+#: Template/Resources/index.ctp:75
+#: Template/Users/index.ctp:54
+#: Template/VolunteeringCategories/index.ctp:43
+#: Template/VolunteeringRoles/index.ctp:43
+msgid "Add New"
+msgstr ""
+
+#: Template/Admins/index.ctp:65
+#: Template/Admins/view.ctp:24
+#: Template/BlogPosts/view.ctp:84
+#: Template/CategoryOfResources/view.ctp:26
+#: Template/Cities/view.ctp:34
+#: Template/Cities/view.ctp:145
+#: Template/Countries/index.ctp:72
+#: Template/InstitutionTypes/view.ctp:22
+#: Template/InstitutionTypes/view.ctp:49
+#: Template/News/view.ctp:84
+#: Template/OrganizationTypes/view.ctp:20
+#: Template/Organizations/view.ctp:332
+#: Template/ResourceTypes/view.ctp:26
+#: Template/VolunteeringCategories/view.ctp:26
+#: Template/VolunteeringRoles/view.ctp:22
+#: Template/Widgets/view.ctp:20
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/packages_panel.ctp:36
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/packages_panel.ctp:62
+msgid "Name"
+msgstr ""
+
+#: Template/Admins/index.ctp:66
+#: Template/Organizations/view.ctp:386
+msgid "Email Address"
+msgstr ""
+
+#: Template/Admins/index.ctp:67
+#: Template/Admins/view.ctp:36
+msgid "Role"
+msgstr ""
+
+#: Template/Admins/index.ctp:68
+#: Template/Admins/view.ctp:44
+#: Template/BlogPosts/view.ctp:62
+#: Template/BlogPosts/view.ctp:85
+#: Template/CategoryOfResources/view.ctp:38
+#: Template/Cities/index.ctp:76
+#: Template/Cities/view.ctp:42
+#: Template/Cities/view.ctp:68
+#: Template/Cities/view.ctp:113
+#: Template/Cities/view.ctp:160
+#: Template/Cities/view.ctp:222
+#: Template/Countries/index.ctp:77
+#: Template/InstitutionTypes/index.ctp:64
+#: Template/InstitutionTypes/view.ctp:30
+#: Template/InstitutionTypes/view.ctp:64
+#: Template/News/view.ctp:62
+#: Template/News/view.ctp:85
+#: Template/OrganizationTypes/index.ctp:16
+#: Template/OrganizationTypes/index.ctp:64
+#: Template/OrganizationTypes/view.ctp:28
+#: Template/Organizations/index.ctp:17
+#: Template/ResourceTypes/index.ctp:64
+#: Template/ResourceTypes/view.ctp:38
+#: Template/ResourceTypes/view.ctp:92
+#: Template/Resources/index.ctp:19
+#: Template/Resources/index.ctp:100
+#: Template/Resources/view.ctp:50
+#: Template/VolunteeringCategories/index.ctp:16
+#: Template/VolunteeringCategories/index.ctp:64
+#: Template/VolunteeringCategories/view.ctp:34
+#: Template/VolunteeringRoles/index.ctp:16
+#: Template/VolunteeringRoles/index.ctp:64
+#: Template/VolunteeringRoles/view.ctp:30
+#: Template/VolunteeringRoles/view.ctp:51
+#: Template/Widgets/view.ctp:36
+msgid "Status"
+msgstr ""
+
+#: Template/Admins/index.ctp:69
+#: Template/Admins/view.ctp:9
+#: Template/BlogPosts/view.ctp:9
+#: Template/BlogPosts/view.ctp:88
+#: Template/BlogPosts/view.ctp:118
+#: Template/BlogPosts/view.ctp:146
+#: Template/CategoryOfResources/add.ctp:9
+#: Template/CategoryOfResources/edit.ctp:9
+#: Template/CategoryOfResources/index.ctp:9
+#: Template/CategoryOfResources/index.ctp:23
+#: Template/CategoryOfResources/view.ctp:9
+#: Template/CategoryOfResources/view.ctp:61
+#: Template/CategoryOfResources/view.ctp:89
+#: Template/Cities/index.ctp:77
+#: Template/Cities/view.ctp:9
+#: Template/Cities/view.ctp:74
+#: Template/Cities/view.ctp:116
+#: Template/Cities/view.ctp:163
+#: Template/Cities/view.ctp:223
+#: Template/Countries/index.ctp:78
+#: Template/InstitutionTypes/index.ctp:67
+#: Template/InstitutionTypes/view.ctp:9
+#: Template/InstitutionTypes/view.ctp:67
+#: Template/News/view.ctp:9
+#: Template/News/view.ctp:88
+#: Template/News/view.ctp:118
+#: Template/News/view.ctp:146
+#: Template/OrganizationTypes/index.ctp:67
+#: Template/OrganizationTypes/view.ctp:9
+#: Template/ResourceTypes/index.ctp:67
+#: Template/ResourceTypes/view.ctp:9
+#: Template/ResourceTypes/view.ctp:61
+#: Template/ResourceTypes/view.ctp:95
+#: Template/Resources/index.ctp:101
+#: Template/Resources/view.ctp:9
+#: Template/Resources/view.ctp:73
+#: Template/Resources/view.ctp:101
+#: Template/VolunteeringCategories/index.ctp:67
+#: Template/VolunteeringCategories/view.ctp:9
+#: Template/VolunteeringCategories/view.ctp:54
+#: Template/VolunteeringCategories/view.ctp:79
+#: Template/VolunteeringCategories/view.ctp:104
+#: Template/VolunteeringRoles/index.ctp:67
+#: Template/VolunteeringRoles/view.ctp:9
+#: Template/VolunteeringRoles/view.ctp:54
+#: Template/Widgets/add.ctp:9
+#: Template/Widgets/edit.ctp:9
+#: Template/Widgets/index.ctp:9
+#: Template/Widgets/index.ctp:25
+#: Template/Widgets/view.ctp:9
+#: Template/Widgets/view.ctp:63
+msgid "Actions"
+msgstr ""
+
+#: Template/Admins/index.ctp:98
+#: Template/Cities/index.ctp:105
+#: Template/Countries/index.ctp:110
+#: Template/Events/view.ctp:25
+#: Template/InstitutionTypes/index.ctp:96
+#: Template/OrganizationTypes/index.ctp:96
+#: Template/ResourceTypes/index.ctp:96
+#: Template/Resources/index.ctp:138
+#: Template/VolunteeringCategories/index.ctp:96
+#: Template/VolunteeringRoles/index.ctp:96
+msgid "Deactivate"
+msgstr ""
+
+#: Template/Admins/index.ctp:104
+#: Template/Cities/index.ctp:111
+#: Template/Countries/index.ctp:116
+#: Template/Events/view.ctp:31
+#: Template/InstitutionTypes/index.ctp:102
+#: Template/OrganizationTypes/index.ctp:102
+#: Template/ResourceTypes/index.ctp:102
+#: Template/Resources/index.ctp:144
+#: Template/VolunteeringCategories/index.ctp:102
+#: Template/VolunteeringRoles/index.ctp:102
+msgid "Activate"
+msgstr ""
+
+#: Template/Admins/view.ctp:10
+msgid "Edit Admin"
+msgstr ""
+
+#: Template/Admins/view.ctp:11
+msgid "Delete Admin"
+msgstr ""
+
+#: Template/Admins/view.ctp:11
+#: Template/BlogPosts/view.ctp:11
+#: Template/BlogPosts/view.ctp:100
+#: Template/BlogPosts/view.ctp:131
+#: Template/BlogPosts/view.ctp:156
+#: Template/CategoryOfResources/edit.ctp:13
+#: Template/CategoryOfResources/index.ctp:37
+#: Template/CategoryOfResources/view.ctp:11
+#: Template/CategoryOfResources/view.ctp:74
+#: Template/CategoryOfResources/view.ctp:99
+#: Template/Cities/view.ctp:11
+#: Template/Cities/view.ctp:96
+#: Template/Cities/view.ctp:131
+#: Template/Cities/view.ctp:190
+#: Template/Cities/view.ctp:251
+#: Template/InstitutionTypes/view.ctp:11
+#: Template/InstitutionTypes/view.ctp:94
+#: Template/News/view.ctp:11
+#: Template/News/view.ctp:100
+#: Template/News/view.ctp:131
+#: Template/News/view.ctp:156
+#: Template/OrganizationTypes/view.ctp:11
+#: Template/ResourceTypes/view.ctp:11
+#: Template/ResourceTypes/view.ctp:74
+#: Template/ResourceTypes/view.ctp:111
+#: Template/Resources/view.ctp:11
+#: Template/Resources/view.ctp:86
+#: Template/Resources/view.ctp:111
+#: Template/VolunteeringCategories/view.ctp:11
+#: Template/VolunteeringCategories/view.ctp:64
+#: Template/VolunteeringCategories/view.ctp:89
+#: Template/VolunteeringCategories/view.ctp:114
+#: Template/VolunteeringRoles/view.ctp:11
+#: Template/VolunteeringRoles/view.ctp:68
+#: Template/Widgets/edit.ctp:13
+#: Template/Widgets/index.ctp:41
+#: Template/Widgets/view.ctp:11
+#: Template/Widgets/view.ctp:76
+msgid "Are you sure you want to delete # {0}?"
+msgstr ""
+
+#: Template/Admins/view.ctp:12
+msgid "List Admins"
+msgstr ""
+
+#: Template/Admins/view.ctp:13
+msgid "New Admin"
+msgstr ""
+
+#: Template/Admins/view.ctp:20
+#: Template/Cities/view.ctp:205
+#: Template/Organizations/view.ctp:392
+msgid "Email"
+msgstr ""
+
+#: Template/Admins/view.ctp:28
+#: Template/Cities/view.ctp:206
+msgid "Password"
+msgstr ""
+
+#: Template/Admins/view.ctp:32
+#: Template/Cities/view.ctp:212
+msgid "Token"
+msgstr ""
+
+#: Template/Admins/view.ctp:40
+#: Template/BlogPosts/view.ctp:58
+#: Template/BlogPosts/view.ctp:83
+#: Template/BlogPosts/view.ctp:112
+#: Template/BlogPosts/view.ctp:143
+#: Template/CategoryOfResources/view.ctp:34
+#: Template/CategoryOfResources/view.ctp:55
+#: Template/CategoryOfResources/view.ctp:86
+#: Template/Cities/view.ctp:38
+#: Template/Cities/view.ctp:59
+#: Template/Cities/view.ctp:108
+#: Template/Cities/view.ctp:143
+#: Template/Cities/view.ctp:202
+#: Template/InstitutionTypes/view.ctp:26
+#: Template/InstitutionTypes/view.ctp:47
+#: Template/News/view.ctp:58
+#: Template/News/view.ctp:83
+#: Template/News/view.ctp:112
+#: Template/News/view.ctp:143
+#: Template/OrganizationTypes/view.ctp:24
+#: Template/ResourceTypes/view.ctp:34
+#: Template/ResourceTypes/view.ctp:55
+#: Template/ResourceTypes/view.ctp:86
+#: Template/Resources/view.ctp:42
+#: Template/Resources/view.ctp:67
+#: Template/Resources/view.ctp:98
+#: Template/VolunteeringCategories/view.ctp:30
+#: Template/VolunteeringCategories/view.ctp:51
+#: Template/VolunteeringCategories/view.ctp:76
+#: Template/VolunteeringCategories/view.ctp:101
+#: Template/VolunteeringRoles/view.ctp:26
+#: Template/VolunteeringRoles/view.ctp:47
+#: Template/Widgets/view.ctp:32
+#: Template/Widgets/view.ctp:57
+msgid "Id"
+msgstr ""
+
+#: Template/Admins/view.ctp:48
+#: Template/BlogPosts/view.ctp:66
+#: Template/BlogPosts/view.ctp:86
+#: Template/CategoryOfResources/view.ctp:42
+#: Template/Cities/view.ctp:46
+#: Template/Cities/view.ctp:71
+#: Template/Cities/view.ctp:114
+#: Template/Cities/view.ctp:161
+#: Template/Cities/view.ctp:220
+#: Template/InstitutionTypes/view.ctp:34
+#: Template/InstitutionTypes/view.ctp:65
+#: Template/News/view.ctp:66
+#: Template/News/view.ctp:86
+#: Template/NewsletterContents/index.ctp:65
+#: Template/OrganizationTypes/view.ctp:32
+#: Template/ResourceTypes/view.ctp:42
+#: Template/ResourceTypes/view.ctp:93
+#: Template/Resources/view.ctp:54
+#: Template/VolunteeringCategories/view.ctp:38
+#: Template/VolunteeringRoles/view.ctp:34
+#: Template/VolunteeringRoles/view.ctp:52
+#: Template/Widgets/view.ctp:40
+msgid "Created"
+msgstr ""
+
+#: Template/Admins/view.ctp:52
+#: Template/BlogPosts/view.ctp:70
+#: Template/BlogPosts/view.ctp:87
+#: Template/CategoryOfResources/view.ctp:46
+#: Template/Cities/view.ctp:50
+#: Template/Cities/view.ctp:72
+#: Template/Cities/view.ctp:115
+#: Template/Cities/view.ctp:162
+#: Template/Cities/view.ctp:221
+#: Template/InstitutionTypes/view.ctp:38
+#: Template/InstitutionTypes/view.ctp:66
+#: Template/News/view.ctp:70
+#: Template/News/view.ctp:87
+#: Template/OrganizationTypes/view.ctp:36
+#: Template/ResourceTypes/view.ctp:46
+#: Template/ResourceTypes/view.ctp:94
+#: Template/Resources/view.ctp:58
+#: Template/VolunteeringCategories/view.ctp:42
+#: Template/VolunteeringRoles/view.ctp:38
+#: Template/VolunteeringRoles/view.ctp:53
+#: Template/Widgets/view.ctp:44
+msgid "Modified"
+msgstr ""
+
+#: Template/BlogPosts/add.ctp:15
+#: Template/BlogPosts/index.ctp:55
+msgid "New Blog Post"
+msgstr ""
+
+#: Template/BlogPosts/add.ctp:19
+#: Template/BlogPosts/edit.ctp:20
+msgid "Back to Blog Posts"
+msgstr ""
+
+#: Template/BlogPosts/add.ctp:34
+#: Template/BlogPosts/edit.ctp:35
+msgid "Blog Post Texts"
+msgstr ""
+
+#: Template/BlogPosts/add.ctp:66
+#: Template/BlogPosts/edit.ctp:67
+#: Template/BlogPosts/view.ctp:75
+#: Template/BlogPosts/view.ctp:117
+#: Template/CategoryOfResources/view.ctp:60
+#: Template/News/add.ctp:66
+#: Template/News/edit.ctp:66
+#: Template/News/view.ctp:75
+#: Template/News/view.ctp:117
+#: Template/ResourceTypes/view.ctp:60
+#: Template/Resources/view.ctp:72
+#: Template/Widgets/view.ctp:49
+#: Template/Widgets/view.ctp:62
+msgid "Content"
+msgstr ""
+
+#: Template/BlogPosts/add.ctp:87
+#: Template/BlogPosts/edit.ctp:88
+#: Template/News/add.ctp:87
+#: Template/News/edit.ctp:87
+#: Template/Resources/add.ctp:87
+#: Template/Resources/edit.ctp:87
+msgid "Others"
+msgstr ""
+
+#: Template/BlogPosts/add.ctp:105
+#: Template/BlogPosts/edit.ctp:106
+#: Template/News/add.ctp:105
+#: Template/News/edit.ctp:105
+#: Template/Resources/add.ctp:107
+#: Template/Resources/edit.ctp:108
+#: Template/Resources/index.ctp:112
+#: Template/Support/index.ctp:52
+msgid "All"
+msgstr ""
+
+#: Template/BlogPosts/edit.ctp:16
+msgid "Edit Blog Post"
+msgstr ""
+
+#: Template/BlogPosts/index.ctp:14
+msgid "Blog Posts"
+msgstr ""
+
+#: Template/BlogPosts/index.ctp:36
+#: Template/Cities/index.ctp:15
+#: Template/Countries/index.ctp:15
+#: Template/Events/index.ctp:47
+#: Template/News/index.ctp:36
+#: Template/NewsletterContents/index.ctp:43
+#: Template/OrganizationTypes/index.ctp:24
+#: Template/Organizations/index.ctp:53
+#: Template/Resources/index.ctp:56
+#: Template/VolunteeringCategories/index.ctp:24
+#: Template/VolunteeringRoles/index.ctp:24
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/cache_panel.ctp:32
+msgid "Total"
+msgstr ""
+
+#: Template/BlogPosts/index.ctp:41
+#: Template/News/index.ctp:41
+#: Template/Organizations/index.ctp:58
+msgid "Search..."
+msgstr ""
+
+#: Template/BlogPosts/index.ctp:108
+#: Template/BlogPosts/view.ctp:99
+#: Template/BlogPosts/view.ctp:130
+#: Template/BlogPosts/view.ctp:155
+#: Template/CategoryOfResources/index.ctp:36
+#: Template/CategoryOfResources/view.ctp:73
+#: Template/CategoryOfResources/view.ctp:98
+#: Template/Cities/index.ctp:98
+#: Template/Cities/view.ctp:95
+#: Template/Cities/view.ctp:130
+#: Template/Cities/view.ctp:189
+#: Template/Cities/view.ctp:250
+#: Template/Countries/index.ctp:103
+#: Template/InstitutionTypes/index.ctp:89
+#: Template/InstitutionTypes/view.ctp:93
+#: Template/News/index.ctp:111
+#: Template/News/view.ctp:99
+#: Template/News/view.ctp:130
+#: Template/News/view.ctp:155
+#: Template/OrganizationTypes/index.ctp:89
+#: Template/ResourceTypes/index.ctp:89
+#: Template/ResourceTypes/view.ctp:73
+#: Template/ResourceTypes/view.ctp:110
+#: Template/Resources/index.ctp:131
+#: Template/Resources/view.ctp:85
+#: Template/Resources/view.ctp:110
+#: Template/VolunteeringCategories/index.ctp:89
+#: Template/VolunteeringCategories/view.ctp:63
+#: Template/VolunteeringCategories/view.ctp:88
+#: Template/VolunteeringCategories/view.ctp:113
+#: Template/VolunteeringRoles/index.ctp:89
+#: Template/VolunteeringRoles/view.ctp:67
+#: Template/Widgets/index.ctp:40
+#: Template/Widgets/view.ctp:75
+msgid "Edit"
+msgstr ""
+
+#: Template/BlogPosts/view.ctp:10
+#: Template/News/edit.ctp:15
+#: Template/News/view.ctp:10
+msgid "Edit News"
+msgstr ""
+
+#: Template/BlogPosts/view.ctp:11
+#: Template/News/view.ctp:11
+msgid "Delete News"
+msgstr ""
+
+#: Template/BlogPosts/view.ctp:12
+#: Template/News/view.ctp:12
+msgid "List News"
+msgstr ""
+
+#: Template/BlogPosts/view.ctp:13
+#: Template/News/view.ctp:13
+msgid "New News"
+msgstr ""
+
+#: Template/BlogPosts/view.ctp:14
+#: Template/Cities/view.ctp:20
+#: Template/InstitutionTypes/view.ctp:14
+#: Template/News/view.ctp:14
+#: Template/Resources/view.ctp:14
+msgid "List Organizations"
+msgstr ""
+
+#: Template/BlogPosts/view.ctp:15
+#: Template/Cities/view.ctp:21
+#: Template/InstitutionTypes/view.ctp:15
+#: Template/News/view.ctp:15
+msgid "New Organization"
+msgstr ""
+
+#: Template/BlogPosts/view.ctp:16
+#: Template/News/view.ctp:16
+msgid "List Regions"
+msgstr ""
+
+#: Template/BlogPosts/view.ctp:17
+#: Template/News/view.ctp:17
+msgid "New Region"
+msgstr ""
+
+#: Template/BlogPosts/view.ctp:18
+#: Template/News/view.ctp:18
+msgid "List News Title Translation"
+msgstr ""
+
+#: Template/BlogPosts/view.ctp:19
+#: Template/News/view.ctp:19
+msgid "New News Title Translation"
+msgstr ""
+
+#: Template/BlogPosts/view.ctp:20
+#: Template/News/view.ctp:20
+msgid "List News Content Translation"
+msgstr ""
+
+#: Template/BlogPosts/view.ctp:21
+#: Template/News/view.ctp:21
+msgid "New News Content Translation"
+msgstr ""
+
+#: Template/BlogPosts/view.ctp:22
+#: Template/CategoryOfResources/view.ctp:16
+#: Template/News/view.ctp:22
+#: Template/ResourceTypes/view.ctp:16
+msgid "List I18n"
+msgstr ""
+
+#: Template/BlogPosts/view.ctp:23
+#: Template/CategoryOfResources/view.ctp:17
+#: Template/News/view.ctp:23
+#: Template/ResourceTypes/view.ctp:17
+msgid "New I18n"
+msgstr ""
+
+#: Template/BlogPosts/view.ctp:24
+#: Template/News/view.ctp:24
+#: Template/VolunteeringCategories/view.ctp:16
+msgid "List News Categories"
+msgstr ""
+
+#: Template/BlogPosts/view.ctp:25
+#: Template/News/view.ctp:25
+#: Template/VolunteeringCategories/view.ctp:17
+msgid "New News Category"
+msgstr ""
+
+#: Template/BlogPosts/view.ctp:26
+#: Template/News/view.ctp:26
+msgid "List Publishing Categories"
+msgstr ""
+
+#: Template/BlogPosts/view.ctp:27
+#: Template/News/view.ctp:27
+msgid "New Publishing Category"
+msgstr ""
+
+#: Template/BlogPosts/view.ctp:34
+#: Template/News/view.ctp:34
+#: Template/Resources/view.ctp:22
+msgid "Organization"
+msgstr ""
+
+#: Template/BlogPosts/view.ctp:38
+#: Template/Cities/view.ctp:61
+#: Template/News/view.ctp:38
+#: Template/ResourceTypes/view.ctp:88
+#: Template/Resources/view.ctp:26
+#: Template/Widgets/view.ctp:24
+msgid "Title"
+msgstr ""
+
+#: Template/BlogPosts/view.ctp:42
+#: Template/News/view.ctp:42
+msgid "Slug"
+msgstr ""
+
+#: Template/BlogPosts/view.ctp:46
+#: Template/Countries/index.ctp:73
+#: Template/News/view.ctp:46
+#: Template/Organizations/index.ctp:35
+#: Template/Resources/index.ctp:38
+msgid "Region"
+msgstr ""
+
+#: Template/BlogPosts/view.ctp:50
+#: Template/News/view.ctp:50
+msgid "News Title Translation"
+msgstr ""
+
+#: Template/BlogPosts/view.ctp:54
+#: Template/News/view.ctp:54
+msgid "News Content Translation"
+msgstr ""
+
+#: Template/BlogPosts/view.ctp:79
+#: Template/News/view.ctp:79
+msgid "Related Publishing Categories"
+msgstr ""
+
+#: Template/BlogPosts/view.ctp:98
+#: Template/BlogPosts/view.ctp:129
+#: Template/BlogPosts/view.ctp:154
+#: Template/CategoryOfResources/index.ctp:35
+#: Template/CategoryOfResources/view.ctp:72
+#: Template/CategoryOfResources/view.ctp:97
+#: Template/Cities/view.ctp:94
+#: Template/Cities/view.ctp:129
+#: Template/Cities/view.ctp:188
+#: Template/Cities/view.ctp:249
+#: Template/InstitutionTypes/view.ctp:92
+#: Template/News/view.ctp:98
+#: Template/News/view.ctp:129
+#: Template/News/view.ctp:154
+#: Template/ResourceTypes/view.ctp:72
+#: Template/ResourceTypes/view.ctp:109
+#: Template/Resources/view.ctp:84
+#: Template/Resources/view.ctp:109
+#: Template/VolunteeringCategories/view.ctp:62
+#: Template/VolunteeringCategories/view.ctp:87
+#: Template/VolunteeringCategories/view.ctp:112
+#: Template/VolunteeringRoles/view.ctp:66
+#: Template/Widgets/index.ctp:39
+#: Template/Widgets/view.ctp:74
+#: View/Helper/PaginatorHelper.php:1270
+msgid "View"
+msgstr ""
+
+#: Template/BlogPosts/view.ctp:100
+#: Template/BlogPosts/view.ctp:131
+#: Template/BlogPosts/view.ctp:156
+#: Template/CategoryOfResources/edit.ctp:11
+#: Template/CategoryOfResources/index.ctp:37
+#: Template/CategoryOfResources/view.ctp:74
+#: Template/CategoryOfResources/view.ctp:99
+#: Template/Cities/view.ctp:96
+#: Template/Cities/view.ctp:131
+#: Template/Cities/view.ctp:190
+#: Template/Cities/view.ctp:251
+#: Template/InstitutionTypes/view.ctp:94
+#: Template/News/view.ctp:100
+#: Template/News/view.ctp:131
+#: Template/News/view.ctp:156
+#: Template/ResourceTypes/view.ctp:74
+#: Template/ResourceTypes/view.ctp:111
+#: Template/Resources/view.ctp:86
+#: Template/Resources/view.ctp:111
+#: Template/VolunteeringCategories/view.ctp:64
+#: Template/VolunteeringCategories/view.ctp:89
+#: Template/VolunteeringCategories/view.ctp:114
+#: Template/VolunteeringRoles/view.ctp:68
+#: Template/Widgets/edit.ctp:11
+#: Template/Widgets/index.ctp:41
+#: Template/Widgets/view.ctp:76
+msgid "Delete"
+msgstr ""
+
+#: Template/BlogPosts/view.ctp:108
+#: Template/CategoryOfResources/view.ctp:51
+#: Template/News/view.ctp:108
+#: Template/ResourceTypes/view.ctp:51
+#: Template/Resources/view.ctp:63
+#: Template/Widgets/view.ctp:53
+msgid "Related I18n"
+msgstr ""
+
+#: Template/BlogPosts/view.ctp:113
+#: Template/CategoryOfResources/view.ctp:56
+#: Template/News/view.ctp:113
+#: Template/ResourceTypes/view.ctp:56
+#: Template/Resources/view.ctp:68
+#: Template/Widgets/view.ctp:58
+msgid "Locale"
+msgstr ""
+
+#: Template/BlogPosts/view.ctp:114
+#: Template/CategoryOfResources/view.ctp:57
+#: Template/News/view.ctp:114
+#: Template/ResourceTypes/view.ctp:57
+#: Template/Resources/view.ctp:69
+#: Template/Widgets/view.ctp:59
+msgid "Model"
+msgstr ""
+
+#: Template/BlogPosts/view.ctp:115
+#: Template/CategoryOfResources/view.ctp:58
+#: Template/News/view.ctp:115
+#: Template/ResourceTypes/view.ctp:58
+#: Template/Resources/view.ctp:70
+#: Template/Widgets/view.ctp:60
+msgid "Foreign Key"
+msgstr ""
+
+#: Template/BlogPosts/view.ctp:116
+#: Template/CategoryOfResources/view.ctp:59
+#: Template/News/view.ctp:116
+#: Template/ResourceTypes/view.ctp:59
+#: Template/Resources/view.ctp:71
+#: Template/Widgets/view.ctp:61
+msgid "Field"
+msgstr ""
+
+#: Template/BlogPosts/view.ctp:139
+#: Template/News/view.ctp:139
+#: Template/VolunteeringCategories/view.ctp:72
+msgid "Related News Categories"
+msgstr ""
+
+#: Template/BlogPosts/view.ctp:144
+#: Template/News/view.ctp:144
+#: Template/VolunteeringCategories/view.ctp:77
+msgid "News Id"
+msgstr ""
+
+#: Template/BlogPosts/view.ctp:145
+#: Template/News/view.ctp:145
+#: Template/VolunteeringCategories/view.ctp:53
+#: Template/VolunteeringCategories/view.ctp:78
+#: Template/VolunteeringCategories/view.ctp:103
+msgid "Volunteering Category Id"
+msgstr ""
+
+#: Template/CategoryOfResources/add.ctp:10
+#: Template/CategoryOfResources/edit.ctp:16
+#: Template/CategoryOfResources/view.ctp:12
+msgid "List Category Of Resources"
+msgstr ""
+
+#: Template/CategoryOfResources/add.ctp:16
+msgid "Add Category Of Resource"
+msgstr ""
+
+#: Template/CategoryOfResources/edit.ctp:22
+#: Template/CategoryOfResources/view.ctp:10
+msgid "Edit Category Of Resource"
+msgstr ""
+
+#: Template/CategoryOfResources/index.ctp:10
+#: Template/CategoryOfResources/view.ctp:13
+msgid "New Category Of Resource"
+msgstr ""
+
+#: Template/CategoryOfResources/index.ctp:14
+msgid "Category Of Resources"
+msgstr ""
+
+#: Template/CategoryOfResources/index.ctp:45
+#: Template/Element/Navigation/pagination.ctp:3
+#: Template/InstitutionTypes/index.ctp:129
+#: Template/OrganizationTypes/index.ctp:130
+#: Template/ResourceTypes/index.ctp:130
+#: Template/VolunteeringCategories/index.ctp:130
+#: Template/Widgets/index.ctp:49
+msgid "first"
+msgstr ""
+
+#: Template/CategoryOfResources/index.ctp:46
+#: Template/Element/Navigation/pagination.ctp:4
+#: Template/InstitutionTypes/index.ctp:130
+#: Template/OrganizationTypes/index.ctp:131
+#: Template/ResourceTypes/index.ctp:131
+#: Template/VolunteeringCategories/index.ctp:131
+#: Template/Widgets/index.ctp:50
+msgid "previous"
+msgstr ""
+
+#: Template/CategoryOfResources/index.ctp:48
+#: Template/Element/Navigation/pagination.ctp:6
+#: Template/InstitutionTypes/index.ctp:132
+#: Template/OrganizationTypes/index.ctp:133
+#: Template/ResourceTypes/index.ctp:133
+#: Template/VolunteeringCategories/index.ctp:133
+#: Template/Widgets/index.ctp:52
+msgid "next"
+msgstr ""
+
+#: Template/CategoryOfResources/index.ctp:49
+#: Template/Element/Navigation/pagination.ctp:7
+#: Template/InstitutionTypes/index.ctp:133
+#: Template/OrganizationTypes/index.ctp:134
+#: Template/ResourceTypes/index.ctp:134
+#: Template/VolunteeringCategories/index.ctp:134
+#: Template/Widgets/index.ctp:53
+msgid "last"
+msgstr ""
+
+#: Template/CategoryOfResources/index.ctp:51
+#: Template/Element/Navigation/pagination.ctp:9
+#: Template/InstitutionTypes/index.ctp:135
+#: Template/OrganizationTypes/index.ctp:136
+#: Template/ResourceTypes/index.ctp:136
+#: Template/Support/index.ctp:194
+#: Template/VolunteeringCategories/index.ctp:136
+#: Template/Widgets/index.ctp:55
+msgid "Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} total"
+msgstr ""
+
+#: Template/CategoryOfResources/view.ctp:11
+msgid "Delete Category Of Resource"
+msgstr ""
+
+#: Template/CategoryOfResources/view.ctp:14
+msgid "List Category Of Resources Name Translation"
+msgstr ""
+
+#: Template/CategoryOfResources/view.ctp:15
+msgid "New Category Of Resources Name Translation"
+msgstr ""
+
+#: Template/CategoryOfResources/view.ctp:18
+#: Template/Resources/view.ctp:15
+msgid "List Resource Categories"
+msgstr ""
+
+#: Template/CategoryOfResources/view.ctp:19
+msgid "New Resource Category"
+msgstr ""
+
+#: Template/CategoryOfResources/view.ctp:30
+msgid "Category Of Resources Name Translation"
+msgstr ""
+
+#: Template/CategoryOfResources/view.ctp:82
+#: Template/Resources/view.ctp:94
+msgid "Related Resource Categories"
+msgstr ""
+
+#: Template/CategoryOfResources/view.ctp:87
+#: Template/Resources/view.ctp:99
+msgid "Resource Id"
+msgstr ""
+
+#: Template/CategoryOfResources/view.ctp:88
+#: Template/Resources/view.ctp:100
+msgid "Category Of Resource Id"
+msgstr ""
+
+#: Template/Cities/add.ctp:12
+#: Template/Cities/add.ctp:39
+msgid "Add City"
+msgstr ""
+
+#: Template/Cities/add.ctp:16
+#: Template/Cities/edit.ctp:16
+msgid "Back to Cities"
+msgstr ""
+
+#: Template/Cities/edit.ctp:12
+#: Template/Cities/view.ctp:10
+msgid "Edit City"
+msgstr ""
+
+#: Template/Cities/edit.ctp:39
+#: Template/Cities/index.ctp:74
+msgid "City"
+msgstr ""
+
+#: Template/Cities/index.ctp:12
+#: Template/Element/Navigation/aside.ctp:206
+msgid "Cities"
+msgstr ""
+
+#: Template/Cities/index.ctp:75
+#: Template/Cities/view.ctp:30
+#: Template/Countries/edit.ctp:39
+#: Template/Organizations/index.ctp:44
+#: Template/Resources/index.ctp:47
+msgid "Country"
+msgstr ""
+
+#: Template/Cities/view.ctp:11
+msgid "Delete City"
+msgstr ""
+
+#: Template/Cities/view.ctp:12
+msgid "List Cities"
+msgstr ""
+
+#: Template/Cities/view.ctp:13
+msgid "New City"
+msgstr ""
+
+#: Template/Cities/view.ctp:14
+msgid "List Countries"
+msgstr ""
+
+#: Template/Cities/view.ctp:15
+msgid "New Country"
+msgstr ""
+
+#: Template/Cities/view.ctp:16
+msgid "List Events"
+msgstr ""
+
+#: Template/Cities/view.ctp:17
+msgid "New Event"
+msgstr ""
+
+#: Template/Cities/view.ctp:18
+msgid "List Organization Offices"
+msgstr ""
+
+#: Template/Cities/view.ctp:19
+msgid "New Organization Office"
+msgstr ""
+
+#: Template/Cities/view.ctp:22
+msgid "List Users"
+msgstr ""
+
+#: Template/Cities/view.ctp:23
+msgid "New User"
+msgstr ""
+
+#: Template/Cities/view.ctp:55
+msgid "Related Events"
+msgstr ""
+
+#: Template/Cities/view.ctp:60
+#: Template/Cities/view.ctp:109
+#: Template/ResourceTypes/view.ctp:87
+#: Template/VolunteeringCategories/view.ctp:102
+msgid "Organization Id"
+msgstr ""
+
+#: Template/Cities/view.ctp:62
+#: Template/Organizations/view.ctp:338
+#: Template/Resources/add.ctp:66
+#: Template/Resources/edit.ctp:66
+msgid "Description"
+msgstr ""
+
+#: Template/Cities/view.ctp:63
+#: Template/Cities/view.ctp:110
+#: Template/Cities/view.ctp:147
+#: Template/InstitutionTypes/view.ctp:51
+msgid "Country Id"
+msgstr ""
+
+#: Template/Cities/view.ctp:64
+#: Template/Cities/view.ctp:111
+#: Template/Cities/view.ctp:148
+#: Template/Cities/view.ctp:208
+#: Template/InstitutionTypes/view.ctp:52
+msgid "City Id"
+msgstr ""
+
+#: Template/Cities/view.ctp:65
+#: Template/Cities/view.ctp:112
+msgid "Address"
+msgstr ""
+
+#: Template/Cities/view.ctp:66
+msgid "Start Date"
+msgstr ""
+
+#: Template/Cities/view.ctp:67
+msgid "End Date"
+msgstr ""
+
+#: Template/Cities/view.ctp:69
+msgid "Requesting Volunteers"
+msgstr ""
+
+#: Template/Cities/view.ctp:70
+msgid "Has Remunerations"
+msgstr ""
+
+#: Template/Cities/view.ctp:73
+msgid "Region Id"
+msgstr ""
+
+#: Template/Cities/view.ctp:104
+msgid "Related Organization Offices"
+msgstr ""
+
+#: Template/Cities/view.ctp:139
+#: Template/InstitutionTypes/view.ctp:43
+msgid "Related Organizations"
+msgstr ""
+
+#: Template/Cities/view.ctp:144
+#: Template/InstitutionTypes/view.ctp:48
+msgid "Organization Type Id"
+msgstr ""
+
+#: Template/Cities/view.ctp:146
+#: Template/Element/footer.ctp:7
+#: Template/Element/Navigation/aside.ctp:125
+#: Template/Element/Navigation/aside.ctp:131
+#: Template/InstitutionTypes/view.ctp:50
+msgid "About"
+msgstr ""
+
+#: Template/Cities/view.ctp:149
+#: Template/InstitutionTypes/view.ctp:53
+#: Template/Organizations/view.ctp:320
+msgid "Logo"
+msgstr ""
+
+#: Template/Cities/view.ctp:150
+#: Template/InstitutionTypes/view.ctp:54
+msgid "Institution Type Id"
+msgstr ""
+
+#: Template/Cities/view.ctp:151
+#: Template/InstitutionTypes/view.ctp:55
+msgid "Government Affliliation"
+msgstr ""
+
+#: Template/Cities/view.ctp:152
+#: Template/InstitutionTypes/view.ctp:56
+msgid "Category Id"
+msgstr ""
+
+#: Template/Cities/view.ctp:153
+#: Template/InstitutionTypes/view.ctp:57
+msgid "Date Of Establishment"
+msgstr ""
+
+#: Template/Cities/view.ctp:154
+#: Template/Cities/view.ctp:209
+#: Template/InstitutionTypes/view.ctp:58
+msgid "Phone Number"
+msgstr ""
+
+#: Template/Cities/view.ctp:155
+#: Template/InstitutionTypes/view.ctp:59
+msgid "Website"
+msgstr ""
+
+#: Template/Cities/view.ctp:156
+#: Template/InstitutionTypes/view.ctp:60
+msgid "Facebbok Url"
+msgstr ""
+
+#: Template/Cities/view.ctp:157
+#: Template/InstitutionTypes/view.ctp:61
+msgid "Instagram Url"
+msgstr ""
+
+#: Template/Cities/view.ctp:158
+#: Template/InstitutionTypes/view.ctp:62
+msgid "Twitter Url"
+msgstr ""
+
+#: Template/Cities/view.ctp:159
+#: Template/InstitutionTypes/view.ctp:63
+msgid "User Id"
+msgstr ""
+
+#: Template/Cities/view.ctp:198
+msgid "Related Users"
+msgstr ""
+
+#: Template/Cities/view.ctp:203
+#: Template/Organizations/view.ctp:368
+msgid "First Name"
+msgstr ""
+
+#: Template/Cities/view.ctp:204
+#: Template/Organizations/view.ctp:374
+msgid "Last Name"
+msgstr ""
+
+#: Template/Cities/view.ctp:207
+msgid "Resident Country Id"
+msgstr ""
+
+#: Template/Cities/view.ctp:210
+msgid "Language"
+msgstr ""
+
+#: Template/Cities/view.ctp:211
+msgid "Profile Image"
+msgstr ""
+
+#: Template/Cities/view.ctp:213
+msgid "Gender"
+msgstr ""
+
+#: Template/Cities/view.ctp:214
+msgid "Date Of Birth"
+msgstr ""
+
+#: Template/Cities/view.ctp:215
+msgid "Place Of Birth"
+msgstr ""
+
+#: Template/Cities/view.ctp:216
+msgid "Nationality At Birth"
+msgstr ""
+
+#: Template/Cities/view.ctp:217
+msgid "Current Nationality"
+msgstr ""
+
+#: Template/Cities/view.ctp:218
+msgid "Marital Status"
+msgstr ""
+
+#: Template/Cities/view.ctp:219
+msgid "Current Address"
+msgstr ""
+
+#: Template/Countries/edit.ctp:12
+msgid "Edit Country"
+msgstr ""
+
+#: Template/Countries/edit.ctp:16
+msgid "Back to Countries"
+msgstr ""
+
+#: Template/Countries/index.ctp:12
+msgid "Countries"
+msgstr ""
+
+#: Template/Countries/index.ctp:71
+msgid "Iso"
+msgstr ""
+
+#: Template/Countries/index.ctp:74
+msgid "Capital"
+msgstr ""
+
+#: Template/Countries/index.ctp:75
+msgid "Official Language"
+msgstr ""
+
+#: Template/Countries/index.ctp:76
+msgid "Population"
+msgstr ""
+
+#: Template/Dashboard/audit_trail.ctp:10
+msgid "a page section"
+msgstr ""
+
+#: Template/Dashboard/audit_trail.ctp:16
+msgid "added"
+msgstr ""
+
+#: Template/Dashboard/audit_trail.ctp:20
+msgid "updated"
+msgstr ""
+
+#: Template/Dashboard/audit_trail.ctp:20
+msgid " info"
+msgstr ""
+
+#: Template/Dashboard/audit_trail.ctp:35
+#: Template/Element/Navigation/aside.ctp:48
+msgid "Audit Trail"
+msgstr ""
+
+#: Template/Dashboard/audit_trail.ctp:56
+msgid "Added"
+msgstr ""
+
+#: Template/Dashboard/audit_trail.ctp:57
+msgid "Updated"
+msgstr ""
+
+#: Template/Dashboard/index.ctp:11
+#: Template/Element/Navigation/aside.ctp:28
+msgid "Dashboard"
+msgstr ""
+
+#: Template/Dashboard/index.ctp:28
+#: Template/Element/Navigation/aside.ctp:222
+#: Template/Organizations/view.ctp:62
+#: Template/Organizations/view.ctp:104
+#: Template/Users/index.ctp:12
+msgid "Volunteers"
+msgstr ""
+
+#: Template/Dashboard/index.ctp:41
+#: Template/Dashboard/index.ctp:77
+#: Template/Dashboard/index.ctp:113
+#: Template/OrganizationTypes/index.ctp:17
+#: Template/VolunteeringCategories/index.ctp:17
+#: Template/VolunteeringRoles/index.ctp:17
+msgid "Active"
+msgstr ""
+
+#: Template/Dashboard/index.ctp:45
+#: Template/Dashboard/index.ctp:81
+#: Template/Dashboard/index.ctp:117
+#: Template/OrganizationTypes/index.ctp:18
+#: Template/VolunteeringCategories/index.ctp:18
+#: Template/VolunteeringRoles/index.ctp:18
+#: View/AppView.php:96
+msgid "Inactive"
+msgstr ""
+
+#: Template/Dashboard/index.ctp:64
+#: Template/Element/Navigation/aside.ctp:228
+#: Template/Organizations/index.ctp:12
+msgid "Organizations"
+msgstr ""
+
+#: Template/Dashboard/index.ctp:100
+#: Template/Element/Navigation/aside.ctp:234
+msgid "Institutions"
+msgstr ""
+
+#: Template/Dashboard/index.ctp:136
+#: Template/Element/Navigation/aside.ctp:262
+#: Template/Events/index.ctp:14
+#: Template/Organizations/view.ctp:58
+#: Template/Organizations/view.ctp:223
+msgid "Events"
+msgstr ""
+
+#: Template/Dashboard/index.ctp:148
+msgid "Upcoming"
+msgstr ""
+
+#: Template/Dashboard/index.ctp:152
+msgid "Past"
+msgstr ""
+
+#: Template/Dashboard/index.ctp:168
+msgid "Latest Resources"
+msgstr ""
+
+#: Template/Dashboard/index.ctp:172
+msgid "All FILES"
+msgstr ""
+
+#: Template/Dashboard/index.ctp:201
+msgid "Recent Blogs"
+msgstr ""
+
+#: Template/Dashboard/index.ctp:205
+msgid "All Blogs"
+msgstr ""
+
+#: Template/Dashboard/index.ctp:243
+msgid "Recent News"
+msgstr ""
+
+#: Template/Dashboard/index.ctp:247
+msgid "All News"
+msgstr ""
+
+#: Template/Dashboard/login.ctp:15
+msgid "Sign to Account"
+msgstr ""
+
+#: Template/Dashboard/login.ctp:30
+msgid "Sign In"
+msgstr ""
+
+#: Template/Dashboard/login.ctp:43
+msgid "AU-VLP is a continental development program that recruits and works with youth volunteers, to work in all 54 countries across the African Union"
+msgstr ""
+
+#: Template/Element/footer.ctp:4
+msgid "AU Volunteering Linkage Platform"
+msgstr ""
+
+#: Template/Element/footer.ctp:8
+msgid "FAQs"
+msgstr ""
+
+#: Template/Element/translate.ctp:4
+msgid "Translate"
+msgstr ""
+
+#: Template/Element/translate.ctp:11
+msgid "Translate From"
+msgstr ""
+
+#: Template/Element/translation-validation.ctp:16
+msgid "Translations are required. Please translate."
+msgstr ""
+
+#: Template/Element/Navigation/aside.ctp:34
+#: Template/Support/index.ctp:13
+msgid "Support Messages"
+msgstr ""
+
+#: Template/Element/Navigation/aside.ctp:54
+msgid "Newsletters Sent"
+msgstr ""
+
+#: Template/Element/Navigation/aside.ctp:60
+msgid "Reports"
+msgstr ""
+
+#: Template/Element/Navigation/aside.ctp:64
+msgid "CMS"
+msgstr ""
+
+#: Template/Element/Navigation/aside.ctp:70
+#: Template/Element/Navigation/aside.ctp:76
+msgid "Pages"
+msgstr ""
+
+#: Template/Element/Navigation/aside.ctp:84
+#: Template/Element/Navigation/aside.ctp:90
+#: View/Helper/HtmlHelper.php:818
+msgid "Home"
+msgstr ""
+
+#: Template/Element/Navigation/aside.ctp:98
+msgid "Slider"
+msgstr ""
+
+#: Template/Element/Navigation/aside.ctp:106
+msgid "About VLP Block"
+msgstr ""
+
+#: Template/Element/Navigation/aside.ctp:114
+#: Template/Widgets/homepage.ctp:215
+msgid "Footer"
+msgstr ""
+
+#: Template/Element/Navigation/aside.ctp:139
+msgid "Main"
+msgstr ""
+
+#: Template/Element/Navigation/aside.ctp:147
+msgid "Subsections"
+msgstr ""
+
+#: Template/Element/Navigation/aside.ctp:159
+#: Template/Element/Navigation/aside.ctp:165
+msgid "Categories"
+msgstr ""
+
+#: Template/Element/Navigation/aside.ctp:173
+#: Template/VolunteeringCategories/index.ctp:12
+msgid "Volunteering Sectors"
+msgstr ""
+
+#: Template/Element/Navigation/aside.ctp:181
+#: Template/OrganizationTypes/index.ctp:12
+msgid "Organization Types"
+msgstr ""
+
+#: Template/Element/Navigation/aside.ctp:189
+#: Template/InstitutionTypes/index.ctp:12
+msgid "Institution Types"
+msgstr ""
+
+#: Template/Element/Navigation/aside.ctp:197
+#: Template/ResourceTypes/index.ctp:12
+msgid "Resource Types"
+msgstr ""
+
+#: Template/Element/Navigation/aside.ctp:212
+#: Template/VolunteeringRoles/index.ctp:12
+msgid "Volunteering Roles"
+msgstr ""
+
+#: Template/Element/Navigation/aside.ctp:216
+msgid "Users"
+msgstr ""
+
+#: Template/Element/Navigation/aside.ctp:238
+msgid "Posts"
+msgstr ""
+
+#: Template/Element/Navigation/aside.ctp:244
+msgid "Blogs"
+msgstr ""
+
+#: Template/Element/Navigation/aside.ctp:250
+#: Template/News/index.ctp:14
+#: Template/Organizations/view.ctp:121
+#: Template/Organizations/view.ctp:149
+msgid "News"
+msgstr ""
+
+#: Template/Element/Navigation/aside.ctp:256
+#: Template/Organizations/view.ctp:129
+#: Template/Organizations/view.ctp:187
+#: Template/Resources/index.ctp:14
+msgid "Resources"
+msgstr ""
+
+#: Template/Element/Navigation/header.ctp:66
+msgid "Sign Out"
+msgstr ""
+
+#: Template/Events/view.ctp:13
+msgid "Event Post"
+msgstr ""
+
+#: Template/Events/view.ctp:17
+msgid "Back to Events"
+msgstr ""
+
+#: Template/Events/view.ctp:58
+#: Template/News/index.ctp:87
+msgid "By"
+msgstr ""
+
+#: Template/Events/view.ctp:65
+msgid " Volunteering opportunities"
+msgstr ""
+
+#: Template/Events/view.ctp:71
+msgid "Volunteering opportunities"
+msgstr ""
+
+#: Template/Events/view.ctp:79
+msgid "Volunteering opportunities and numbers of volunteers needed per skill"
+msgstr ""
+
+#: Template/Events/view.ctp:94
+msgid "Close"
+msgstr ""
+
+#: Template/Events/view.ctp:106
+msgid " Comments"
+msgstr ""
+
+#: Template/InstitutionTypes/add.ctp:12
+msgid "Add Institution Type"
+msgstr ""
+
+#: Template/InstitutionTypes/add.ctp:16
+#: Template/InstitutionTypes/edit.ctp:16
+msgid "Back to Institution Types"
+msgstr ""
+
+#: Template/InstitutionTypes/add.ctp:30
+#: Template/InstitutionTypes/edit.ctp:30
+msgid "Institution Type Texts"
+msgstr ""
+
+#: Template/InstitutionTypes/edit.ctp:12
+#: Template/InstitutionTypes/view.ctp:10
+msgid "Edit Institution Type"
+msgstr ""
+
+#: Template/InstitutionTypes/view.ctp:11
+msgid "Delete Institution Type"
+msgstr ""
+
+#: Template/InstitutionTypes/view.ctp:12
+msgid "List Institution Types"
+msgstr ""
+
+#: Template/InstitutionTypes/view.ctp:13
+msgid "New Institution Type"
+msgstr ""
+
+#: Template/Layout/error.ctp:35
+#: Template/Error/error400.ctp:36
+#: Template/Error/error500.ctp:41
+msgid "Error"
+msgstr ""
+
+#: Template/Layout/error.ctp:43
+msgid "Back"
+msgstr ""
+
+#: Template/News/add.ctp:15
+#: Template/News/index.ctp:55
+msgid "Post News"
+msgstr ""
+
+#: Template/News/add.ctp:19
+#: Template/News/edit.ctp:19
+msgid "Back to News"
+msgstr ""
+
+#: Template/News/add.ctp:34
+#: Template/News/edit.ctp:34
+msgid "News Texts"
+msgstr ""
+
+#: Template/NewsletterContents/index.ctp:25
+msgid "Newsletter Contents"
+msgstr ""
+
+#: Template/NewsletterContents/index.ctp:63
+msgid "Content Type"
+msgstr ""
+
+#: Template/OrganizationTypes/add.ctp:12
+msgid "Add Organization Type"
+msgstr ""
+
+#: Template/OrganizationTypes/add.ctp:16
+#: Template/OrganizationTypes/edit.ctp:17
+#: Template/Organizations/edit.ctp:17
+#: Template/Users/edit.ctp:17
+msgid "Back to Organization Types"
+msgstr ""
+
+#: Template/OrganizationTypes/add.ctp:30
+#: Template/OrganizationTypes/edit.ctp:31
+#: Template/Organizations/edit.ctp:31
+#: Template/Users/edit.ctp:31
+msgid "Organization Type Texts"
+msgstr ""
+
+#: Template/OrganizationTypes/edit.ctp:13
+#: Template/OrganizationTypes/view.ctp:10
+#: Template/Organizations/edit.ctp:13
+#: Template/Users/edit.ctp:13
+msgid "Edit Organization Type"
+msgstr ""
+
+#: Template/OrganizationTypes/view.ctp:11
+msgid "Delete Organization Type"
+msgstr ""
+
+#: Template/OrganizationTypes/view.ctp:12
+msgid "List Organization Types"
+msgstr ""
+
+#: Template/OrganizationTypes/view.ctp:13
+msgid "New Organization Type"
+msgstr ""
+
+#: Template/Organizations/index.ctp:26
+msgid "Verification Status"
+msgstr ""
+
+#: Template/Organizations/index.ctp:124
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/log_panel.ctp:29
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/timer_panel.ctp:32
+msgid "Message"
+msgstr ""
+
+#: Template/Organizations/index.ctp:125
+msgid "Profile"
+msgstr ""
+
+#: Template/Organizations/view.ctp:5
+msgid "Organization Profile"
+msgstr ""
+
+#: Template/Organizations/view.ctp:9
+msgid "Back to Organizations"
+msgstr ""
+
+#: Template/Organizations/view.ctp:35
+msgid "(Mark as Verified)"
+msgstr ""
+
+#: Template/Organizations/view.ctp:95
+msgid "Organizations Information"
+msgstr ""
+
+#: Template/Organizations/view.ctp:112
+msgid "Events & Initiatives"
+msgstr ""
+
+#: Template/Organizations/view.ctp:263
+msgid "Organizations Volunteers"
+msgstr ""
+
+#: Template/Organizations/view.ctp:283
+msgid "profile"
+msgstr ""
+
+#: Template/Organizations/view.ctp:301
+msgid "Organization Information"
+msgstr ""
+
+#: Template/Organizations/view.ctp:350
+msgid "Location"
+msgstr ""
+
+#: Template/Organizations/view.ctp:356
+msgid "Date Registered"
+msgstr ""
+
+#: Template/Organizations/view.ctp:364
+msgid "Applicants Information:"
+msgstr ""
+
+#: Template/Organizations/view.ctp:380
+msgid "Member Since"
+msgstr ""
+
+#: Template/ResourceTypes/add.ctp:12
+msgid "Add Resource Type"
+msgstr ""
+
+#: Template/ResourceTypes/add.ctp:16
+#: Template/ResourceTypes/edit.ctp:16
+msgid "Back to Resource Types"
+msgstr ""
+
+#: Template/ResourceTypes/add.ctp:30
+#: Template/ResourceTypes/edit.ctp:30
+msgid "Resource Type Texts"
+msgstr ""
+
+#: Template/ResourceTypes/edit.ctp:12
+#: Template/ResourceTypes/view.ctp:10
+msgid "Edit Resource Type"
+msgstr ""
+
+#: Template/ResourceTypes/view.ctp:11
+msgid "Delete Resource Type"
+msgstr ""
+
+#: Template/ResourceTypes/view.ctp:12
+msgid "List Resource Types"
+msgstr ""
+
+#: Template/ResourceTypes/view.ctp:13
+msgid "New Resource Type"
+msgstr ""
+
+#: Template/ResourceTypes/view.ctp:14
+msgid "List Resource Types Name Translation"
+msgstr ""
+
+#: Template/ResourceTypes/view.ctp:15
+msgid "New Resource Types Name Translation"
+msgstr ""
+
+#: Template/ResourceTypes/view.ctp:18
+#: Template/Resources/view.ctp:12
+msgid "List Resources"
+msgstr ""
+
+#: Template/ResourceTypes/view.ctp:19
+#: Template/Resources/view.ctp:13
+msgid "New Resource"
+msgstr ""
+
+#: Template/ResourceTypes/view.ctp:30
+msgid "Resource Types Name Translation"
+msgstr ""
+
+#: Template/ResourceTypes/view.ctp:82
+msgid "Related Resources"
+msgstr ""
+
+#: Template/ResourceTypes/view.ctp:89
+#: Template/Resources/view.ctp:46
+msgid "Resource Type Id"
+msgstr ""
+
+#: Template/ResourceTypes/view.ctp:90
+#: Template/Resources/index.ctp:97
+#: Template/Resources/view.ctp:30
+msgid "File Type"
+msgstr ""
+
+#: Template/ResourceTypes/view.ctp:91
+#: Template/Resources/view.ctp:34
+msgid "File Link"
+msgstr ""
+
+#: Template/Resources/add.ctp:15
+msgid "Add Resource"
+msgstr ""
+
+#: Template/Resources/add.ctp:19
+#: Template/Resources/edit.ctp:19
+msgid "Back to Resources"
+msgstr ""
+
+#: Template/Resources/add.ctp:34
+#: Template/Resources/edit.ctp:34
+msgid "Resource Texts"
+msgstr ""
+
+#: Template/Resources/add.ctp:105
+#: Template/Resources/add.ctp:106
+#: Template/Resources/edit.ctp:106
+#: Template/Resources/edit.ctp:107
+msgid "Select"
+msgstr ""
+
+#: Template/Resources/edit.ctp:15
+#: Template/Resources/view.ctp:10
+msgid "Edit Resource"
+msgstr ""
+
+#: Template/Resources/index.ctp:28
+#: Template/Resources/index.ctp:96
+msgid "Resource Type"
+msgstr ""
+
+#: Template/Resources/index.ctp:98
+msgid "Created By"
+msgstr ""
+
+#: Template/Resources/index.ctp:99
+msgid "Region / Country"
+msgstr ""
+
+#: Template/Resources/index.ctp:125
+msgid "View file"
+msgstr ""
+
+#: Template/Resources/view.ctp:11
+msgid "Delete Resource"
+msgstr ""
+
+#: Template/Resources/view.ctp:38
+msgid "Resources Title Translation"
+msgstr ""
+
+#: Template/Support/index.ctp:57
+msgid "Read"
+msgstr ""
+
+#: Template/Support/index.ctp:62
+msgid "Unread"
+msgstr ""
+
+#: Template/Support/message.ctp:13
+msgid "Support Message"
+msgstr ""
+
+#: Template/Support/message.ctp:119
+msgid "Send"
+msgstr ""
+
+#: Template/Users/view.ctp:5
+msgid "Volunteer Profile"
+msgstr ""
+
+#: Template/Users/view.ctp:9
+msgid "Back to Volunteers"
+msgstr ""
+
+#: Template/Users/view.ctp:55
+#: Template/Users/view.ctp:186
+msgid "Personal Information"
+msgstr ""
+
+#: Template/Users/view.ctp:63
+#: Template/Users/view.ctp:91
+msgid "Volunteering Experience"
+msgstr ""
+
+#: Template/Users/view.ctp:71
+#: Template/Users/view.ctp:147
+msgid "Volunteering Interests"
+msgstr ""
+
+#: Template/VolunteeringCategories/add.ctp:12
+msgid "Add Volunteering Category"
+msgstr ""
+
+#: Template/VolunteeringCategories/add.ctp:16
+#: Template/VolunteeringCategories/edit.ctp:17
+msgid "Back to Volunteering Categories"
+msgstr ""
+
+#: Template/VolunteeringCategories/add.ctp:30
+#: Template/VolunteeringCategories/edit.ctp:31
+msgid "Volunteering Category Texts"
+msgstr ""
+
+#: Template/VolunteeringCategories/edit.ctp:13
+#: Template/VolunteeringCategories/view.ctp:10
+msgid "Edit Volunteering Category"
+msgstr ""
+
+#: Template/VolunteeringCategories/edit.ctp:85
+#: Template/Widgets/about_page.ctp:88
+#: Template/Widgets/about_page.ctp:182
+#: Template/Widgets/homepage.ctp:98
+#: Template/Widgets/homepage.ctp:193
+#: Template/Widgets/homepage.ctp:289
+msgid "Save changes"
+msgstr ""
+
+#: Template/VolunteeringCategories/view.ctp:11
+msgid "Delete Volunteering Category"
+msgstr ""
+
+#: Template/VolunteeringCategories/view.ctp:12
+msgid "List Volunteering Categories"
+msgstr ""
+
+#: Template/VolunteeringCategories/view.ctp:13
+msgid "New Volunteering Category"
+msgstr ""
+
+#: Template/VolunteeringCategories/view.ctp:14
+msgid "List Event Categories"
+msgstr ""
+
+#: Template/VolunteeringCategories/view.ctp:15
+msgid "New Event Category"
+msgstr ""
+
+#: Template/VolunteeringCategories/view.ctp:18
+msgid "List Organization Categories"
+msgstr ""
+
+#: Template/VolunteeringCategories/view.ctp:19
+msgid "New Organization Category"
+msgstr ""
+
+#: Template/VolunteeringCategories/view.ctp:47
+msgid "Related Event Categories"
+msgstr ""
+
+#: Template/VolunteeringCategories/view.ctp:52
+msgid "Volunteering Oppurtunity Id"
+msgstr ""
+
+#: Template/VolunteeringCategories/view.ctp:97
+msgid "Related Organization Categories"
+msgstr ""
+
+#: Template/VolunteeringRoles/add.ctp:12
+msgid "Add Volunteering Role"
+msgstr ""
+
+#: Template/VolunteeringRoles/add.ctp:16
+#: Template/VolunteeringRoles/edit.ctp:16
+msgid "Back to Volunteering Roles"
+msgstr ""
+
+#: Template/VolunteeringRoles/add.ctp:30
+#: Template/VolunteeringRoles/edit.ctp:30
+msgid "Volunteering Role Texts"
+msgstr ""
+
+#: Template/VolunteeringRoles/edit.ctp:12
+#: Template/VolunteeringRoles/view.ctp:10
+msgid "Edit Volunteering Role"
+msgstr ""
+
+#: Template/VolunteeringRoles/view.ctp:11
+msgid "Delete Volunteering Role"
+msgstr ""
+
+#: Template/VolunteeringRoles/view.ctp:12
+msgid "List Volunteering Roles"
+msgstr ""
+
+#: Template/VolunteeringRoles/view.ctp:13
+msgid "New Volunteering Role"
+msgstr ""
+
+#: Template/VolunteeringRoles/view.ctp:14
+msgid "List Volunteering Oppurtunities"
+msgstr ""
+
+#: Template/VolunteeringRoles/view.ctp:15
+msgid "New Volunteering Oppurtunity"
+msgstr ""
+
+#: Template/VolunteeringRoles/view.ctp:43
+msgid "Related Volunteering Oppurtunities"
+msgstr ""
+
+#: Template/VolunteeringRoles/view.ctp:48
+msgid "Event Id"
+msgstr ""
+
+#: Template/VolunteeringRoles/view.ctp:49
+msgid "Volunteering Duration Id"
+msgstr ""
+
+#: Template/VolunteeringRoles/view.ctp:50
+msgid "Volunteering Role Id"
+msgstr ""
+
+#: Template/Widgets/about_page.ctp:14
+msgid "About Page - Subsections"
+msgstr ""
+
+#: Template/Widgets/about_page.ctp:30
+msgid "Subsection {0}"
+msgstr ""
+
+#: Template/Widgets/about_page.ctp:110
+msgid "About Page - Main Section"
+msgstr ""
+
+#: Template/Widgets/about_page.ctp:126
+msgid "Main Section"
+msgstr ""
+
+#: Template/Widgets/add.ctp:10
+#: Template/Widgets/edit.ctp:16
+#: Template/Widgets/view.ctp:12
+msgid "List Widgets"
+msgstr ""
+
+#: Template/Widgets/add.ctp:16
+msgid "Add Widget"
+msgstr ""
+
+#: Template/Widgets/edit.ctp:22
+#: Template/Widgets/view.ctp:10
+msgid "Edit Widget"
+msgstr ""
+
+#: Template/Widgets/homepage.ctp:14
+msgid "Sliders"
+msgstr ""
+
+#: Template/Widgets/homepage.ctp:30
+msgid "Slide {0}"
+msgstr ""
+
+#: Template/Widgets/homepage.ctp:119
+msgid "About Blocks"
+msgstr ""
+
+#: Template/Widgets/homepage.ctp:135
+msgid "Block {0}"
+msgstr ""
+
+#: Template/Widgets/homepage.ctp:231
+msgid "Footer Text"
+msgstr ""
+
+#: Template/Widgets/index.ctp:10
+#: Template/Widgets/view.ctp:13
+msgid "New Widget"
+msgstr ""
+
+#: Template/Widgets/index.ctp:14
+msgid "Widgets"
+msgstr ""
+
+#: Template/Widgets/view.ctp:11
+msgid "Delete Widget"
+msgstr ""
+
+#: Template/Widgets/view.ctp:28
+msgid "Image"
+msgstr ""
+
+#: View/AppView.php:88
+msgid "Published"
+msgstr ""
+
+#: View/AppView.php:92
+msgid "Draft"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/wyrihaximus/twig-view/src/Shell/CompileShell.php:151
+msgid "Searches and precompiles all twig templates it finds."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/wyrihaximus/twig-view/src/Shell/CompileShell.php:159
+msgid "Searches and precompiles all twig templates for a specific plugin."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/wyrihaximus/twig-view/src/Shell/CompileShell.php:167
+msgid "Precompile a specific file."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/wyrihaximus/twig-view/src/Shell/CompileShell.php:171
+msgid "TwigView templates precompiler"
+msgstr ""
+
+#: Template/Error/error400.ctp:37
+msgid "The requested address {0} was not found on this server."
+msgstr ""
+
+#: Template/Error/error500.ctp:39
+msgid "An Internal Error Has Occurred"
+msgstr ""
+
+#: Controller/Component/AuthComponent.php:499
+msgid "You are not authorized to access that location."
+msgstr ""
+
+#: Controller/Component/CsrfComponent.php:181
+#: Http/Middleware/CsrfProtectionMiddleware.php:227
+msgid "Missing CSRF token cookie"
+msgstr ""
+
+#: Controller/Component/CsrfComponent.php:185
+#: Http/Middleware/CsrfProtectionMiddleware.php:231
+msgid "CSRF token mismatch."
+msgstr ""
+
+#: Error/ExceptionRenderer.php:300
+msgid "Not Found"
+msgstr ""
+
+#: Error/ExceptionRenderer.php:302
+msgid "An Internal Error Has Occurred."
+msgstr ""
+
+#: Http/Response.php:2665
+msgid "The requested file contains `..` and will not be read."
+msgstr ""
+
+#: Http/Response.php:2686
+msgid "The requested file was not found"
+msgstr ""
+
+#: I18n/Number.php:89
+msgid "{0,number,#,###.##} KB"
+msgstr ""
+
+#: I18n/Number.php:91
+msgid "{0,number,#,###.##} MB"
+msgstr ""
+
+#: I18n/Number.php:93
+msgid "{0,number,#,###.##} GB"
+msgstr ""
+
+#: I18n/Number.php:95
+msgid "{0,number,#,###.##} TB"
+msgstr ""
+
+#: I18n/Number.php:87
+msgid "{0,number,integer} Byte"
+msgid_plural "{0,number,integer} Bytes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: I18n/RelativeTimeFormatter.php:80
+msgid "{0} from now"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:80
+msgid "{0} ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:83
+msgid "{0} after"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:83
+msgid "{0} before"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:114
+msgid "just now"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:151
+msgid "about a second ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:152
+msgid "about a minute ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:153
+msgid "about an hour ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:154
+#: I18n/RelativeTimeFormatter.php:332
+msgid "about a day ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:155
+#: I18n/RelativeTimeFormatter.php:333
+msgid "about a week ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:156
+#: I18n/RelativeTimeFormatter.php:334
+msgid "about a month ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:157
+#: I18n/RelativeTimeFormatter.php:335
+msgid "about a year ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:168
+msgid "in about a second"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:169
+msgid "in about a minute"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:170
+msgid "in about an hour"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:171
+#: I18n/RelativeTimeFormatter.php:346
+msgid "in about a day"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:172
+#: I18n/RelativeTimeFormatter.php:347
+msgid "in about a week"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:173
+#: I18n/RelativeTimeFormatter.php:348
+msgid "in about a month"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:174
+#: I18n/RelativeTimeFormatter.php:349
+msgid "in about a year"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:304
+msgid "today"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:370
+msgid "%s ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:371
+msgid "on %s"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:47
+#: I18n/RelativeTimeFormatter.php:126
+#: I18n/RelativeTimeFormatter.php:316
+msgid "{0} year"
+msgid_plural "{0} years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: I18n/RelativeTimeFormatter.php:51
+#: I18n/RelativeTimeFormatter.php:129
+#: I18n/RelativeTimeFormatter.php:319
+msgid "{0} month"
+msgid_plural "{0} months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: I18n/RelativeTimeFormatter.php:57
+#: I18n/RelativeTimeFormatter.php:132
+#: I18n/RelativeTimeFormatter.php:322
+msgid "{0} week"
+msgid_plural "{0} weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: I18n/RelativeTimeFormatter.php:59
+#: I18n/RelativeTimeFormatter.php:135
+#: I18n/RelativeTimeFormatter.php:325
+msgid "{0} day"
+msgid_plural "{0} days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: I18n/RelativeTimeFormatter.php:64
+#: I18n/RelativeTimeFormatter.php:138
+msgid "{0} hour"
+msgid_plural "{0} hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: I18n/RelativeTimeFormatter.php:68
+#: I18n/RelativeTimeFormatter.php:141
+msgid "{0} minute"
+msgid_plural "{0} minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: I18n/RelativeTimeFormatter.php:72
+#: I18n/RelativeTimeFormatter.php:144
+msgid "{0} second"
+msgid_plural "{0} seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ORM/RulesChecker.php:56
+msgid "This value is already in use"
+msgstr ""
+
+#: ORM/RulesChecker.php:103
+msgid "This value does not exist"
+msgstr ""
+
+#: ORM/RulesChecker.php:127
+msgid "The count does not match {0}{1}"
+msgstr ""
+
+#: Utility/Text.php:933
+msgid "and"
+msgstr ""
+
+#: Validation/Validator.php:2436
+#: View/Form/ArrayContext.php:225
+msgid "This field is required"
+msgstr ""
+
+#: Validation/Validator.php:2458
+msgid "This field cannot be left empty"
+msgstr ""
+
+#: Validation/Validator.php:2608
+msgid "The provided value is invalid"
+msgstr ""
+
+#: View/Helper/FormHelper.php:1107
+msgid "Edit {0}"
+msgstr ""
+
+#: View/Helper/FormHelper.php:1109
+msgid "New {0}"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:539
+msgid "January"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:540
+msgid "February"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:541
+msgid "March"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:542
+msgid "April"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:543
+msgid "May"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:544
+msgid "June"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:545
+msgid "July"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:546
+msgid "August"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:547
+msgid "September"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:548
+msgid "October"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:549
+msgid "November"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:550
+msgid "December"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/DebugTimer.php:135
+msgid "Core Processing (Derived from $_SERVER[\"REQUEST_TIME\"])"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Controller/ComposerController.php:76
+msgid "You have to be connected to the internet"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Controller/MailPreviewController.php:91
+msgid "No emails found in this request"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Controller/MailPreviewController.php:153
+msgid "Email part ''{0}'' not found in email"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Controller/MailPreviewController.php:276
+msgid "Mailer preview {0}::{1} not found"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Controller/ToolbarController.php:66
+msgid "Invalid cache engine name."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Controller/Component/ToolbarComponent.php:42
+msgid "{0} is now loaded through plugin bootstrapping. Make sure you have {1} in your application's {2}."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Model/Table/PanelsTable.php:59
+msgid "Missing request id in {0}."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Panel/PanelRegistry.php:63
+msgid "Unable to find ''{0}'' panel."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php:53
+msgid "Controller initialization"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php:62
+msgid "Controller action start"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php:63
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php:68
+msgid "Controller action"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php:73
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php:74
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php:94
+msgid "View Render start"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php:83
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php:88
+msgid "Render {0}"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php:95
+msgid "Controller shutdown"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Panel/VariablesPanel.php:78
+msgid "Could not retrieve debug info - {0}. Error: {1} in {2}, line {3}"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Panel/VariablesPanel.php:173
+msgid "Unserializable object - {0}. Error: {1} in {2}, line {3}"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Panel/VariablesPanel.php:176
+msgid "Unserializable Error: {1} in {2}, line {3}"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Shell/BenchmarkShell.php:45
+msgid "-> Testing :url"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Shell/BenchmarkShell.php:72
+msgid "Total Requests made: :requests"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Shell/BenchmarkShell.php:73
+msgid "Total Time elapsed: :duration (seconds)"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Shell/BenchmarkShell.php:77
+msgid "Requests/Second: :rps req/sec"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Shell/BenchmarkShell.php:81
+msgid "Average request time: :average-time seconds"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Shell/BenchmarkShell.php:85
+msgid "Standard deviation of average request time: :std-dev"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Shell/BenchmarkShell.php:89
+msgid "Longest/shortest request: :longest sec/:shortest sec"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Shell/BenchmarkShell.php:147
+msgid "Allows you to obtain some rough benchmarking statisticsabout a fully qualified URL."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Shell/BenchmarkShell.php:153
+msgid "The URL to request."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Shell/BenchmarkShell.php:158
+msgid "Number of iterations to perform."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Shell/BenchmarkShell.php:162
+msgid "Maximum total time for all iterations, in seconds.If a single iteration takes more than the timeout, only one request will be made"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Shell/BenchmarkShell.php:168
+msgid "Example Use: `cake benchmark --n 10 --t 100 http://localhost/testsite`. <info>Note:</info> this benchmark does not include browser render times."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Shell/WhitespaceShell.php:98
+msgid "Absolute path or relative to {0}."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/cache_panel.ctp:21
+msgid "There were no cache operations this request."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/cache_panel.ctp:25
+msgid "{0} Metrics"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/cache_panel.ctp:26
+msgid "Clear {0} cache"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/cache_panel.ctp:31
+msgid "Metric"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/cache_panel.ctp:73
+msgid "cache cleared."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/cache_panel.ctp:75
+msgid "cache could not be cleared."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/environment_panel.ctp:28
+msgid "Application Constants"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/environment_panel.ctp:34
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/environment_panel.ctp:59
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/environment_panel.ctp:135
+msgid "Constant"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/environment_panel.ctp:35
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/environment_panel.ctp:60
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/environment_panel.ctp:110
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/environment_panel.ctp:136
+msgid "Value"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/environment_panel.ctp:49
+msgid "No application environment available."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/environment_panel.ctp:53
+msgid "CakePHP Constants"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/environment_panel.ctp:74
+msgid "CakePHP environment unavailable."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/environment_panel.ctp:78
+msgid "INI Environment"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/environment_panel.ctp:99
+msgid "ini environment unavailable."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/environment_panel.ctp:103
+msgid "PHP Environment"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/environment_panel.ctp:109
+msgid "Environment Variable"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/environment_panel.ctp:124
+msgid "PHP environment unavailable."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/environment_panel.ctp:129
+msgid "Hidef Environment"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/environment_panel.ctp:150
+msgid "No Hidef environment available."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/history_panel.ctp:23
+msgid "No previous requests logged."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/history_panel.ctp:25
+msgid "previous requests available"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/history_panel.ctp:29
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/history_panel.ctp:53
+msgid "Back to current request"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/include_panel.ctp:30
+msgid "Include Paths"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/include_panel.ctp:33
+msgid "Included Files"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/log_panel.ctp:21
+msgid "There were no log entries made this request"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/log_panel.ctp:24
+msgid "{0} Messages"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/log_panel.ctp:28
+msgid "Time"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/mail_panel.ctp:2
+msgid "Why not test your emails interactively instead? Go to the {0}"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/mail_panel.ctp:4
+msgid "Email previews page"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/mail_panel.ctp:8
+msgid "No emails were sent during this request"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/mail_panel.ctp:17
+msgid "Subject"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/packages_panel.ctp:22
+msgid "{0} not found"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/packages_panel.ctp:26
+msgid "Check for Updates"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/packages_panel.ctp:27
+msgid "Direct dependencies only"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/packages_panel.ctp:32
+msgid "Requirements ({0})"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/packages_panel.ctp:37
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/packages_panel.ctp:63
+msgid "Version"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/packages_panel.ctp:58
+msgid "Dev Requirements ({0})"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/packages_panel.ctp:99
+msgid "Loading"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/request_panel.ctp:30
+msgid "Warning"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/request_panel.ctp:31
+msgid "Headers already sent at file {0} and line {1}."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/request_panel.ctp:34
+msgid "Routing Params"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/request_panel.ctp:37
+msgid "Post data"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/request_panel.ctp:40
+msgid "No post data."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/request_panel.ctp:49
+msgid "No querystring data."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/request_panel.ctp:59
+msgid "No Cookie data."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/request_panel.ctp:63
+msgid "Matched Route"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/routes_panel.ctp:11
+msgid "Toggle debugkit internal routes"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/routes_panel.ctp:16
+msgid "Route name"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/routes_panel.ctp:17
+msgid "URI template"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/routes_panel.ctp:18
+msgid "Defaults"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/sql_log_panel.ctp:35
+msgid "Generated Models"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/sql_log_panel.ctp:36
+msgid "The following Table objects used {0} instead of a concrete class:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/sql_log_panel.ctp:58
+msgid "Total Time: {0} ms &mdash; Total Queries: {1} &mdash; Total Rows: {2}"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/sql_log_panel.ctp:71
+msgid "Query"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/sql_log_panel.ctp:72
+msgid "Rows"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/sql_log_panel.ctp:73
+msgid "Took (ms)"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/sql_log_panel.ctp:91
+msgid "No active database connections"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/timer_panel.ctp:23
+msgid "Memory"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/timer_panel.ctp:25
+msgid "Peak Memory Use:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/timer_panel.ctp:33
+msgid "Memory Use"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/timer_panel.ctp:48
+msgid "Timers"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/timer_panel.ctp:50
+msgid "Total Request Time:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/timer_panel.ctp:57
+msgid "Event"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/timer_panel.ctp:58
+msgid "Time in ms"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/timer_panel.ctp:59
+msgid "Timeline"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/variables_panel.ctp:28
+msgid "Sort variables by name"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Element/variables_panel.ctp:34
+msgid "Validation errors"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/Layout/mailer.ctp:6
+msgid "Mailer Previews"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/MailPreview/email.ctp:24
+msgid "You are trying to preview an email that does not have any content."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/MailPreview/index.ctp:29
+msgid "How to use this feature?"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/MailPreview/index.ctp:30
+msgid "Testing emails can be very time consuming"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/MailPreview/index.ctp:31
+msgid "Specially when you need to click a bunch of times on an interface to trigger them."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/MailPreview/index.ctp:32
+msgid "Wouldn't it be better to just change the templates and refresh the browser to see the result?"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/MailPreview/index.ctp:33
+msgid "Just the way you work on the web interface!"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/MailPreview/index.ctp:35
+msgid "Example"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/MailPreview/index.ctp:36
+msgid "{0} integrates with CakePHP’s {1} class. Here's an example of such a mailer:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/MailPreview/index.ctp:50
+msgid "Returning the chain is a good idea"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/MailPreview/index.ctp:53
+msgid "By default template with same name as method name is used."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/MailPreview/index.ctp:61
+msgid "Now you create a {0} class where you can pass some dummy values."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/MailPreview/index.ctp:87
+msgid "Note that the function MUST return the UserMailer object at the end."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/MailPreview/index.ctp:88
+msgid "Since {0} have a fluent interface, you just need to return the result of the chain of calls."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/Template/MailPreview/index.ctp:89
+msgid "That's it, now refresh this page!"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/View/Helper/SimpleGraphHelper.php:76
+msgid "Starting {0}ms into the request, taking {1}ms"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp_admin/vendor/cakephp/debug_kit/src/View/Helper/TidyHelper.php:110
+msgid "No markup errors found"
+msgstr ""
+

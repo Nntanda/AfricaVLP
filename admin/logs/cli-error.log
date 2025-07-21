@@ -1,0 +1,88 @@
+2025-05-04 21:15:16 Error: [InvalidArgumentException] There was a problem connecting to the database: SQLSTATE[HY000] [2002] No such file or directory in /home/ntanda-nassar/Downloads/admin/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/MysqlAdapter.php on line 127
+Stack Trace:
+#0 /home/ntanda-nassar/Downloads/admin/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/PdoAdapter.php(136): Phinx\Db\Adapter\MysqlAdapter->connect()
+#1 /home/ntanda-nassar/Downloads/admin/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/AdapterWrapper.php(489): Phinx\Db\Adapter\PdoAdapter->getConnection()
+#2 /home/ntanda-nassar/Downloads/admin/vendor/cakephp/migrations/src/CakeAdapter.php(56): Phinx\Db\Adapter\AdapterWrapper->getConnection()
+#3 /home/ntanda-nassar/Downloads/admin/vendor/cakephp/migrations/src/Command/CommandTrait.php(78): Migrations\CakeAdapter->__construct()
+#4 /home/ntanda-nassar/Downloads/admin/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php(75): Migrations\Command\Migrate->bootstrap()
+#5 /home/ntanda-nassar/Downloads/admin/vendor/cakephp/migrations/src/Command/CommandTrait.php(35): Phinx\Console\Command\Migrate->execute()
+#6 /home/ntanda-nassar/Downloads/admin/vendor/cakephp/migrations/src/Command/Migrate.php(67): Migrations\Command\Migrate->parentExecute()
+#7 /home/ntanda-nassar/Downloads/admin/vendor/symfony/console/Command/Command.php(255): Migrations\Command\Migrate->execute()
+#8 /home/ntanda-nassar/Downloads/admin/vendor/symfony/console/Application.php(934): Symfony\Component\Console\Command\Command->run()
+#9 /home/ntanda-nassar/Downloads/admin/vendor/symfony/console/Application.php(273): Symfony\Component\Console\Application->doRunCommand()
+#10 /home/ntanda-nassar/Downloads/admin/vendor/symfony/console/Application.php(149): Symfony\Component\Console\Application->doRun()
+#11 /home/ntanda-nassar/Downloads/admin/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(112): Symfony\Component\Console\Application->run()
+#12 /home/ntanda-nassar/Downloads/admin/vendor/cakephp/cakephp/src/Console/Shell.php(531): Migrations\Shell\MigrationsShell->main()
+#13 /home/ntanda-nassar/Downloads/admin/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(172): Cake\Console\Shell->runCommand()
+#14 /home/ntanda-nassar/Downloads/admin/vendor/cakephp/cakephp/src/Console/CommandRunner.php(385): Migrations\Shell\MigrationsShell->runCommand()
+#15 /home/ntanda-nassar/Downloads/admin/vendor/cakephp/cakephp/src/Console/CommandRunner.php(162): Cake\Console\CommandRunner->runShell()
+#16 /home/ntanda-nassar/Downloads/admin/bin/cake.php(12): Cake\Console\CommandRunner->run()
+#17 {main}
+
+
+2025-05-04 21:22:03 Error: [InvalidArgumentException] There was a problem connecting to the database: SQLSTATE[HY000] [2002] No such file or directory in /home/ntanda-nassar/Downloads/admin/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/MysqlAdapter.php on line 127
+Stack Trace:
+#0 /home/ntanda-nassar/Downloads/admin/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/PdoAdapter.php(136): Phinx\Db\Adapter\MysqlAdapter->connect()
+#1 /home/ntanda-nassar/Downloads/admin/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/AdapterWrapper.php(489): Phinx\Db\Adapter\PdoAdapter->getConnection()
+#2 /home/ntanda-nassar/Downloads/admin/vendor/cakephp/migrations/src/CakeAdapter.php(56): Phinx\Db\Adapter\AdapterWrapper->getConnection()
+#3 /home/ntanda-nassar/Downloads/admin/vendor/cakephp/migrations/src/Command/CommandTrait.php(78): Migrations\CakeAdapter->__construct()
+#4 /home/ntanda-nassar/Downloads/admin/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php(75): Migrations\Command\Migrate->bootstrap()
+#5 /home/ntanda-nassar/Downloads/admin/vendor/cakephp/migrations/src/Command/CommandTrait.php(35): Phinx\Console\Command\Migrate->execute()
+#6 /home/ntanda-nassar/Downloads/admin/vendor/cakephp/migrations/src/Command/Migrate.php(67): Migrations\Command\Migrate->parentExecute()
+#7 /home/ntanda-nassar/Downloads/admin/vendor/symfony/console/Command/Command.php(255): Migrations\Command\Migrate->execute()
+#8 /home/ntanda-nassar/Downloads/admin/vendor/symfony/console/Application.php(934): Symfony\Component\Console\Command\Command->run()
+#9 /home/ntanda-nassar/Downloads/admin/vendor/symfony/console/Application.php(273): Symfony\Component\Console\Application->doRunCommand()
+#10 /home/ntanda-nassar/Downloads/admin/vendor/symfony/console/Application.php(149): Symfony\Component\Console\Application->doRun()
+#11 /home/ntanda-nassar/Downloads/admin/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(112): Symfony\Component\Console\Application->run()
+#12 /home/ntanda-nassar/Downloads/admin/vendor/cakephp/cakephp/src/Console/Shell.php(531): Migrations\Shell\MigrationsShell->main()
+#13 /home/ntanda-nassar/Downloads/admin/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(172): Cake\Console\Shell->runCommand()
+#14 /home/ntanda-nassar/Downloads/admin/vendor/cakephp/cakephp/src/Console/CommandRunner.php(385): Migrations\Shell\MigrationsShell->runCommand()
+#15 /home/ntanda-nassar/Downloads/admin/vendor/cakephp/cakephp/src/Console/CommandRunner.php(162): Cake\Console\CommandRunner->runShell()
+#16 /home/ntanda-nassar/Downloads/admin/bin/cake.php(12): Cake\Console\CommandRunner->run()
+#17 {main}
+
+
+2025-05-04 21:28:20 Error: [InvalidArgumentException] There was a problem connecting to the database: SQLSTATE[HY000] [2002] Connection refused in /home/ntanda-nassar/Downloads/admin/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/MysqlAdapter.php on line 127
+Stack Trace:
+#0 /home/ntanda-nassar/Downloads/admin/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/PdoAdapter.php(136): Phinx\Db\Adapter\MysqlAdapter->connect()
+#1 /home/ntanda-nassar/Downloads/admin/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/AdapterWrapper.php(489): Phinx\Db\Adapter\PdoAdapter->getConnection()
+#2 /home/ntanda-nassar/Downloads/admin/vendor/cakephp/migrations/src/CakeAdapter.php(56): Phinx\Db\Adapter\AdapterWrapper->getConnection()
+#3 /home/ntanda-nassar/Downloads/admin/vendor/cakephp/migrations/src/Command/CommandTrait.php(78): Migrations\CakeAdapter->__construct()
+#4 /home/ntanda-nassar/Downloads/admin/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php(75): Migrations\Command\Migrate->bootstrap()
+#5 /home/ntanda-nassar/Downloads/admin/vendor/cakephp/migrations/src/Command/CommandTrait.php(35): Phinx\Console\Command\Migrate->execute()
+#6 /home/ntanda-nassar/Downloads/admin/vendor/cakephp/migrations/src/Command/Migrate.php(67): Migrations\Command\Migrate->parentExecute()
+#7 /home/ntanda-nassar/Downloads/admin/vendor/symfony/console/Command/Command.php(255): Migrations\Command\Migrate->execute()
+#8 /home/ntanda-nassar/Downloads/admin/vendor/symfony/console/Application.php(934): Symfony\Component\Console\Command\Command->run()
+#9 /home/ntanda-nassar/Downloads/admin/vendor/symfony/console/Application.php(273): Symfony\Component\Console\Application->doRunCommand()
+#10 /home/ntanda-nassar/Downloads/admin/vendor/symfony/console/Application.php(149): Symfony\Component\Console\Application->doRun()
+#11 /home/ntanda-nassar/Downloads/admin/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(112): Symfony\Component\Console\Application->run()
+#12 /home/ntanda-nassar/Downloads/admin/vendor/cakephp/cakephp/src/Console/Shell.php(531): Migrations\Shell\MigrationsShell->main()
+#13 /home/ntanda-nassar/Downloads/admin/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(172): Cake\Console\Shell->runCommand()
+#14 /home/ntanda-nassar/Downloads/admin/vendor/cakephp/cakephp/src/Console/CommandRunner.php(385): Migrations\Shell\MigrationsShell->runCommand()
+#15 /home/ntanda-nassar/Downloads/admin/vendor/cakephp/cakephp/src/Console/CommandRunner.php(162): Cake\Console\CommandRunner->runShell()
+#16 /home/ntanda-nassar/Downloads/admin/bin/cake.php(12): Cake\Console\CommandRunner->run()
+#17 {main}
+
+
+2025-05-04 21:28:49 Error: [InvalidArgumentException] There was a problem connecting to the database: SQLSTATE[HY000] [2002] Connection refused in /home/ntanda-nassar/Downloads/admin/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/MysqlAdapter.php on line 127
+Stack Trace:
+#0 /home/ntanda-nassar/Downloads/admin/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/PdoAdapter.php(136): Phinx\Db\Adapter\MysqlAdapter->connect()
+#1 /home/ntanda-nassar/Downloads/admin/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/AdapterWrapper.php(489): Phinx\Db\Adapter\PdoAdapter->getConnection()
+#2 /home/ntanda-nassar/Downloads/admin/vendor/cakephp/migrations/src/CakeAdapter.php(56): Phinx\Db\Adapter\AdapterWrapper->getConnection()
+#3 /home/ntanda-nassar/Downloads/admin/vendor/cakephp/migrations/src/Command/CommandTrait.php(78): Migrations\CakeAdapter->__construct()
+#4 /home/ntanda-nassar/Downloads/admin/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php(75): Migrations\Command\Migrate->bootstrap()
+#5 /home/ntanda-nassar/Downloads/admin/vendor/cakephp/migrations/src/Command/CommandTrait.php(35): Phinx\Console\Command\Migrate->execute()
+#6 /home/ntanda-nassar/Downloads/admin/vendor/cakephp/migrations/src/Command/Migrate.php(67): Migrations\Command\Migrate->parentExecute()
+#7 /home/ntanda-nassar/Downloads/admin/vendor/symfony/console/Command/Command.php(255): Migrations\Command\Migrate->execute()
+#8 /home/ntanda-nassar/Downloads/admin/vendor/symfony/console/Application.php(934): Symfony\Component\Console\Command\Command->run()
+#9 /home/ntanda-nassar/Downloads/admin/vendor/symfony/console/Application.php(273): Symfony\Component\Console\Application->doRunCommand()
+#10 /home/ntanda-nassar/Downloads/admin/vendor/symfony/console/Application.php(149): Symfony\Component\Console\Application->doRun()
+#11 /home/ntanda-nassar/Downloads/admin/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(112): Symfony\Component\Console\Application->run()
+#12 /home/ntanda-nassar/Downloads/admin/vendor/cakephp/cakephp/src/Console/Shell.php(531): Migrations\Shell\MigrationsShell->main()
+#13 /home/ntanda-nassar/Downloads/admin/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(172): Cake\Console\Shell->runCommand()
+#14 /home/ntanda-nassar/Downloads/admin/vendor/cakephp/cakephp/src/Console/CommandRunner.php(385): Migrations\Shell\MigrationsShell->runCommand()
+#15 /home/ntanda-nassar/Downloads/admin/vendor/cakephp/cakephp/src/Console/CommandRunner.php(162): Cake\Console\CommandRunner->runShell()
+#16 /home/ntanda-nassar/Downloads/admin/bin/cake.php(12): Cake\Console\CommandRunner->run()
+#17 {main}
+
+
