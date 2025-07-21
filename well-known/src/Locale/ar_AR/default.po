@@ -1,0 +1,2855 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2020-07-01 13:56+0000\n"
+"PO-Revision-Date: 2020-10-26 10:25+0100\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Generator: Poedit 2.4.1\n"
+"Last-Translator: \n"
+"Language: ar\n"
+
+#: /status_constants.php:12 /status_constants.php:23 View/AppView.php:108
+#: View/AppView.php:127
+msgid "Active"
+msgstr "نشط"
+
+#: /status_constants.php:13 /status_constants.php:24 View/AppView.php:93
+#: View/AppView.php:112 View/AppView.php:131
+msgid "Inactive"
+msgstr "غير نشط"
+
+#: /status_constants.php:35
+msgid "Publish"
+msgstr "نشر"
+
+#: /status_constants.php:36 View/AppView.php:89
+msgid "Draft"
+msgstr "مسودة"
+
+#: /status_constants.php:37
+msgid "Deactivate"
+msgstr "تعطيل"
+
+#: Controller/AlumniForumsController.php:23
+#: Controller/AlumniForumsController.php:84
+msgid "The user is not an alumni of the requested organization."
+msgstr "المستخدم ليس من خريجي المؤسسة المطلوبة."
+
+#: Controller/AlumniForumsController.php:62
+#: Controller/AlumniForumsController.php:150
+msgid "The thread has been saved."
+msgstr "تم حفظ مؤشر الترابط."
+
+#: Controller/AlumniForumsController.php:65
+#: Controller/AlumniForumsController.php:153
+msgid "The thread could not be saved. Please, try again."
+msgstr "تعذر حفظ مؤشر الترابط. أرجوك، حاول مرة أخرى."
+
+#: Controller/AlumniForumsController.php:99
+#: Controller/AlumniForumsController.php:182
+#: Controller/BlogPostsController.php:87 Controller/EventsController.php:85
+#: Controller/NewsController.php:85
+msgid "The comment has been saved."
+msgstr "تم حفظ التعليق."
+
+#: Controller/AlumniForumsController.php:102
+#: Controller/AlumniForumsController.php:185
+#: Controller/BlogPostsController.php:90 Controller/EventsController.php:88
+msgid "The comment could not be saved. Please, try again."
+msgstr "لا يمكن حفظ التعليق. حاول مرة اخرى."
+
+#: Controller/EventsController.php:111
+msgid "The interest has been saved."
+msgstr "تم حفظ الفائدة."
+
+#: Controller/EventsController.php:114
+msgid "The interest could not be saved. Please, try again."
+msgstr "لا يمكن حفظ الفائدة. حاول مرة اخرى."
+
+#: Controller/NewsController.php:88 Controller/UsersController.php:218
+msgid "The user could not be saved. Please, try again."
+msgstr "لا يمكن حفظ المستخدم. حاول مرة اخرى."
+
+#: Controller/OrganizationsController.php:32
+msgid "Unauthorized! Access denied."
+msgstr "غير مصرح! تم الرفض."
+
+#: Controller/OrganizationsController.php:49
+msgid "Incomplete profile! Complete organization profile."
+msgstr "الملف الشخصي غير مكتمل! الملف الشخصي الكامل للمؤسسة."
+
+#: Controller/OrganizationsController.php:122 Controller/UsersController.php:111
+#: Controller/UsersController.php:350
+msgid "The profile details has been saved."
+msgstr "تم حفظ تفاصيل الملف الشخصي."
+
+#: Controller/OrganizationsController.php:126 Controller/UsersController.php:115
+#: Controller/UsersController.php:359
+msgid "The profile details could not be saved. Please, try again."
+msgstr "لا يمكن حفظ تفاصيل الملف الشخصي. حاول مرة اخرى."
+
+#: Controller/OrganizationsController.php:195
+msgid "The office details has been saved."
+msgstr "تم حفظ تفاصيل المكتب."
+
+#: Controller/OrganizationsController.php:199
+msgid "The office details could not be saved. Please, try again."
+msgstr "لا يمكن حفظ تفاصيل المكتب. حاول مرة اخرى."
+
+#: Controller/OrganizationsController.php:204
+msgid "Error adding address"
+msgstr "خطأ في إضافة العنوان"
+
+#: Controller/OrganizationsController.php:218
+msgid "The office has been deleted."
+msgstr "تم حذف المكتب."
+
+#: Controller/OrganizationsController.php:222
+msgid "The office could not be deleted. Please, try again."
+msgstr "لا يمكن حذف المكتب. حاول مرة اخرى."
+
+#: Controller/OrganizationsController.php:227
+msgid "Error deleting address"
+msgstr "خطأ في حذف العنوان"
+
+#: Controller/OrganizationsController.php:338
+#: Controller/OrganizationsController.php:379
+#: Controller/OrganizationsController.php:419
+#: Controller/OrganizationsController.php:454
+#: Controller/OrganizationsController.php:486
+msgid "The event details has been saved."
+msgstr "تم حفظ تفاصيل الحدث."
+
+#: Controller/OrganizationsController.php:347
+#: Controller/OrganizationsController.php:385
+#: Controller/OrganizationsController.php:423
+#: Controller/OrganizationsController.php:458
+#: Controller/OrganizationsController.php:490
+msgid "The event details could not be saved. Please, try again."
+msgstr "لا يمكن حفظ تفاصيل الحدث. حاول مرة اخرى."
+
+#: Controller/OrganizationsController.php:534
+msgid "The interest details has been updated."
+msgstr "تم تحديث تفاصيل الفائدة."
+
+#: Controller/OrganizationsController.php:537
+msgid "The interest details could not be updated. Please, try again."
+msgstr "لا يمكن تحديث تفاصيل الفائدة. حاول مرة اخرى."
+
+#: Controller/OrganizationsController.php:600
+#: Controller/OrganizationsController.php:638
+msgid "The news details has been saved."
+msgstr "تم حفظ تفاصيل الخبر."
+
+#: Controller/OrganizationsController.php:605
+#: Controller/OrganizationsController.php:643
+msgid "The news details could not be saved. Please, try again."
+msgstr "لا يمكن حفظ تفاصيل الخبر. حاول مرة اخرى."
+
+#: Controller/OrganizationsController.php:739
+#: Controller/OrganizationsController.php:792
+#: Controller/OrganizationsController.php:845
+msgid "The message has been sent."
+msgstr "تم إرسال الرسالة."
+
+#: Controller/OrganizationsController.php:850
+msgid "The message could not been sent."
+msgstr "تعذر إرسال الرسالة."
+
+#: Controller/OrganizationsController.php:906
+#: Controller/OrganizationsController.php:948
+msgid "The resource has been saved."
+msgstr "تم حفظ المورد."
+
+#: Controller/OrganizationsController.php:911
+#: Controller/OrganizationsController.php:953
+msgid "The resource could not be saved. Please, try again."
+msgstr "لا يمكن حفظ المورد. حاول مرة اخرى."
+
+#: Controller/OrganizationsController.php:939 Controller/PagesController.php:288
+#: Controller/PagesController.php:347
+msgid "The record was not found."
+msgstr "لم يتم العثور على السجل."
+
+#: Controller/OrganizationsController.php:1016
+msgid "The user has been added."
+msgstr "تمت إضافة المستخدم."
+
+#: Controller/OrganizationsController.php:1020
+#: Controller/OrganizationsController.php:1042
+msgid "The user could not be added."
+msgstr "لا يمكن إضافة المستخدم."
+
+#: Controller/OrganizationsController.php:1038
+msgid "The user has been invited successfully."
+msgstr "تمت دعوة المستخدم بنجاح."
+
+#: Controller/OrganizationsController.php:1044
+msgid "The user has already been invited."
+msgstr "تمت دعوة المستخدم بالفعل."
+
+#: Controller/OrganizationsController.php:1070
+#: Controller/UsersController.php:214
+msgid "The user has been saved."
+msgstr "تم حفظ المستخدم."
+
+#: Controller/OrganizationsController.php:1074
+msgid "The user could not be saved."
+msgstr "لا يمكن حفظ المستخدم."
+
+#: Controller/UsersController.php:237
+msgid "The user has been deleted."
+msgstr "تم حذف المستخدم."
+
+#: Controller/UsersController.php:239
+msgid "The user could not be deleted. Please, try again."
+msgstr "لا يمكن حذف المستخدم. حاول مرة اخرى."
+
+#: Controller/UsersController.php:320 Controller/Traits/RegisterTrait.php:65
+msgid "The user could not be saved"
+msgstr "لا يمكن حفظ المستخدم"
+
+#: Controller/UsersController.php:403
+msgid ""
+"Email not yet verified. Follow the link from the registration welcome mail to "
+"verify your email."
+msgstr ""
+"لم يتم التحقق من البريد الإلكتروني. اتبع الرابط الموجود في البريد الترحيبي "
+"للتسجيل للتحقق من بريدك الإلكتروني."
+
+#: Controller/UsersController.php:407
+msgid "Invalid credentials, try again"
+msgstr "بيانات اعتماد غير صالحة ، حاول مرة أخرى"
+
+#: Controller/Traits/PasswordManagementTrait.php:48
+#: Controller/Traits/PasswordManagementTrait.php:83
+msgid "User was not found"
+msgstr "لم يتم العثور على المستخدم"
+
+#: Controller/Traits/PasswordManagementTrait.php:71
+msgid "Validation Error: Password was not changed"
+msgstr "خطأ في التحقق من الصحة: لم يتم تغيير كلمة المرور"
+
+#: Controller/Traits/PasswordManagementTrait.php:75
+msgid "Password has been changed successfully"
+msgstr "تم تغيير كلمة المرور بنجاح"
+
+#: Controller/Traits/PasswordManagementTrait.php:79
+msgid "Error: Password could not be changed"
+msgstr "خطأ: لا يمكن تغيير كلمة المرور"
+
+#: Controller/Traits/PasswordManagementTrait.php:85
+msgid "{0}"
+msgstr "{0}"
+
+#: Controller/Traits/PasswordManagementTrait.php:87
+msgid "Password could not be changed"
+msgstr "لا يمكن تغيير كلمة المرور"
+
+#: Controller/Traits/PasswordManagementTrait.php:129
+msgid "Please check your email to continue with password reset process"
+msgstr "يرجى التحقق من بريدك الإلكتروني لمتابعة عملية إعادة تعيين كلمة المرور"
+
+#: Controller/Traits/PasswordManagementTrait.php:132
+msgid "The password token could not be generated. Please try again"
+msgstr "لا يمكن إنشاء رمز كلمة المرور. حاول مرة اخرى"
+
+#: Controller/Traits/PasswordManagementTrait.php:138
+#: Controller/Traits/UserValidationTrait.php:101
+msgid "User {0} was not found"
+msgstr "لم يتم العثور على المستخدم {0}"
+
+#: Controller/Traits/PasswordManagementTrait.php:140
+#: Controller/Traits/RegisterTrait.php:158
+#: Controller/Traits/UserValidationTrait.php:96
+#: Controller/Traits/UserValidationTrait.php:105
+msgid "Token could not be reset"
+msgstr "لا يمكن إعادة تعيين الرمز"
+
+#: Controller/Traits/RegisterTrait.php:149
+#: Controller/Traits/RegisterTrait.php:162
+msgid "Email verification link sent successfully. Please check your email."
+msgstr ""
+"تم إرسال رابط التحقق من البريد الإلكتروني بنجاح. تفقد بريدك الالكتروني من "
+"فضلك."
+
+#: Controller/Traits/RegisterTrait.php:153
+msgid "Error resetting email verification link"
+msgstr "خطأ في إعادة تعيين رابط التحقق من البريد الإلكتروني"
+
+#: Controller/Traits/RegisterTrait.php:166
+msgid "Error resending email verification link"
+msgstr "خطأ في إعادة إرسال رابط التحقق من البريد الإلكتروني"
+
+#: Controller/Traits/UserValidationTrait.php:41
+msgid "Email validated successfully"
+msgstr "تم التحقق من صحة البريد الإلكتروني بنجاح"
+
+#: Controller/Traits/UserValidationTrait.php:43
+msgid "Email could not be validated"
+msgstr "لا يمكن التحقق من صحة البريد الإلكتروني"
+
+#: Controller/Traits/UserValidationTrait.php:49
+msgid "Reset password token was validated successfully"
+msgstr "تم التحقق من صحة رمز إعادة تعيين كلمة المرور بنجاح"
+
+#: Controller/Traits/UserValidationTrait.php:57
+msgid "Reset password token could not be validated"
+msgstr "لا يمكن التحقق من صحة رمز إعادة تعيين كلمة المرور"
+
+#: Controller/Traits/UserValidationTrait.php:61
+msgid "Invalid validation type"
+msgstr "وسيلة التحقق غير صالحة"
+
+#: Controller/Traits/UserValidationTrait.php:64
+msgid "Invalid token or user account already validated"
+msgstr "الرمز (token) غير صحيح او تم استخدامه من قبل"
+
+#: Controller/Traits/UserValidationTrait.php:66
+msgid "Token already expired"
+msgstr "الرمز token انتهت صلاحيته "
+
+#: Controller/Traits/UserValidationTrait.php:92
+msgid "Token has been reset successfully. Please check your email."
+msgstr "تم أعاده تعيين token بنجاح. يرجى التحقق من بريدك الكتروني."
+
+#: Controller/Traits/UserValidationTrait.php:103
+msgid "User {0} is already active"
+msgstr "المستخدم {0} نشط بالفعل"
+
+#: Email/EmailSender.php:30 Template/Email/html/welcome.ctp:42
+msgid "Welcome to the African Union Volunteering Linkage Platform."
+msgstr "مرحبًا بكم في منصة الاتحاد الأفريقي للتواصل التطوعي."
+
+#: Email/EmailSender.php:47
+msgid "Your account validation link"
+msgstr "رابط التحقق من الحسابك"
+
+#: Email/EmailSender.php:87
+msgid "You have a new message"
+msgstr "لديك رسالة جديدة"
+
+#: Email/EmailSender.php:155
+msgid "Invitation to African Union Volunteer Linkage Platform."
+msgstr "دعوة إلى منصة الاتحاد الإفريقي للروابط التطوعية."
+
+#: Email/EmailSender.php:172
+msgid "You have been added to an Organization."
+msgstr "لقد تمت إضافتك إلى منظمة."
+
+#: Email/EmailSender.php:189
+msgid "An admin has been added to your Organization."
+msgstr "تمت إضافة مسؤول إلى مؤسستك."
+
+#: Mailer/UsersMailer.php:81
+msgid "{0}Your reset password link"
+msgstr "{0} رابط إعادة تعيين كلمة المرور"
+
+#: Model/Behavior/PasswordBehavior.php:43
+msgid "Reference cannot be null"
+msgstr "لا يمكن أن يكون المرجع فارغًا"
+
+#: Model/Behavior/PasswordBehavior.php:48 Model/Behavior/RegisterBehavior.php:79
+msgid "Token expiration cannot be empty"
+msgstr "لا يمكن ترك حقل انتهاء صلاحية Token  فارغاً "
+
+#: Model/Behavior/PasswordBehavior.php:54 Model/Behavior/PasswordBehavior.php:92
+msgid "User not found"
+msgstr "تعذّر العثور على المستخدم"
+
+#: Model/Behavior/PasswordBehavior.php:97
+msgid "The current password does not match"
+msgstr "كلمة المرور الحالية غير متطابقة"
+
+#: Model/Behavior/PasswordBehavior.php:100
+msgid "You cannot use the current password as the new one"
+msgstr "لا يمكنك استخدام كلمه المرور الحالية كـ كلمة سر جديدة"
+
+#: Model/Behavior/RegisterBehavior.php:121
+msgid "User not found for the given token and email."
+msgstr "لم يتم العثور على المستخدم لهذا الرمز و البريد الالكتروني "
+
+#: Model/Behavior/RegisterBehavior.php:124
+msgid "Token has already expired user with no token"
+msgstr "الرمز Token انتهت صلاحيته, المستخدم بدون Token  الآن "
+
+#: Model/Table/EventsTable.php:141 Model/Table/NewsTable.php:125
+#: Model/Table/OrganizationsTable.php:224 Model/Table/ResourcesTable.php:134
+#: Model/Table/UsersTable.php:272
+msgid "The provided file type is invalid. Support file types are: {0}"
+msgstr "نوع الملف المقدم غير صالح. أنواع ملفات الدعم هي: {0}"
+
+#: Model/Table/EventsTable.php:150 Model/Table/NewsTable.php:134
+#: Model/Table/OrganizationsTable.php:233 Model/Table/ResourcesTable.php:143
+#: Model/Table/UsersTable.php:281
+msgid "Image must be less than {0}"
+msgstr "يجب أن تكون الصورة أقل من {0}"
+
+#: Model/Table/UsersTable.php:148
+msgid "Your password does not match your confirm password"
+msgstr "كلمة المرور الخاصة بك لا تطابق تأكيد كلمة المرور الخاصة بك"
+
+#: Template/AlumniForums/index.ctp:18 Template/AlumniForums/thread.ctp:19
+msgid "Create New"
+msgstr "إنشاء جديد"
+
+#: Template/AlumniForums/index.ctp:24
+#: Template/AlumniForums/public_threads.ctp:22
+#: Template/AlumniForums/thread.ctp:25
+msgid "New Discusion Thread"
+msgstr "موضوع جديد"
+
+#: Template/AlumniForums/index.ctp:34
+#: Template/AlumniForums/public_threads.ctp:32
+#: Template/AlumniForums/thread.ctp:35 Template/Organizations/index.ctp:32
+#: Template/Organizations/index.ctp:63 Template/Organizations/news.ctp:40
+#: Template/Organizations/resources.ctp:30
+msgid "Title"
+msgstr "العنوان"
+
+#: Template/AlumniForums/index.ctp:37
+#: Template/AlumniForums/public_threads.ctp:35
+#: Template/AlumniForums/thread.ctp:38
+msgid "Description"
+msgstr "الوصف"
+
+#: Template/AlumniForums/index.ctp:43
+#: Template/AlumniForums/public_threads.ctp:41
+#: Template/AlumniForums/thread.ctp:44 Template/Users/change_password.ctp:29
+#: Template/Users/create_account.ctp:109 Template/Users/create_profile.ctp:86
+#: Template/Users/request_reset_password.ctp:25 View/Helper/FormHelper.php:2028
+msgid "Submit"
+msgstr "إرسال"
+
+#: Template/AlumniForums/index.ctp:56 Template/AlumniForums/public_threads.ctp:7
+msgid "All Discussions"
+msgstr "كل النقاشات"
+
+#: Template/AlumniForums/index.ctp:59
+#: Template/AlumniForums/public_threads.ctp:10
+msgid "Joined Discussions"
+msgstr "المناقشات المنضمة"
+
+#: Template/AlumniForums/index.ctp:62
+#: Template/AlumniForums/public_threads.ctp:13
+msgid "My Discussions"
+msgstr "مناقشاتي"
+
+#: Template/AlumniForums/index.ctp:77 Template/AlumniForums/index.ctp:110
+#: Template/AlumniForums/index.ctp:143
+#: Template/AlumniForums/public_thread.ctp:21
+#: Template/AlumniForums/public_threads.ctp:61
+#: Template/AlumniForums/public_threads.ctp:94
+#: Template/AlumniForums/public_threads.ctp:127
+#: Template/AlumniForums/thread.ctp:71 Template/Organizations/messages.ctp:60
+msgid "Date Created"
+msgstr "تاريخ الإنشاء"
+
+#: Template/AlumniForums/index.ctp:79 Template/AlumniForums/index.ctp:112
+#: Template/AlumniForums/index.ctp:145
+#: Template/AlumniForums/public_thread.ctp:23
+#: Template/AlumniForums/public_threads.ctp:63
+#: Template/AlumniForums/public_threads.ctp:96
+#: Template/AlumniForums/public_threads.ctp:129
+#: Template/AlumniForums/thread.ctp:73
+msgid "By"
+msgstr "بواسطة"
+
+#: Template/AlumniForums/index.ctp:81 Template/AlumniForums/index.ctp:114
+#: Template/AlumniForums/index.ctp:147
+#: Template/AlumniForums/public_thread.ctp:25
+#: Template/AlumniForums/public_threads.ctp:65
+#: Template/AlumniForums/public_threads.ctp:98
+#: Template/AlumniForums/public_threads.ctp:131
+#: Template/AlumniForums/thread.ctp:75
+msgid "People"
+msgstr "أشخاص"
+
+#: Template/AlumniForums/index.ctp:87 Template/AlumniForums/index.ctp:120
+#: Template/AlumniForums/index.ctp:153
+#: Template/AlumniForums/public_threads.ctp:71
+#: Template/AlumniForums/public_threads.ctp:104
+#: Template/AlumniForums/public_threads.ctp:137
+msgid "View Discussion"
+msgstr "عرض المحادثة"
+
+#: Template/AlumniForums/index.ctp:96 Template/AlumniForums/index.ctp:129
+#: Template/AlumniForums/index.ctp:162
+#: Template/AlumniForums/public_threads.ctp:80
+#: Template/AlumniForums/public_threads.ctp:113
+#: Template/AlumniForums/public_threads.ctp:146 Template/BlogPosts/index.ctp:56
+#: Template/Events/index.ctp:56 Template/News/index.ctp:56
+#: Template/Organizations/admins.ctp:68 Template/Organizations/admins.ctp:113
+#: Template/Organizations/events.ctp:87 Template/Organizations/messages.ctp:77
+#: Template/Organizations/news.ctp:86 Template/Organizations/resources.ctp:73
+#: Template/Resources/index.ctp:68
+#: Template/VolunteeringOrganizations/index.ctp:56
+msgid "No record found"
+msgstr "لا يوجد سجل"
+
+#: Template/AlumniForums/public_thread.ctp:7 Template/AlumniForums/thread.ctp:57
+msgid "Back To Discussions"
+msgstr "العودة إلى المناقشات"
+
+#: Template/AlumniForums/public_thread.ctp:34
+#: Template/AlumniForums/thread.ctp:84
+msgid "No comments yet"
+msgstr "لا تعليقات حتى الآن"
+
+#: Template/AlumniForums/public_thread.ctp:63
+#: Template/AlumniForums/thread.ctp:113
+msgid "Reply"
+msgstr "الرد"
+
+#: Template/AlumniForums/public_thread.ctp:67
+#: Template/AlumniForums/thread.ctp:118
+#: Template/Organizations/au_messages.ctp:50
+#: Template/Organizations/message.ctp:32 Template/Organizations/message.ctp:84
+#: Template/Organizations/messages.ctp:32
+msgid "Send"
+msgstr "إرسال"
+
+#: Template/AlumniForums/public_threads.ctp:16
+msgid "Create New Thread"
+msgstr "إنشاء موضوع جديد"
+
+#: Template/BlogPosts/index.ctp:4
+msgid "Blog Posts"
+msgstr "مقالات المدونه"
+
+#: Template/BlogPosts/index.ctp:27 Template/Events/index.ctp:27
+#: Template/News/index.ctp:27 Template/Resources/index.ctp:27
+#: Template/VolunteeringOrganizations/index.ctp:27
+msgid "Filter By"
+msgstr "تصفية حسب"
+
+#: Template/BlogPosts/index.ctp:35 Template/Events/index.ctp:35
+#: Template/News/index.ctp:35 Template/Resources/index.ctp:35
+msgid "Select Region"
+msgstr "اختر المنطقة"
+
+#: Template/BlogPosts/index.ctp:43 Template/Events/index.ctp:43
+#: Template/News/index.ctp:43 Template/Resources/index.ctp:55
+#: Template/VolunteeringOrganizations/index.ctp:43
+msgid "SECTORS"
+msgstr "القطاعات"
+
+#: Template/BlogPosts/index.ctp:72 Template/Events/index.ctp:72
+#: Template/News/index.ctp:72 Template/Organizations/event.ctp:16
+#: Template/Organizations/events.ctp:31 Template/Pages/index.ctp:81
+#: Template/Pages/index.ctp:131 Template/Pages/index.ctp:177
+#: Template/Pages/index.ctp:229 Template/Users/profile.ctp:356
+#: Template/Users/user_profile.ctp:144
+msgid "Date"
+msgstr "التاريخ"
+
+#: Template/BlogPosts/index.ctp:78 Template/News/index.ctp:82
+#: Template/Pages/index.ctp:141 Template/Pages/index.ctp:235
+msgid "Read More"
+msgstr "اقرأ المزيد"
+
+#: Template/BlogPosts/view.ctp:32 Template/Events/view.ctp:34
+#: Template/News/view.ctp:32
+msgid "About Publisher"
+msgstr "حول الناشر"
+
+#: Template/BlogPosts/view.ctp:49 Template/News/view.ctp:49
+msgid "View Publisher's Page"
+msgstr "عرض صفحة الناشر"
+
+#: Template/BlogPosts/view.ctp:65 Template/Events/view.ctp:97
+#: Template/News/view.ctp:65 Template/Organizations/event.ctp:35
+msgid "Comments"
+msgstr "التعليقات"
+
+#: Template/BlogPosts/view.ctp:80 Template/Events/view.ctp:112
+#: Template/News/view.ctp:80 Template/Pages/index.ctp:112
+#: Template/Pages/index.ctp:161 Template/Pages/index.ctp:210
+#: Template/Pages/index.ctp:255 Template/Users/profile.ctp:385
+msgid "SEE MORE"
+msgstr "شاهد المزيد"
+
+#: Template/BlogPosts/view.ctp:88
+msgid "Write comment"
+msgstr "اكتب تعليق"
+
+#: Template/BlogPosts/view.ctp:89 Template/Events/view.ctp:120
+#: Template/News/view.ctp:88
+msgid "Post Comment"
+msgstr "أضف تعليقا"
+
+#: Template/BlogPosts/view.ctp:94 Template/Events/view.ctp:124
+#: Template/News/view.ctp:92
+msgid "Login to write comment"
+msgstr "تسجيل الدخول لكتابة تعليق"
+
+#: Template/Cell/Footer/display.ctp:5 Template/Element/org-footer.ctp:6
+#: Template/Users/profile.ctp:239 Template/Users/user_profile.ctp:83
+#: Template/VolunteeringOrganizations/view.ctp:122
+msgid "About"
+msgstr "حول"
+
+#: Template/Cell/Footer/display.ctp:8 Template/Element/Navigation/top-nav.ctp:24
+msgid "About Us"
+msgstr "معلومات عنا"
+
+#: Template/Cell/Footer/display.ctp:11
+msgid "What We Do"
+msgstr "الذي نفعله"
+
+#: Template/Cell/Footer/display.ctp:14 Template/Element/org-footer.ctp:12
+msgid "Partners"
+msgstr "الشركاء"
+
+#: Template/Cell/Footer/display.ctp:19 Template/Element/org-footer.ctp:9
+#: Template/Element/Navigation/org-aside.ctp:52
+#: Template/Element/Navigation/top-nav.ctp:40
+#: Template/Organizations/index.ctp:59 Template/Organizations/resources.ctp:4
+#: Template/Pages/index.ctp:58 Template/Resources/index.ctp:4
+msgid "Resources"
+msgstr "المصادر"
+
+#: Template/Cell/Footer/display.ctp:22
+msgid "Policies"
+msgstr "السياسات"
+
+#: Template/Cell/Footer/display.ctp:25
+msgid "Best Practices"
+msgstr "أفضل الممارسات"
+
+#: Template/Cell/Footer/display.ctp:28
+msgid "Reports"
+msgstr "تقارير"
+
+#: Template/Cell/Footer/display.ctp:31
+msgid "Guidelines"
+msgstr "إرشادات"
+
+#: Template/Element/translate.ctp:4
+msgid "Translate"
+msgstr "ترجمه"
+
+#: Template/Element/translate.ctp:8
+msgid "Translate from:"
+msgstr "الترجمة من:"
+
+#: Template/Element/translation-validation.ctp:16
+msgid "Translations are required. Please translate."
+msgstr "الترجمات مطلوبة. يرجى الترجمة."
+
+#: Template/Element/Flash/error_list.ctp:2
+msgid "The following fields are invalid:"
+msgstr "الحقول التالية غير صالحة:"
+
+#: Template/Element/Flash/verify_email.ctp:8
+msgid "Click here to resend verification mail"
+msgstr "انقر هنا لإعادة إرسال بريد التحقق"
+
+#: Template/Element/Navigation/org-aside.ctp:13 Template/Users/profile.ctp:61
+#: Template/Users/profile.ctp:68
+msgid "Edit Profile"
+msgstr "تعديل الملف الشخصي"
+
+#: Template/Element/Navigation/org-aside.ctp:17
+#: Template/VolunteeringOrganizations/view.ctp:92
+msgid "Overview"
+msgstr "نظرة عامة"
+
+#: Template/Element/Navigation/org-aside.ctp:20
+#: Template/Organizations/messages.ctp:4
+msgid "Messages"
+msgstr "الرسائل"
+
+#: Template/Element/Navigation/org-aside.ctp:23
+msgid "Support Messages"
+msgstr "رسائل الدعم"
+
+#: Template/Element/Navigation/org-aside.ctp:28
+msgid "Program management"
+msgstr "إدارة البرنامج"
+
+#: Template/Element/Navigation/org-aside.ctp:30
+#: Template/Organizations/create_event.ctp:4
+msgid "Create New Program"
+msgstr "إنشاء برنامج جديد"
+
+#: Template/Element/Navigation/org-aside.ctp:33
+#: Template/Element/Navigation/top-nav.ctp:33
+#: Template/Organizations/events.ctp:4 Template/Pages/country_page.ctp:203
+msgid "Programs"
+msgstr "برامج"
+
+#: Template/Element/Navigation/org-aside.ctp:38
+msgid "News management"
+msgstr "إدارة الأخبار"
+
+#: Template/Element/Navigation/org-aside.ctp:40
+#: Template/Organizations/edit_news.ctp:4 Template/Organizations/post_news.ctp:4
+msgid "Post News"
+msgstr "آخر الأخبار"
+
+#: Template/Element/Navigation/org-aside.ctp:43
+#: Template/Element/Navigation/top-nav.ctp:30 Template/News/index.ctp:4
+#: Template/Organizations/index.ctp:28 Template/Organizations/news.ctp:4
+#: Template/Pages/country_page.ctp:47 Template/Pages/index.ctp:55
+msgid "News"
+msgstr "الاخبار"
+
+#: Template/Element/Navigation/org-aside.ctp:47
+msgid "Resources management"
+msgstr "إدارة الموارد"
+
+#: Template/Element/Navigation/org-aside.ctp:49
+msgid "Upload Resource"
+msgstr "تحميل المورد"
+
+#: Template/Element/Navigation/org-aside.ctp:56
+msgid "Admin management"
+msgstr "إدارة الإدارة"
+
+#: Template/Element/Navigation/org-aside.ctp:58
+msgid "New Admin"
+msgstr "مشرف جديد"
+
+#: Template/Element/Navigation/org-aside.ctp:61
+#: Template/Organizations/admins.ctp:4
+msgid "Admins"
+msgstr "المدراء"
+
+#: Template/Element/Navigation/pagination.ctp:3
+msgid "first "
+msgstr "أول"
+
+#: Template/Element/Navigation/pagination.ctp:4
+msgid "prev "
+msgstr "السابق"
+
+#: Template/Element/Navigation/pagination.ctp:6
+msgid "next"
+msgstr "التالي"
+
+#: Template/Element/Navigation/pagination.ctp:7
+msgid "last"
+msgstr "الاخيرة"
+
+#: Template/Element/Navigation/pagination.ctp:9
+msgid ""
+"Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} "
+"total"
+msgstr ""
+"الصفحة {{page}} من {{pages}} ، تعرض {{current}} سجل (سجلات) من إجمالي "
+"{{count}}"
+
+#: Template/Element/Navigation/top-nav.ctp:10
+msgid "Volunteering"
+msgstr "التطوع"
+
+#: Template/Element/Navigation/top-nav.ctp:10
+msgid "Linkage Platform"
+msgstr "منصة الربط"
+
+#: Template/Element/Navigation/top-nav.ctp:21 View/Helper/HtmlHelper.php:818
+msgid "Home"
+msgstr "الرئيسية"
+
+#: Template/Element/Navigation/top-nav.ctp:27
+msgid "Interactive Map"
+msgstr "الخريطة التفاعلية"
+
+#: Template/Element/Navigation/top-nav.ctp:36 Template/Pages/country_page.ctp:51
+#: Template/Pages/index.ctp:61
+msgid "Blogs"
+msgstr "المدونات"
+
+#: Template/Element/Navigation/top-nav.ctp:47
+msgid "AU Home"
+msgstr "الصفحة الرئيسية AU"
+
+#: Template/Element/Navigation/top.ctp:31 Template/Organizations/event.ctp:90
+msgid "View Profile"
+msgstr "عرض الصفحة الشخصية"
+
+#: Template/Element/Navigation/top.ctp:31
+msgid "Public Forums"
+msgstr "المنتديات العامة"
+
+#: Template/Element/Navigation/top.ctp:37
+msgid "Manage Accounts"
+msgstr "إدارة الحسابات"
+
+#: Template/Element/Navigation/top.ctp:42
+msgid "Add Organization"
+msgstr "أضف منظمة"
+
+#: Template/Element/Navigation/top.ctp:43
+msgid "Sign Out"
+msgstr "تسجيل الخروج"
+
+#: Template/Element/Navigation/top.ctp:46
+msgid "Profile"
+msgstr "الملف الشخصي"
+
+#: Template/Element/Navigation/top.ctp:48
+msgid "Logout"
+msgstr "تسجيل الخروج"
+
+#: Template/Element/Navigation/top.ctp:52 Template/Users/change_password.ctp:32
+#: Template/Users/create_account.ctp:27 Template/Users/create_account.ctp:48
+#: Template/Users/create_account.ctp:111 Template/Users/create_account.ctp:171
+#: Template/Users/create_account.ctp:233 Template/Users/create_profile.ctp:22
+#: Template/Users/login.ctp:26 Template/Users/request_reset_password.ctp:28
+msgid "Login"
+msgstr "تسجيل الدخول"
+
+#: Template/Element/Navigation/top.ctp:53 Template/Users/change_password.ctp:31
+#: Template/Users/create_account.ctp:232 Template/Users/login.ctp:28
+#: Template/Users/request_reset_password.ctp:27
+msgid "Register"
+msgstr "تسجيل"
+
+#: Template/Email/html/organization_created_au.ctp:34
+#: Template/Email/html/organization_user_invite.ctp:40
+msgid "Hello,"
+msgstr "مرحبا،"
+
+#: Template/Email/html/organization_created_au.ctp:43
+msgid "A new organization with name \""
+msgstr "منظمة جديدة باسم \""
+
+#: Template/Email/html/organization_created_user.ctp:34
+#: Template/Email/html/organization_user.ctp:39
+#: Template/Email/html/organization_user_added.ctp:39
+#: Template/Email/html/reset_password.ctp:40
+#: Template/Email/html/verification.ctp:40 Template/Email/html/welcome.ctp:40
+msgid "Hi,"
+msgstr "مرحبا بك,"
+
+#: Template/Email/html/organization_created_user.ctp:43
+msgid ""
+"Thank you for registering on the AU VLP platform, You would gain access to "
+"the organization on the platform after the AU has approved your application."
+msgstr ""
+"شكرًا لك على التسجيل في منصة AU VLP ، ستتمكن من الوصول إلى المنظمة على المنصة "
+"بعد موافقة الاتحاد الأفريقي على طلبك."
+
+#: Template/Email/html/organization_created_user.ctp:48
+#: Template/Email/html/verification.ctp:62 Template/Email/html/welcome.ctp:62
+msgid ""
+"You will receive monthly newsletters on volunteers, and volunteering programs "
+"across the continent."
+msgstr ""
+"ستتلقى رسائل إخبارية شهرية عن المتطوعين وبرامج التطوع في جميع أنحاء القارة."
+
+#: Template/Email/html/organization_created_user.ctp:49
+#: Template/Email/html/reset_password.ctp:62
+#: Template/Email/html/verification.ctp:63 Template/Email/html/welcome.ctp:63
+msgid "Regards"
+msgstr "مع تحياتنا"
+
+#: Template/Email/html/organization_user.ctp:41
+msgid ""
+"You have been successfully added as an admin to a volunteering organization."
+msgstr "لقد تمت إضافتك بنجاح كمسؤول إلى منظمة تطوعية."
+
+#: Template/Email/html/organization_user.ctp:51
+msgid "Login Here"
+msgstr "سجل الدخول هنا"
+
+#: Template/Email/html/organization_user.ctp:56
+#: Template/Email/html/organization_user_invite.ctp:51
+msgid "You have been added as a "
+msgstr "لقد تمت إضافتك كـ"
+
+#: Template/Email/html/organization_user.ctp:56
+#: Template/Email/html/organization_user_invite.ctp:51
+msgid " volunteering organization."
+msgstr "المستخدم ليس من خريجي المؤسسة المطلوبة."
+
+#: Template/Email/html/organization_user_added.ctp:41
+msgid "An admin has been added to your volunteering organization."
+msgstr "تمت إضافة مسؤول إلى منظمتك التطوعية."
+
+#: Template/Email/html/organization_user_added.ctp:50
+msgid "You added "
+msgstr "أضفت"
+
+#: Template/Email/html/organization_user_added.ctp:50
+msgid " as a "
+msgstr " ك"
+
+#: Template/Email/html/organization_user_invite.ctp:42
+msgid "You have been invited to be an admin of a volunteering organization."
+msgstr "لقد تمت دعوتك لتكون مسؤولاً عن منظمة تطوعية."
+
+#: Template/Email/html/organization_user_invite.ctp:57
+msgid "Sign Up"
+msgstr "التسجيل"
+
+#: Template/Email/html/reset_password.ctp:42
+msgid "Your password reset email."
+msgstr "البريد الإلكتروني الخاص بإعادة تعيين كلمة المرور."
+
+#: Template/Email/html/reset_password.ctp:51
+msgid "Click the link / button to reset your password."
+msgstr "انقر فوق الارتباط / الزر لإعادة تعيين كلمة المرور الخاصة بك."
+
+#: Template/Email/html/reset_password.ctp:57
+msgid "Reset Password"
+msgstr "إعادة تعيين كلمة المرور"
+
+#: Template/Email/html/verification.ctp:42
+msgid "Verify your email."
+msgstr "قم بتأكيد بريدك الألكتروني."
+
+#: Template/Email/html/verification.ctp:51 Template/Email/html/welcome.ctp:51
+msgid "Click the link / button to verify your email."
+msgstr "انقر فوق الارتباط / الزر للتحقق من بريدك الإلكتروني."
+
+#: Template/Email/html/verification.ctp:57 Template/Email/html/welcome.ctp:57
+#: Template/Users/create_account.ctp:46 Template/Users/create_profile.ctp:20
+msgid "Verify Email"
+msgstr "التحقق من البريد الإلكتروني"
+
+#: Template/Events/index.ctp:4 Template/Pages/index.ctp:52
+#: Template/VolunteeringOrganizations/view.ctp:136
+msgid "Events"
+msgstr "الأحداث"
+
+#: Template/Events/index.ctp:10
+msgid "Search events"
+msgstr "البحث عن  الأحداث"
+
+#: Template/Events/index.ctp:76 Template/News/index.ctp:76
+#: Template/Pages/index.ctp:85 Template/Pages/index.ctp:135
+#: Template/Pages/index.ctp:181 Template/Users/profile.ctp:360
+#: Template/Users/user_profile.ctp:148
+msgid "Organizer"
+msgstr "المنظم"
+
+#: Template/Events/index.ctp:83 Template/Organizations/events.ctp:72
+#: Template/Organizations/resources.ctp:60 Template/Pages/index.ctp:92
+#: Template/Pages/index.ctp:188 Template/Resources/index.ctp:89
+#: Template/Users/profile.ctp:366 Template/Users/user_profile.ctp:154
+#: View/Helper/PaginatorHelper.php:1270
+msgid "View"
+msgstr "عرض"
+
+#: Template/Events/index.ctp:86
+msgid "Please login or signup to view."
+msgstr "الرجاء تسجيل الدخول أو التسجيل للمشاهدة."
+
+#: Template/Events/view.ctp:64
+msgid "Volunteering Oppurtunnities"
+msgstr "تبرعات التطوع"
+
+#: Template/Events/view.ctp:78
+msgid "Show interest"
+msgstr "أظهر الاهتمام"
+
+#: Template/Events/view.ctp:81
+msgid "Volunteering oppurtunity roles"
+msgstr "أدوار الفرصة التطوعية"
+
+#: Template/Events/view.ctp:82 Template/Organizations/edit_event.ctp:209
+msgid "Select Role"
+msgstr "اختر دور"
+
+#: Template/Events/view.ctp:83
+msgid "Submit Interest"
+msgstr "إرسال الاهتمام"
+
+#: Template/Events/view.ctp:88
+msgid "Login to show interest"
+msgstr "تسجيل الدخول لإظهار الاهتمام"
+
+#: Template/Layout/error.ctp:35 Template/Error/error400.ctp:36
+#: Template/Error/error500.ctp:41
+msgid "Error"
+msgstr "خطأ "
+
+#: Template/Layout/error.ctp:43 Template/Users/create_account.ctp:110
+msgid "Back"
+msgstr "رجوع"
+
+#: Template/Layout/organization.ctp:53
+msgid "Go Home"
+msgstr "الذهاب إلى الرئيسية"
+
+#: Template/Organizations/add_admin.ctp:3
+#: Template/Organizations/add_admin.ctp:20
+msgid "Add Admin"
+msgstr "إضافة المسؤول"
+
+#: Template/Organizations/add_admin.ctp:15
+#: Template/Organizations/edit_admin.ctp:15
+msgid "Select role"
+msgstr "حدد الدور"
+
+#: Template/Organizations/add_admin.ctp:15 Template/Organizations/admins.ctp:22
+msgid "Admin"
+msgstr "مشرف"
+
+#: Template/Organizations/add_admin.ctp:15
+msgid "Basic"
+msgstr "أساسي"
+
+#: Template/Organizations/add_event_oppurtunities.ctp:6
+msgid "Volunteering Info"
+msgstr "معلومات التطوع"
+
+#: Template/Organizations/add_event_oppurtunities.ctp:16
+#: Template/Organizations/edit_event.ctp:119
+msgid "Volunteering roles"
+msgstr "أدوار التطوع"
+
+#: Template/Organizations/add_event_oppurtunities.ctp:22
+#: Template/Organizations/edit_event.ctp:162
+#: Template/Organizations/edit_event.ctp:208
+msgid "Volunteering Role"
+msgstr "الدور التطوعي"
+
+#: Template/Organizations/add_event_oppurtunities.ctp:23
+#: Template/Organizations/edit_event.ctp:163
+msgid "Select"
+msgstr "تحديد"
+
+#: Template/Organizations/add_event_oppurtunities.ctp:26
+#: Template/Organizations/add_event_oppurtunities.ctp:68
+#: Template/Organizations/add_event_oppurtunities.ctp:84
+#: Template/Organizations/edit_event.ctp:166
+#: Template/Organizations/edit_event.ctp:212
+msgid "Number Volunteers Needed"
+msgstr "العدد المطلوب من المتطوعين"
+
+#: Template/Organizations/add_event_oppurtunities.ctp:30
+#: Template/Organizations/add_event_oppurtunities.ctp:76
+#: Template/Organizations/add_resource.ctp:99
+#: Template/Organizations/create_event.ctp:105
+#: Template/Organizations/edit_event.ctp:105
+#: Template/Organizations/edit_event.ctp:133
+#: Template/Organizations/edit_event.ctp:170
+#: Template/Organizations/edit_event.ctp:216
+#: Template/Organizations/edit_resource.ctp:99
+#: Template/Organizations/post_news.ctp:89 Template/Organizations/profile.ctp:65
+msgid "Volunteering Categories"
+msgstr "فئات التطوع"
+
+#: Template/Organizations/add_event_oppurtunities.ctp:37
+#: Template/Organizations/edit_event.ctp:191
+msgid "Add more"
+msgstr "أضف المزيد"
+
+#: Template/Organizations/add_event_oppurtunities.ctp:44
+#: Template/Organizations/add_resource.ctp:111
+#: Template/Organizations/create_event.ctp:112
+#: Template/Organizations/edit_admin.ctp:24
+#: Template/Organizations/edit_event.ctp:112
+#: Template/Organizations/edit_news.ctp:95
+#: Template/Organizations/edit_resource.ctp:110
+#: Template/Organizations/post_news.ctp:94
+msgid "Save"
+msgstr "حفظ"
+
+#: Template/Organizations/add_resource.ctp:4
+msgid "Add New Resource"
+msgstr "إضافة مورد جديد"
+
+#: Template/Organizations/add_resource.ctp:36
+msgid "Basic Info"
+msgstr "معلومات أساسية"
+
+#: Template/Organizations/add_resource.ctp:84
+#: Template/Organizations/edit_resource.ctp:84
+msgid "Resource Type"
+msgstr "نوع المورد"
+
+#: Template/Organizations/add_resource.ctp:85
+#: Template/Organizations/edit_resource.ctp:85
+#: Template/Organizations/resources.ctp:18
+msgid "Select Type"
+msgstr "حدد النوع"
+
+#: Template/Organizations/add_resource.ctp:89
+#: Template/Organizations/create_event.ctp:72
+#: Template/Organizations/edit_event.ctp:72
+#: Template/Organizations/edit_news.ctp:81
+#: Template/Organizations/edit_resource.ctp:89
+#: Template/Organizations/post_news.ctp:80
+msgid "Region"
+msgstr "المنطقة"
+
+#: Template/Organizations/add_resource.ctp:90
+#: Template/Organizations/create_event.ctp:73
+#: Template/Organizations/edit_event.ctp:73
+#: Template/Organizations/edit_news.ctp:82
+#: Template/Organizations/edit_resource.ctp:90
+#: Template/Organizations/post_news.ctp:81
+msgid "All Region"
+msgstr "كل المنطقة"
+
+#: Template/Organizations/add_resource.ctp:94
+#: Template/Organizations/create_event.ctp:76
+#: Template/Organizations/edit_event.ctp:76
+#: Template/Organizations/edit_resource.ctp:94
+#: Template/Organizations/index.ctp:65 Template/Organizations/profile.ctp:77
+#: Template/Organizations/profile.ctp:148
+#: Template/Organizations/resources.ctp:32
+msgid "Country"
+msgstr "الدولة"
+
+#: Template/Organizations/add_resource.ctp:95
+#: Template/Organizations/add_resource.ctp:146
+#: Template/Organizations/edit_resource.ctp:95
+#: Template/Organizations/edit_resource.ctp:145
+#: Template/Organizations/index.ctp:82 Template/Organizations/resources.ctp:51
+#: Template/Pages/country_page.ctp:105
+msgid "All"
+msgstr "الكل"
+
+#: Template/Organizations/add_resource.ctp:104
+#: Template/Organizations/admins.ctp:13 Template/Organizations/admins.ctp:25
+#: Template/Organizations/edit_admin.ctp:18
+#: Template/Organizations/edit_news.ctp:84
+#: Template/Organizations/edit_resource.ctp:104
+#: Template/Organizations/events.ctp:33 Template/Organizations/news.ctp:42
+#: Template/Organizations/post_news.ctp:83
+#: Template/Organizations/resources.ctp:33
+msgid "Status"
+msgstr "الحالة"
+
+#: Template/Organizations/admins.ctp:9 Template/Organizations/events.ctp:10
+#: Template/Organizations/news.ctp:10 Template/Organizations/resources.ctp:10
+msgid "Search"
+msgstr "بحث"
+
+#: Template/Organizations/admins.ctp:23 Template/Organizations/admins.ctp:84
+#: Template/Organizations/edit_admin.ctp:14
+#: Template/Organizations/edit_event.ctp:131
+msgid "Role"
+msgstr "دور"
+
+#: Template/Organizations/admins.ctp:24
+msgid "Date added"
+msgstr "تاريخ الاضافة"
+
+#: Template/Organizations/admins.ctp:26 Template/Organizations/admins.ctp:86
+#: Template/Organizations/events.ctp:34 Template/Organizations/news.ctp:43
+#: Template/Organizations/resources.ctp:34
+msgid "Action"
+msgstr "الإجراء"
+
+#: Template/Organizations/admins.ctp:55 Template/Organizations/admins.ctp:102
+#: Template/Organizations/events.ctp:74 Template/Organizations/news.ctp:73
+#: Template/Organizations/profile.ctp:12 Template/Organizations/resources.ctp:62
+#: Template/Users/profile.ctp:13
+msgid "Edit"
+msgstr "تعديل"
+
+#: Template/Organizations/admins.ctp:77
+msgid "Pending Invites"
+msgstr "دعوات بانتظار المراجعة"
+
+#: Template/Organizations/admins.ctp:83 Template/Organizations/edit_admin.ctp:11
+#: Template/Organizations/profile.ctp:90
+msgid "Email"
+msgstr "البريد الإلكتروني"
+
+#: Template/Organizations/admins.ctp:85
+msgid "Date sent"
+msgstr "تاريخ الإرسال"
+
+#: Template/Organizations/au_messages.ctp:4
+msgid "AU Messages"
+msgstr "رسائل الاتحاد الأفريقي"
+
+#: Template/Organizations/au_messages.ctp:14
+#: Template/Organizations/au_messages.ctp:31
+msgid "AU Support"
+msgstr "دعم الاتحاد الافريقي"
+
+#: Template/Organizations/create_event.ctp:77
+#: Template/Organizations/edit_event.ctp:77
+#: Template/Organizations/profile.ctp:149 Template/Pages/interactive_map.ctp:6
+#: Template/VolunteeringOrganizations/index.ctp:35
+msgid "Select Country"
+msgstr "اختر الدولة"
+
+#: Template/Organizations/create_event.ctp:80
+#: Template/Organizations/edit_event.ctp:80
+#: Template/Organizations/profile.ctp:81 Template/Organizations/profile.ctp:152
+#: Template/Users/profile.ctp:121
+msgid "City"
+msgstr "المدينة"
+
+#: Template/Organizations/create_event.ctp:81
+#: Template/Organizations/edit_event.ctp:81
+msgid "Select City"
+msgstr "اختار المدينة"
+
+#: Template/Organizations/create_event.ctp:84
+#: Template/Organizations/edit_event.ctp:84
+#: Template/Organizations/profile.ctp:85 Template/Organizations/profile.ctp:143
+#: Template/Users/create_account.ctp:139
+msgid "Address"
+msgstr "العنوان"
+
+#: Template/Organizations/create_event.ctp:99
+#: Template/Organizations/edit_event.ctp:99
+msgid "Start Date"
+msgstr "تاريخ البدء"
+
+#: Template/Organizations/create_event.ctp:102
+#: Template/Organizations/edit_event.ctp:102
+msgid "End Date"
+msgstr "تاريخ الانتهاء"
+
+#: Template/Organizations/edit_admin.ctp:3
+msgid "Edit Admin"
+msgstr "تحرير المسؤول"
+
+#: Template/Organizations/edit_event.ctp:4 Template/Organizations/event.ctp:24
+msgid "Edit Program"
+msgstr "تحرير البرنامج"
+
+#: Template/Organizations/edit_event.ctp:132
+msgid "Numbers needed"
+msgstr "الأرقام المطلوبة"
+
+#: Template/Organizations/edit_event.ctp:134
+msgid "Actions"
+msgstr "الإجراءات"
+
+#: Template/Organizations/edit_event.ctp:146
+msgid "edit"
+msgstr "تحرير"
+
+#: Template/Organizations/edit_event.ctp:152
+#: Template/Organizations/edit_event.ctp:197
+msgid "Edit Oppurtunity"
+msgstr "تحرير الفرصة"
+
+#: Template/Organizations/edit_event.ctp:177
+#: Template/Organizations/edit_event.ctp:223
+#: Template/Organizations/profile.ctp:120 Template/Organizations/profile.ctp:159
+#: Template/Users/profile.ctp:128 Template/Users/profile.ctp:258
+#: Template/Users/profile.ctp:290
+msgid "Save Changes"
+msgstr "حفظ التغييرات"
+
+#: Template/Organizations/edit_event.ctp:217
+msgid "Select Categories"
+msgstr "حدد الفئات"
+
+#: Template/Organizations/edit_news.ctp:87
+#: Template/Organizations/post_news.ctp:86
+msgid "Publishing Categories"
+msgstr "فئات النشر"
+
+#: Template/Organizations/edit_resource.ctp:4
+msgid "Edit Resource"
+msgstr "تحرير الموارد"
+
+#: Template/Organizations/event.ctp:18 Template/Pages/country_page.ctp:21
+#: Template/Users/profile.ctp:173 Template/Users/user_profile.ctp:28
+#: Template/Users/volunteering_interests.ctp:22
+msgid "Location"
+msgstr "الموقع"
+
+#: Template/Organizations/event.ctp:32 Template/Organizations/index.ctp:15
+msgid "Volunteers Interested"
+msgstr "المتطوعين مهتمين"
+
+#: Template/Organizations/event.ctp:41
+msgid "Event link"
+msgstr "رابط الحدث"
+
+#: Template/Organizations/event.ctp:51
+msgid "Volunteering Interests"
+msgstr "اهتمامات التطوع"
+
+#: Template/Organizations/event.ctp:92
+msgid "Check-in/Approve Request"
+msgstr "تسجيل الوصول / الموافقة على الطلب"
+
+#: Template/Organizations/event.ctp:94
+msgid "Decline Request"
+msgstr "رفض الطلب"
+
+#: Template/Organizations/event.ctp:120 Template/Users/profile.ctp:412
+msgid "Copied to clipboard!"
+msgstr "نسخ إلى الحافظة!"
+
+#: Template/Organizations/events.ctp:11 Template/Organizations/resources.ctp:11
+msgid "Search program"
+msgstr "برنامج البحث"
+
+#: Template/Organizations/events.ctp:15
+msgid "Event status"
+msgstr "حالة الحدث"
+
+#: Template/Organizations/events.ctp:18 Template/Organizations/news.ctp:18
+msgid "Select Status"
+msgstr "-حدد الحالة"
+
+#: Template/Organizations/events.ctp:30
+msgid "Program"
+msgstr "البرنامج"
+
+#: Template/Organizations/events.ctp:32
+msgid "Interested"
+msgstr "مهتم"
+
+#: Template/Organizations/events.ctp:58
+msgid "Past"
+msgstr "الماضي"
+
+#: Template/Organizations/events.ctp:60
+msgid "Ongoing"
+msgstr "جارية الان"
+
+#: Template/Organizations/events.ctp:62
+msgid "Upcoming"
+msgstr "القادمة"
+
+#: Template/Organizations/inactive.ctp:3
+msgid "Organization Inactive!"
+msgstr "المنظمة غير نشطة!"
+
+#: Template/Organizations/inactive.ctp:4
+msgid ""
+"You will gain access to the organization on the platform after the AU has "
+"approved your application."
+msgstr ""
+"ستتمكن من الوصول إلى المنظمة على المنصة بعد موافقة الاتحاد الأفريقي على طلبك."
+
+#: Template/Organizations/inactive.ctp:5
+msgid "Please contact the AU admin for further assistance"
+msgstr "يرجى الاتصال بمسؤول AU للحصول على مزيد من المساعدة"
+
+#: Template/Organizations/index.ctp:3
+msgid "Upcoming Programs"
+msgstr "البرامج القادمة"
+
+#: Template/Organizations/index.ctp:4 Template/Pages/country_page.ctp:92
+#: Template/Pages/country_page.ctp:96
+msgid "See All"
+msgstr "مشاهدة الكل"
+
+#: Template/Organizations/index.ctp:24
+msgid "Recent Updates"
+msgstr "التحديثات الأخيرة"
+
+#: Template/Organizations/index.ctp:33 Template/Organizations/news.ctp:41
+msgid "Date Posted"
+msgstr "تاريخ النشر"
+
+#: Template/Organizations/index.ctp:64 Template/Organizations/resources.ctp:31
+msgid "Type"
+msgstr "النوع"
+
+#: Template/Organizations/message.ctp:4 Template/Organizations/message.ctp:26
+#: Template/Organizations/message.ctp:80 Template/Organizations/messages.ctp:26
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/log_panel.ctp:29
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/timer_panel.ctp:32
+msgid "Message"
+msgstr "الرسالة"
+
+#: Template/Organizations/message.ctp:5
+msgid "Back to messages"
+msgstr "رجوع إلى الرسائل"
+
+#: Template/Organizations/message.ctp:12 Template/Organizations/messages.ctp:5
+#: Template/Organizations/messages.ctp:12
+msgid "New message"
+msgstr "رسالة جديدة"
+
+#: Template/Organizations/message.ctp:22 Template/Organizations/messages.ctp:22
+#: Template/Users/create_account.ctp:20
+msgid "Organization"
+msgstr "المنظمة"
+
+#: Template/Organizations/messages.ctp:23
+msgid "Select Organization"
+msgstr "حدد المنظمة"
+
+#: Template/Organizations/messages.ctp:56
+msgid "Me"
+msgstr "أنا"
+
+#: Template/Organizations/messages.ctp:66
+msgid "Read Message"
+msgstr "قراءة الرسالة"
+
+#: Template/Organizations/news.ctp:11
+msgid "Search news"
+msgstr "البحث عن الأخبار"
+
+#: Template/Organizations/news.ctp:15
+msgid "News status"
+msgstr "حالة الأخبار"
+
+#: Template/Organizations/news.ctp:25
+msgid "Volunteering category"
+msgstr "فئة التطوع"
+
+#: Template/Organizations/news.ctp:28
+msgid "Select Category"
+msgstr "اختر تصنيف"
+
+#: Template/Organizations/profile.ctp:3
+msgid "Edit Organization"
+msgstr "تحرير المنظمة"
+
+#: Template/Organizations/profile.ctp:19
+msgid "Edit Logo"
+msgstr "تحرير الشعار"
+
+#: Template/Organizations/profile.ctp:36 Template/Users/profile.ctp:38
+msgid "Select image"
+msgstr "اختر صورة"
+
+#: Template/Organizations/profile.ctp:45 Template/Users/profile.ctp:47
+msgid "Upload"
+msgstr "رفع"
+
+#: Template/Organizations/profile.ctp:72
+msgid "Contact Details"
+msgstr "معلومات الاتصال"
+
+#: Template/Organizations/profile.ctp:93 Template/Users/create_account.ctp:144
+msgid "Phone Number"
+msgstr "رقم الهاتف"
+
+#: Template/Organizations/profile.ctp:100
+msgid "Contact Links"
+msgstr "روابط الاتصال"
+
+#: Template/Organizations/profile.ctp:105 Template/Users/create_account.ctp:145
+msgid "Website"
+msgstr "الموقع الالكتروني"
+
+#: Template/Organizations/profile.ctp:108
+msgid "Facebook Url"
+msgstr "رابط فيس بوك"
+
+#: Template/Organizations/profile.ctp:111
+msgid "Instagram Url"
+msgstr "رابط لانستجرام"
+
+#: Template/Organizations/profile.ctp:114
+msgid "Twitter Url"
+msgstr "رابط تويتر"
+
+#: Template/Organizations/profile.ctp:126
+msgid "Other Offices"
+msgstr "مكاتب أخرى"
+
+#: Template/Organizations/profile.ctp:127 Template/Organizations/profile.ctp:133
+msgid "Add Office"
+msgstr "أضف مكتب"
+
+#: Template/Organizations/profile.ctp:176
+msgid "Delete selected office?"
+msgstr "هل تريد حذف المكتب المحدد؟"
+
+#: Template/Organizations/profile.ctp:340 Template/Users/profile.ctp:475
+msgid "Please select an image"
+msgstr "الرجاء تحديد صورة"
+
+#: Template/Organizations/resources.ctp:15
+msgid "Resource type"
+msgstr "نوع المورد"
+
+#: Template/Pages/about_us.ctp:3
+msgid "About us"
+msgstr "معلومات عنا"
+
+#: Template/Pages/choose_language.ctp:16
+msgid "AU Youths | Choose Language"
+msgstr "شباب الاتحاد الافريقي | اختر اللغة"
+
+#: Template/Pages/country_page.ctp:9
+msgid "Capital"
+msgstr "حرف كبير"
+
+#: Template/Pages/country_page.ctp:17
+msgid "Country Informations"
+msgstr "معلومات الدولة"
+
+#: Template/Pages/country_page.ctp:27
+msgid "Population"
+msgstr "تعداد السكان"
+
+#: Template/Pages/country_page.ctp:33
+msgid "Official Language"
+msgstr "لغة رسمية"
+
+#: Template/Pages/country_page.ctp:40
+msgid "Quick Links"
+msgstr "روابط سريعة"
+
+#: Template/Pages/country_page.ctp:44
+msgid "Country Resources"
+msgstr "موارد البلد"
+
+#: Template/Pages/country_page.ctp:60
+msgid "Volunteerism Impact"
+msgstr "أثر التطوع"
+
+#: Template/Pages/country_page.ctp:67
+msgid "Hours Volunteered"
+msgstr "ساعات التطوع"
+
+#: Template/Pages/country_page.ctp:71
+msgid "GDP Contribution"
+msgstr "مساهمة الناتج المحلي الإجمالي"
+
+#: Template/Pages/country_page.ctp:75
+msgid "People Reached"
+msgstr "الناس وصلت"
+
+#: Template/Pages/country_page.ctp:83
+msgid "Volunteerism Statistics"
+msgstr "إحصاءات التطوع"
+
+#: Template/Pages/country_page.ctp:92 Template/Pages/interactive_map.ctp:220
+#: Template/VolunteeringOrganizations/index.ctp:4
+msgid "Volunteering Organizations"
+msgstr "المنظمات التطوعية"
+
+#: Template/Pages/country_page.ctp:96
+msgid "Volunteering Programs"
+msgstr "برامج التطوع"
+
+#: Template/Pages/country_page.ctp:101
+msgid "Select Chart Goal"
+msgstr "حدد هدف المخطط"
+
+#: Template/Pages/country_page.ctp:103 Template/Pages/index.ctp:293
+#: Template/Pages/interactive_map.ctp:25
+msgid "Loading..."
+msgstr "جار التحميل..."
+
+#: Template/Pages/country_page.ctp:118
+msgid "Number of Volunteers"
+msgstr "عدد المتطوعين"
+
+#: Template/Pages/country_page.ctp:125 Template/Users/create_profile.ctp:45
+#: Template/Users/profile.ctp:89 Template/VolunteeringOrganizations/view.ctp:107
+msgid "Female"
+msgstr "أنثى"
+
+#: Template/Pages/country_page.ctp:134 Template/Users/create_profile.ctp:45
+#: Template/Users/profile.ctp:89 Template/VolunteeringOrganizations/view.ctp:103
+msgid "Male"
+msgstr "ذكر"
+
+#: Template/Pages/country_page.ctp:143
+msgid "Age Contribution"
+msgstr "مساهمة العمر"
+
+#: Template/Pages/country_page.ctp:202
+msgid "OrganizationsTypes"
+msgstr "المنظمات"
+
+#: Template/Pages/country_page.ctp:208
+msgid "Agenda 2063"
+msgstr "أجندة 2063"
+
+#: Template/Pages/index.ctp:20
+msgid "Explore"
+msgstr "اكتشف"
+
+#: Template/Pages/index.ctp:47
+msgid "Latest Updates"
+msgstr "آخر المستجدات"
+
+#: Template/Pages/index.ctp:191 Template/Resources/index.ctp:92
+msgid "Please login or signup to view resources"
+msgstr "الرجاء تسجيل الدخول أو الاشتراك لعرض الموارد"
+
+#: Template/Pages/index.ctp:270 Template/Pages/interactive_map.ctp:67
+msgid "Tweets by"
+msgstr "تغريدات بواسطة"
+
+#: Template/Pages/index.ctp:275 Template/Pages/interactive_map.ctp:72
+#: Template/VolunteeringOrganizations/view.ctp:42
+msgid "CONNECT WITH US"
+msgstr "اتصل بنا"
+
+#: Template/Pages/index.ctp:284
+msgid "Newsletter"
+msgstr "النشرة الإخبارية"
+
+#: Template/Pages/index.ctp:285 Template/Pages/interactive_map.ctp:82
+msgid "Select the newsletter(s) to which you want to subscribe or unsubscribe."
+msgstr ""
+"حدد النشرة (الرسائل) الإخبارية التي تريد الاشتراك فيها أو إلغاء الاشتراك فيها."
+
+#: Template/Pages/index.ctp:288 Template/Pages/interactive_map.ctp:84
+msgid "Enter your email"
+msgstr "أدخل بريدك الإلكتروني"
+
+#: Template/Pages/index.ctp:291 Template/Pages/interactive_map.ctp:86
+msgid "Subscribe"
+msgstr "الاشتراك"
+
+#: Template/Pages/index.ctp:303
+msgid "Weekly"
+msgstr "أسبوعي"
+
+#: Template/Pages/index.ctp:311
+msgid "Monthly"
+msgstr "شهري"
+
+#: Template/Pages/index.ctp:319
+msgid "Quarterly"
+msgstr "ربع سنوي"
+
+#: Template/Pages/index.ctp:326 Template/Pages/interactive_map.ctp:89
+msgid ""
+"AU-VLP is a continental development program that recruits and works with "
+"youth volunteers, to work in all 54 countries across the African Union"
+msgstr ""
+"AU-VLP هو برنامج تنمية قاري يقوم بتجنيد المتطوعين الشباب والعمل معهم ، للعمل "
+"في جميع البلدان البالغ عددها 54 في جميع أنحاء الاتحاد الأفريقي"
+
+#: Template/Pages/interactive_map.ctp:7
+msgid "All of Africa"
+msgstr "كل افريقيا"
+
+#: Template/Pages/interactive_map.ctp:11
+msgid "Volunteering Programs in Africa"
+msgstr "برامج التطوع في أفريقيا"
+
+#: Template/Pages/interactive_map.ctp:12 Template/Pages/interactive_map.ctp:224
+msgid "Volunteer Events"
+msgstr "أحداث تطوعية"
+
+#: Template/Pages/interactive_map.ctp:12
+msgid "Volunteer Organizations"
+msgstr "المنظمات التطوعية"
+
+#: Template/Pages/interactive_map.ctp:15 Template/Pages/interactive_map.ctp:16
+msgid "Select Sector"
+msgstr "حدد القطاع"
+
+#: Template/Pages/interactive_map.ctp:36
+msgid "Top 10 Nations"
+msgstr "أفضل 10 دول"
+
+#: Template/Pages/interactive_map.ctp:44
+msgid "Bottom 10 Nations"
+msgstr "أسفل 10 دول"
+
+#: Template/Pages/interactive_map.ctp:81
+msgid "NewsLetter"
+msgstr "نشرة"
+
+#: Template/Pages/interactive_map.ctp:191
+msgid "View Progam"
+msgstr "مشاهدة ملف Progam"
+
+#: Template/Resources/index.ctp:30
+#: Template/VolunteeringOrganizations/index.ctp:30
+msgid "ALL"
+msgstr "الكل"
+
+#: Template/Resources/index.ctp:47
+msgid "Select Resource Type"
+msgstr "حدد نوع المورد"
+
+#: Template/Resources/index.ctp:80
+msgid "Date Published"
+msgstr "تاريخ النشر"
+
+#: Template/Resources/index.ctp:82
+msgid "Publisher"
+msgstr "الناشر"
+
+#: Template/Users/change_password.ctp:9 Template/Users/create_account.ctp:38
+#: Template/Users/create_profile.ctp:12 Template/Users/login.ctp:9
+#: Template/Users/request_reset_password.ctp:9
+msgid "Organizations and volunteers working together for peace and development"
+msgstr "المنظمات والمتطوعون الذين يعملون معًا من أجل السلام والتنمية"
+
+#: Template/Users/change_password.ctp:10 Template/Users/create_account.ctp:39
+#: Template/Users/create_profile.ctp:13 Template/Users/login.ctp:10
+#: Template/Users/request_reset_password.ctp:10
+msgid ""
+"The African Union-VLP contributes to peace and development through "
+"volunteerism across the Africa continent."
+msgstr ""
+"يساهم الاتحاد الأفريقي VLP في السلام والتنمية من خلال العمل التطوعي في جميع "
+"أنحاء القارة الأفريقية."
+
+#: Template/Users/change_password.ctp:16
+msgid "Change Password"
+msgstr "تغيير كلمة المرور"
+
+#: Template/Users/change_password.ctp:22
+msgid "Current Password"
+msgstr "كلمة المرور الحالية"
+
+#: Template/Users/change_password.ctp:24
+msgid "New Password"
+msgstr "كلمة المرور الجديدة"
+
+#: Template/Users/change_password.ctp:25
+msgid "Confirm Password"
+msgstr "تأكيد كلمة المرور"
+
+#: Template/Users/change_password.ctp:31 Template/Users/login.ctp:28
+#: Template/Users/request_reset_password.ctp:27
+msgid "Don’t have an account yet?"
+msgstr "لا تملك حسابا حتى الآن؟"
+
+#: Template/Users/create_account.ctp:11
+msgid "Volunteer"
+msgstr "تطوع"
+
+#: Template/Users/create_account.ctp:13 Template/Users/create_account.ctp:22
+msgid ""
+"We choose to focus on the individual child and the challenges they may face."
+msgstr "نختار التركيز على الطفل الفردي والتحديات التي قد يواجهونها."
+
+#: Template/Users/create_account.ctp:27 Template/Users/create_account.ctp:111
+#: Template/Users/create_account.ctp:171 Template/Users/create_account.ctp:233
+msgid "Already have an account?"
+msgstr "هل لديك حساب بالفعل؟"
+
+#: Template/Users/create_account.ctp:47
+msgid ""
+"We sent you an email containing verification instruction. Please follow the "
+"instructions to verify your email."
+msgstr ""
+"لقد أرسلنا لك رسالة بريد إلكتروني تحتوي على تعليمات التحقق. يرجى اتباع "
+"التعليمات للتحقق من بريدك الإلكتروني."
+
+#: Template/Users/create_account.ctp:54
+msgid "Organization Registration"
+msgstr "تسجيل المنظمة"
+
+#: Template/Users/create_account.ctp:61 Template/Users/create_account.ctp:120
+#: Template/Users/create_account.ctp:185
+msgid "Step 1"
+msgstr "الخطوة الاولى"
+
+#: Template/Users/create_account.ctp:65 Template/Users/create_account.ctp:124
+#: Template/Users/create_account.ctp:189
+msgid "Step 2"
+msgstr "الخطوة الثانية"
+
+#: Template/Users/create_account.ctp:75 Template/Users/create_account.ctp:198
+msgid "Create an account"
+msgstr "انشئ حساب"
+
+#: Template/Users/create_account.ctp:78 Template/Users/create_account.ctp:201
+msgid "First name"
+msgstr "الاسم الاول"
+
+#: Template/Users/create_account.ctp:79 Template/Users/create_account.ctp:202
+msgid "Last name"
+msgstr "الاسم الاخير"
+
+#: Template/Users/create_account.ctp:80 Template/Users/create_account.ctp:203
+#: Template/Users/login.ctp:21 Template/Users/request_reset_password.ctp:21
+msgid "Email address"
+msgstr "عنوان البريد الإلكتروني"
+
+#: Template/Users/create_account.ctp:81 Template/Users/create_account.ctp:204
+#: Template/Users/login.ctp:22
+msgid "Password"
+msgstr "كلمة المرور"
+
+#: Template/Users/create_account.ctp:82 Template/Users/create_account.ctp:205
+msgid "Confirm password"
+msgstr "تأكيد كلمة المرور"
+
+#: Template/Users/create_account.ctp:87 Template/Users/create_account.ctp:210
+msgid "Preferred language"
+msgstr "اللغة المفضلة"
+
+#: Template/Users/create_account.ctp:97 Template/Users/create_account.ctp:220
+msgid "What is your interest on the Continental Platform"
+msgstr "ما هي اهتماماتك على المنصة القارية"
+
+#: Template/Users/create_account.ctp:134
+msgid "Organization details"
+msgstr "تفاصيل المنظمة"
+
+#: Template/Users/create_account.ctp:137
+msgid "Organization name"
+msgstr "اسم المؤسسة"
+
+#: Template/Users/create_account.ctp:138
+msgid "Short description"
+msgstr "وصف قصير"
+
+#: Template/Users/create_account.ctp:142
+msgid "Select country"
+msgstr "اختر البلاد"
+
+#: Template/Users/create_account.ctp:143
+msgid "Select city"
+msgstr "اختر مدينة"
+
+#: Template/Users/create_account.ctp:154
+msgid "Type of Organization"
+msgstr "نوع المنظمة"
+
+#: Template/Users/create_account.ctp:163
+msgid "Date of establishment"
+msgstr "تاريخ التأسيس"
+
+#: Template/Users/create_account.ctp:170
+msgid "Next"
+msgstr "التالى"
+
+#: Template/Users/create_account.ctp:180
+msgid "Volunteer Registration"
+msgstr "تسجيل المتطوعين"
+
+#: Template/Users/create_profile.ctp:29
+msgid "User Registration"
+msgstr "تسجيل المستخدم"
+
+#: Template/Users/create_profile.ctp:35
+msgid "Create Profile"
+msgstr "إنشاء ملف تعريف"
+
+#: Template/Users/create_profile.ctp:38 Template/Users/profile.ctp:104
+msgid "Current Nationality"
+msgstr "الجنسية الحالية"
+
+#: Template/Users/create_profile.ctp:44 Template/Users/profile.ctp:88
+msgid "Gender"
+msgstr "الجنس"
+
+#: Template/Users/create_profile.ctp:50 Template/Users/profile.ctp:254
+msgid "Short Profile"
+msgstr "ملف تعريف قصير"
+
+#: Template/Users/create_profile.ctp:51
+msgid "Do you have volunteering experience"
+msgstr "هل لديك خبرة في التطوع"
+
+#: Template/Users/create_profile.ctp:53
+msgid "Which program did you volunteer with"
+msgstr "ما البرنامج الذي تطوعت فيه"
+
+#: Template/Users/create_profile.ctp:55
+msgid "Program name"
+msgstr "إسم البرنامج"
+
+#: Template/Users/create_profile.ctp:60
+msgid "Year of service"
+msgstr "سنة الخدمة"
+
+#: Template/Users/create_profile.ctp:61
+msgid "Select year"
+msgstr "اختر السنه"
+
+#: Template/Users/create_profile.ctp:64
+msgid "Country Served in"
+msgstr "خدم البلد في"
+
+#: Template/Users/create_profile.ctp:74
+msgid "Volunteering Interest"
+msgstr "مصلحة التطوع"
+
+#: Template/Users/login.ctp:16
+msgid "Login to your account"
+msgstr "تسجيل الدخول إلى حسابك"
+
+#: Template/Users/login.ctp:29
+msgid "Forgot Password ?"
+msgstr "تغيير كلمة المرور؟"
+
+#: Template/Users/profile.ctp:5
+msgid "Email Unverified"
+msgstr "لم يتم التحقق من البريد الإلكتروني"
+
+#: Template/Users/profile.ctp:20
+msgid "Edit Profile Image"
+msgstr "تحرير صورة الملف الشخصي"
+
+#: Template/Users/profile.ctp:58 Template/Users/user_profile.ctp:12
+#: Template/Users/volunteering_interests.ctp:16
+msgid " Years"
+msgstr "سنوات"
+
+#: Template/Users/profile.ctp:62
+msgid "Share"
+msgstr "شارك"
+
+#: Template/Users/profile.ctp:84
+msgid "Date of birth"
+msgstr "تاريخ الميلاد"
+
+#: Template/Users/profile.ctp:92 Template/Users/profile.ctp:181
+#: Template/Users/user_profile.ctp:36
+msgid "Marital Status"
+msgstr "الحالة الاجتماعية"
+
+#: Template/Users/profile.ctp:93
+msgid "Single"
+msgstr "أعزب"
+
+#: Template/Users/profile.ctp:93
+msgid "Married"
+msgstr "متزوج"
+
+#: Template/Users/profile.ctp:96 Template/Users/profile.ctp:189
+#: Template/Users/user_profile.ctp:44
+#: Template/Users/volunteering_interests.ctp:30
+msgid "Availability"
+msgstr "توفر"
+
+#: Template/Users/profile.ctp:97
+msgid "Part time"
+msgstr "دوام جزئي"
+
+#: Template/Users/profile.ctp:97
+msgid "Full time"
+msgstr "دوام كامل"
+
+#: Template/Users/profile.ctp:100
+msgid "Nationality at birth"
+msgstr "الجنسية عند الولادة"
+
+#: Template/Users/profile.ctp:108
+msgid "Place of birth"
+msgstr "مكان الولادة"
+
+#: Template/Users/profile.ctp:111
+msgid "Phone number"
+msgstr "رقم الهاتف"
+
+#: Template/Users/profile.ctp:114
+msgid "Current address"
+msgstr "العنوان الحالي"
+
+#: Template/Users/profile.ctp:117
+msgid "Resident Country"
+msgstr "البلد المقيم"
+
+#: Template/Users/profile.ctp:138
+msgid "Share Profile"
+msgstr "مشاركة الملف الشخصي"
+
+#: Template/Users/profile.ctp:144
+msgid "Here is the link to your profile"
+msgstr "هنا الرابط لملفك الشخصي"
+
+#: Template/Users/profile.ctp:148
+msgid "Copy to clipboard"
+msgstr "نسخ إلى الحافظة"
+
+#: Template/Users/profile.ctp:153
+msgid "Close"
+msgstr "إغلاق"
+
+#: Template/Users/profile.ctp:165 Template/Users/user_profile.ctp:20
+msgid "National By Birth"
+msgstr "الوطنية بالولادة"
+
+#: Template/Users/profile.ctp:197 Template/Users/user_profile.ctp:52
+#: Template/Users/volunteering_interests.ctp:38
+msgid "Member Since"
+msgstr "عضو منذ"
+
+#: Template/Users/profile.ctp:209 Template/Users/user_profile.ctp:64
+#: Template/Users/volunteering_interests.ctp:52
+#: Template/VolunteeringOrganizations/view.ctp:24
+msgid "Contact Informations"
+msgstr "معلومات الاتصال"
+
+#: Template/Users/profile.ctp:224 Template/Users/volunteering_interests.ctp:67
+msgid "Alumni Forum"
+msgstr "منتدى الخريجين"
+
+#: Template/Users/profile.ctp:246
+msgid "Edit About"
+msgstr "تحرير حول"
+
+#: Template/Users/profile.ctp:271
+msgid "Platform Interests"
+msgstr "اهتمامات المنصة"
+
+#: Template/Users/profile.ctp:278
+msgid "Select Platform Interests"
+msgstr "حدد اهتمامات النظام الأساسي"
+
+#: Template/Users/profile.ctp:303 Template/Users/user_profile.ctp:91
+msgid "Volunteering Experience"
+msgstr "تجربة التطوع"
+
+#: Template/Users/profile.ctp:313 Template/Users/user_profile.ctp:101
+msgid "Badges"
+msgstr "الأوسمة"
+
+#: Template/Users/profile.ctp:337 Template/Users/user_profile.ctp:125
+#: Template/Users/volunteering_interests.ctp:82
+msgid "Volunteering Interest History"
+msgstr "تاريخ الاهتمام بالتطوع"
+
+#: Template/Users/request_reset_password.ctp:16
+msgid "Request Reset Password"
+msgstr "طلب إعادة تعيين كلمة المرور"
+
+#: Template/VolunteeringOrganizations/index.ctp:10
+msgid "Search Volunteering Organizations"
+msgstr "ابحث عن المنظمات التطوعية"
+
+#: Template/VolunteeringOrganizations/index.ctp:74
+#: Template/VolunteeringOrganizations/view.ctp:99
+msgid "Volunteers"
+msgstr "المتطوعين"
+
+#: Template/VolunteeringOrganizations/index.ctp:78
+#: Template/VolunteeringOrganizations/view.ctp:111
+msgid "Sectors"
+msgstr "القطاعات"
+
+#: Template/VolunteeringOrganizations/index.ctp:85
+msgid "View Details"
+msgstr "عرض التفاصيل"
+
+#: View/AppView.php:85
+msgid "Published"
+msgstr "منشور"
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/wyrihaximus/twig-view/src/Shell/CompileShell.php:151
+msgid "Searches and precompiles all twig templates it finds."
+msgstr "يبحث ويجمع مسبقًا جميع قوالب الغصين التي يعثر عليها."
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/wyrihaximus/twig-view/src/Shell/CompileShell.php:159
+msgid "Searches and precompiles all twig templates for a specific plugin."
+msgstr "يبحث ويجمع مسبقًا جميع قوالب الغصين لمكوِّن إضافي محدد."
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/wyrihaximus/twig-view/src/Shell/CompileShell.php:167
+msgid "Precompile a specific file."
+msgstr "تجميع ملف معين مسبقًا."
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/wyrihaximus/twig-view/src/Shell/CompileShell.php:171
+msgid "TwigView templates precompiler"
+msgstr "قوالب TwigView المترجم المسبق"
+
+#: Mailer/UsersMailer.php:108
+msgid "{0}Your social account validation link"
+msgstr "{0} رابط التحقق من صحة الحساب"
+
+#: Model/Behavior/RegisterBehavior.php:178 Validation/Validator.php:2436
+#: View/Form/ArrayContext.php:225
+msgid "This field is required"
+msgstr "هذا الحقل مطلوب"
+
+#: Template/Error/error400.ctp:37
+msgid "The requested address {0} was not found on this server."
+msgstr "لم يتم العثور على العنوان المطلوب {0} على هذا الخادم."
+
+#: Template/Error/error500.ctp:39
+msgid "An Internal Error Has Occurred"
+msgstr "حدث خطأ داخلي"
+
+#: Controller/Component/AuthComponent.php:499
+msgid "You are not authorized to access that location."
+msgstr "غير مصرح لك للوصول إلى ذلك الموقع."
+
+#: Controller/Component/CsrfComponent.php:181
+#: Http/Middleware/CsrfProtectionMiddleware.php:227
+msgid "Missing CSRF token cookie"
+msgstr "ملف تعريف الارتباط المميز لـ CSRF مفقود"
+
+#: Controller/Component/CsrfComponent.php:185
+#: Http/Middleware/CsrfProtectionMiddleware.php:231
+msgid "CSRF token mismatch."
+msgstr "رمز CSRF غير متطابق."
+
+#: Error/ExceptionRenderer.php:300
+msgid "Not Found"
+msgstr "لم يتم العثور"
+
+#: Error/ExceptionRenderer.php:302
+msgid "An Internal Error Has Occurred."
+msgstr "حدث خطأ داخلي."
+
+#: Http/Response.php:2665
+msgid "The requested file contains `..` and will not be read."
+msgstr "يحتوي الملف المطلوب على `..` ولن تتم قراءته."
+
+#: Http/Response.php:2686
+msgid "The requested file was not found"
+msgstr "لم يتم العثور على الملف المطلوب"
+
+#: I18n/Number.php:89
+msgid "{0,number,#,###.##} KB"
+msgstr ""
+
+#: I18n/Number.php:91
+msgid "{0,number,#,###.##} MB"
+msgstr ""
+
+#: I18n/Number.php:93
+msgid "{0,number,#,###.##} GB"
+msgstr ""
+
+#: I18n/Number.php:95
+msgid "{0,number,#,###.##} TB"
+msgstr ""
+
+#: I18n/Number.php:87
+msgid "{0,number,integer} Byte"
+msgid_plural "{0,number,integer} Bytes"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: I18n/RelativeTimeFormatter.php:80
+msgid "{0} from now"
+msgstr "{0} من الآن"
+
+#: I18n/RelativeTimeFormatter.php:80
+msgid "{0} ago"
+msgstr "قبل {0}"
+
+#: I18n/RelativeTimeFormatter.php:83
+msgid "{0} after"
+msgstr "{0} بعد"
+
+#: I18n/RelativeTimeFormatter.php:83
+msgid "{0} before"
+msgstr "{0} من قبل"
+
+#: I18n/RelativeTimeFormatter.php:114
+msgid "just now"
+msgstr "الآن فقط"
+
+#: I18n/RelativeTimeFormatter.php:151
+msgid "about a second ago"
+msgstr "قبل حوالي ثانية"
+
+#: I18n/RelativeTimeFormatter.php:152
+msgid "about a minute ago"
+msgstr "منذ دقيقة واحدة"
+
+#: I18n/RelativeTimeFormatter.php:153
+msgid "about an hour ago"
+msgstr "منذ ساعة تقريبا"
+
+#: I18n/RelativeTimeFormatter.php:154 I18n/RelativeTimeFormatter.php:332
+msgid "about a day ago"
+msgstr "منذ حوالي يوم واحد"
+
+#: I18n/RelativeTimeFormatter.php:155 I18n/RelativeTimeFormatter.php:333
+msgid "about a week ago"
+msgstr "منذ اسبوع تقريبا"
+
+#: I18n/RelativeTimeFormatter.php:156 I18n/RelativeTimeFormatter.php:334
+msgid "about a month ago"
+msgstr "قبل شهر مضى"
+
+#: I18n/RelativeTimeFormatter.php:157 I18n/RelativeTimeFormatter.php:335
+msgid "about a year ago"
+msgstr "قبل نحو سنة"
+
+#: I18n/RelativeTimeFormatter.php:168
+msgid "in about a second"
+msgstr "في حوالي ثانية"
+
+#: I18n/RelativeTimeFormatter.php:169
+msgid "in about a minute"
+msgstr "في حوالي دقيقة"
+
+#: I18n/RelativeTimeFormatter.php:170
+msgid "in about an hour"
+msgstr "في غضون ساعة"
+
+#: I18n/RelativeTimeFormatter.php:171 I18n/RelativeTimeFormatter.php:346
+msgid "in about a day"
+msgstr "في حوالي يوم"
+
+#: I18n/RelativeTimeFormatter.php:172 I18n/RelativeTimeFormatter.php:347
+msgid "in about a week"
+msgstr "في غضون اسبوع"
+
+#: I18n/RelativeTimeFormatter.php:173 I18n/RelativeTimeFormatter.php:348
+msgid "in about a month"
+msgstr "في حوالي شهر"
+
+#: I18n/RelativeTimeFormatter.php:174 I18n/RelativeTimeFormatter.php:349
+msgid "in about a year"
+msgstr "في حوالي عام"
+
+#: I18n/RelativeTimeFormatter.php:304
+msgid "today"
+msgstr "الیوم"
+
+#: I18n/RelativeTimeFormatter.php:370
+msgid "%s ago"
+msgstr "منذ %s"
+
+#: I18n/RelativeTimeFormatter.php:371
+msgid "on %s"
+msgstr "في %s"
+
+#: I18n/RelativeTimeFormatter.php:47 I18n/RelativeTimeFormatter.php:126
+#: I18n/RelativeTimeFormatter.php:316
+msgid "{0} year"
+msgid_plural "{0} years"
+msgstr[0] "{0} عام"
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: I18n/RelativeTimeFormatter.php:51 I18n/RelativeTimeFormatter.php:129
+#: I18n/RelativeTimeFormatter.php:319
+msgid "{0} month"
+msgid_plural "{0} months"
+msgstr[0] "{0} شهر"
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: I18n/RelativeTimeFormatter.php:57 I18n/RelativeTimeFormatter.php:132
+#: I18n/RelativeTimeFormatter.php:322
+msgid "{0} week"
+msgid_plural "{0} weeks"
+msgstr[0] "{أسبوع 1"
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: I18n/RelativeTimeFormatter.php:59 I18n/RelativeTimeFormatter.php:135
+#: I18n/RelativeTimeFormatter.php:325
+msgid "{0} day"
+msgid_plural "{0} days"
+msgstr[0] "{يوم 1"
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: I18n/RelativeTimeFormatter.php:64 I18n/RelativeTimeFormatter.php:138
+msgid "{0} hour"
+msgid_plural "{0} hours"
+msgstr[0] "{0} ساعة"
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: I18n/RelativeTimeFormatter.php:68 I18n/RelativeTimeFormatter.php:141
+msgid "{0} minute"
+msgid_plural "{0} minutes"
+msgstr[0] "{1 دقيقة"
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: I18n/RelativeTimeFormatter.php:72 I18n/RelativeTimeFormatter.php:144
+msgid "{0} second"
+msgid_plural "{0} seconds"
+msgstr[0] "{0} ثانية"
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: ORM/RulesChecker.php:56
+msgid "This value is already in use"
+msgstr "هذه القيمة قيد الاستخدام بالفعل"
+
+#: ORM/RulesChecker.php:103
+msgid "This value does not exist"
+msgstr "هذه القيمة غير موجودة"
+
+#: ORM/RulesChecker.php:127
+msgid "The count does not match {0}{1}"
+msgstr "العدد لا يتطابق مع {0} {1}"
+
+#: Utility/Text.php:933
+msgid "and"
+msgstr "و"
+
+#: Validation/Validator.php:2458
+msgid "This field cannot be left empty"
+msgstr "لا يمكن ترك هذا الحقل فارغا"
+
+#: Validation/Validator.php:2608
+msgid "The provided value is invalid"
+msgstr "القيمة المقدمة غير صالحة"
+
+#: View/Helper/FormHelper.php:1107
+msgid "Edit {0}"
+msgstr "تحرير {0}"
+
+#: View/Helper/FormHelper.php:1109
+msgid "New {0}"
+msgstr "جديد {0}"
+
+#: View/Widget/DateTimeWidget.php:539
+msgid "January"
+msgstr "يناير"
+
+#: View/Widget/DateTimeWidget.php:540
+msgid "February"
+msgstr "فبراير"
+
+#: View/Widget/DateTimeWidget.php:541
+msgid "March"
+msgstr "مارس"
+
+#: View/Widget/DateTimeWidget.php:542
+msgid "April"
+msgstr "ابريل"
+
+#: View/Widget/DateTimeWidget.php:543
+msgid "May"
+msgstr "مايو"
+
+#: View/Widget/DateTimeWidget.php:544
+msgid "June"
+msgstr "يونيو"
+
+#: View/Widget/DateTimeWidget.php:545
+msgid "July"
+msgstr "يوليو"
+
+#: View/Widget/DateTimeWidget.php:546
+msgid "August"
+msgstr "أغسطس"
+
+#: View/Widget/DateTimeWidget.php:547
+msgid "September"
+msgstr "سبتمبر"
+
+#: View/Widget/DateTimeWidget.php:548
+msgid "October"
+msgstr "أكتوبر"
+
+#: View/Widget/DateTimeWidget.php:549
+msgid "November"
+msgstr "نوفمبر"
+
+#: View/Widget/DateTimeWidget.php:550
+msgid "December"
+msgstr "ديسمبر"
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/DebugTimer.php:135
+msgid "Core Processing (Derived from $_SERVER[\"REQUEST_TIME\"])"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Controller/ComposerController.php:76
+msgid "You have to be connected to the internet"
+msgstr "يجب أن تكون متصلاً بالإنترنت"
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Controller/MailPreviewController.php:91
+msgid "No emails found in this request"
+msgstr "لم يتم العثور على رسائل البريد الإلكتروني في هذا الطلب"
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Controller/MailPreviewController.php:153
+msgid "Email part ''{0}'' not found in email"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Controller/MailPreviewController.php:276
+msgid "Mailer preview {0}::{1} not found"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Controller/ToolbarController.php:66
+msgid "Invalid cache engine name."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Controller/Component/ToolbarComponent.php:42
+msgid ""
+"{0} is now loaded through plugin bootstrapping. Make sure you have {1} in "
+"your application's {2}."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Model/Table/PanelsTable.php:59
+msgid "Missing request id in {0}."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Panel/PanelRegistry.php:63
+msgid "Unable to find ''{0}'' panel."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php:53
+msgid "Controller initialization"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php:62
+msgid "Controller action start"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php:63
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php:68
+msgid "Controller action"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php:73
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php:74
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php:94
+msgid "View Render start"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php:83
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php:88
+msgid "Render {0}"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php:95
+msgid "Controller shutdown"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Panel/VariablesPanel.php:78
+msgid "Could not retrieve debug info - {0}. Error: {1} in {2}, line {3}"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Panel/VariablesPanel.php:173
+msgid "Unserializable object - {0}. Error: {1} in {2}, line {3}"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Panel/VariablesPanel.php:176
+msgid "Unserializable Error: {1} in {2}, line {3}"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Shell/BenchmarkShell.php:45
+msgid "-> Testing :url"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Shell/BenchmarkShell.php:72
+msgid "Total Requests made: :requests"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Shell/BenchmarkShell.php:73
+msgid "Total Time elapsed: :duration (seconds)"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Shell/BenchmarkShell.php:77
+msgid "Requests/Second: :rps req/sec"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Shell/BenchmarkShell.php:81
+msgid "Average request time: :average-time seconds"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Shell/BenchmarkShell.php:85
+msgid "Standard deviation of average request time: :std-dev"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Shell/BenchmarkShell.php:89
+msgid "Longest/shortest request: :longest sec/:shortest sec"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Shell/BenchmarkShell.php:147
+msgid ""
+"Allows you to obtain some rough benchmarking statisticsabout a fully "
+"qualified URL."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Shell/BenchmarkShell.php:153
+msgid "The URL to request."
+msgstr "رفض الطلب"
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Shell/BenchmarkShell.php:158
+msgid "Number of iterations to perform."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Shell/BenchmarkShell.php:162
+msgid ""
+"Maximum total time for all iterations, in seconds.If a single iteration takes "
+"more than the timeout, only one request will be made"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Shell/BenchmarkShell.php:168
+msgid ""
+"Example Use: `cake benchmark --n 10 --t 100 http://localhost/testsite`. "
+"<info>Note:</info> this benchmark does not include browser render times."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Shell/WhitespaceShell.php:98
+msgid "Absolute path or relative to {0}."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/cache_panel.ctp:21
+msgid "There were no cache operations this request."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/cache_panel.ctp:25
+msgid "{0} Metrics"
+msgstr "{0} المقاييس"
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/cache_panel.ctp:26
+msgid "Clear {0} cache"
+msgstr "امسح ذاكرة التخزين المؤقت {0}"
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/cache_panel.ctp:31
+msgid "Metric"
+msgstr "قياس متري"
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/cache_panel.ctp:32
+msgid "Total"
+msgstr "المجموع"
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/cache_panel.ctp:73
+msgid "cache cleared."
+msgstr "تم مسح ذاكرة التخزين المؤقت."
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/cache_panel.ctp:75
+msgid "cache could not be cleared."
+msgstr "لا يمكن مسح ذاكرة التخزين المؤقت."
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/environment_panel.ctp:28
+msgid "Application Constants"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/environment_panel.ctp:34
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/environment_panel.ctp:59
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/environment_panel.ctp:135
+msgid "Constant"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/environment_panel.ctp:35
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/environment_panel.ctp:60
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/environment_panel.ctp:110
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/environment_panel.ctp:136
+msgid "Value"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/environment_panel.ctp:49
+msgid "No application environment available."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/environment_panel.ctp:53
+msgid "CakePHP Constants"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/environment_panel.ctp:74
+msgid "CakePHP environment unavailable."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/environment_panel.ctp:78
+msgid "INI Environment"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/environment_panel.ctp:99
+msgid "ini environment unavailable."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/environment_panel.ctp:103
+msgid "PHP Environment"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/environment_panel.ctp:109
+msgid "Environment Variable"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/environment_panel.ctp:124
+msgid "PHP environment unavailable."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/environment_panel.ctp:129
+msgid "Hidef Environment"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/environment_panel.ctp:150
+msgid "No Hidef environment available."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/history_panel.ctp:23
+msgid "No previous requests logged."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/history_panel.ctp:25
+msgid "previous requests available"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/history_panel.ctp:29
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/history_panel.ctp:53
+msgid "Back to current request"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/include_panel.ctp:30
+msgid "Include Paths"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/include_panel.ctp:33
+msgid "Included Files"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/log_panel.ctp:21
+msgid "There were no log entries made this request"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/log_panel.ctp:24
+msgid "{0} Messages"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/log_panel.ctp:28
+msgid "Time"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/mail_panel.ctp:2
+msgid "Why not test your emails interactively instead? Go to the {0}"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/mail_panel.ctp:4
+msgid "Email previews page"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/mail_panel.ctp:8
+msgid "No emails were sent during this request"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/mail_panel.ctp:17
+msgid "Subject"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/packages_panel.ctp:22
+msgid "{0} not found"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/packages_panel.ctp:26
+msgid "Check for Updates"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/packages_panel.ctp:27
+msgid "Direct dependencies only"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/packages_panel.ctp:32
+msgid "Requirements ({0})"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/packages_panel.ctp:36
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/packages_panel.ctp:62
+msgid "Name"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/packages_panel.ctp:37
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/packages_panel.ctp:63
+msgid "Version"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/packages_panel.ctp:58
+msgid "Dev Requirements ({0})"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/packages_panel.ctp:99
+msgid "Loading"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/request_panel.ctp:30
+msgid "Warning"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/request_panel.ctp:31
+msgid "Headers already sent at file {0} and line {1}."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/request_panel.ctp:34
+msgid "Routing Params"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/request_panel.ctp:37
+msgid "Post data"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/request_panel.ctp:40
+msgid "No post data."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/request_panel.ctp:49
+msgid "No querystring data."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/request_panel.ctp:59
+msgid "No Cookie data."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/request_panel.ctp:63
+msgid "Matched Route"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/routes_panel.ctp:11
+msgid "Toggle debugkit internal routes"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/routes_panel.ctp:16
+msgid "Route name"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/routes_panel.ctp:17
+msgid "URI template"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/routes_panel.ctp:18
+msgid "Defaults"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/sql_log_panel.ctp:35
+msgid "Generated Models"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/sql_log_panel.ctp:36
+msgid "The following Table objects used {0} instead of a concrete class:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/sql_log_panel.ctp:58
+msgid "Total Time: {0} ms &mdash; Total Queries: {1} &mdash; Total Rows: {2}"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/sql_log_panel.ctp:71
+msgid "Query"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/sql_log_panel.ctp:72
+msgid "Rows"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/sql_log_panel.ctp:73
+msgid "Took (ms)"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/sql_log_panel.ctp:91
+msgid "No active database connections"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/timer_panel.ctp:23
+msgid "Memory"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/timer_panel.ctp:25
+msgid "Peak Memory Use:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/timer_panel.ctp:33
+msgid "Memory Use"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/timer_panel.ctp:48
+msgid "Timers"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/timer_panel.ctp:50
+msgid "Total Request Time:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/timer_panel.ctp:57
+msgid "Event"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/timer_panel.ctp:58
+msgid "Time in ms"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/timer_panel.ctp:59
+msgid "Timeline"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/variables_panel.ctp:28
+msgid "Sort variables by name"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Element/variables_panel.ctp:34
+msgid "Validation errors"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/Layout/mailer.ctp:6
+msgid "Mailer Previews"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/MailPreview/email.ctp:24
+msgid "You are trying to preview an email that does not have any content."
+msgstr "أنت تحاول معاينة رسالة بريد إلكتروني لا تحتوي على أي محتوى."
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/MailPreview/index.ctp:29
+msgid "How to use this feature?"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/MailPreview/index.ctp:30
+msgid "Testing emails can be very time consuming"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/MailPreview/index.ctp:31
+msgid ""
+"Specially when you need to click a bunch of times on an interface to trigger "
+"them."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/MailPreview/index.ctp:32
+msgid ""
+"Wouldn't it be better to just change the templates and refresh the browser to "
+"see the result?"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/MailPreview/index.ctp:33
+msgid "Just the way you work on the web interface!"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/MailPreview/index.ctp:35
+msgid "Example"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/MailPreview/index.ctp:36
+msgid ""
+"{0} integrates with CakePHP’s {1} class. Here's an example of such a mailer:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/MailPreview/index.ctp:50
+msgid "Returning the chain is a good idea"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/MailPreview/index.ctp:53
+msgid "By default template with same name as method name is used."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/MailPreview/index.ctp:61
+msgid "Now you create a {0} class where you can pass some dummy values."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/MailPreview/index.ctp:87
+msgid "Note that the function MUST return the UserMailer object at the end."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/MailPreview/index.ctp:88
+msgid ""
+"Since {0} have a fluent interface, you just need to return the result of the "
+"chain of calls."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/Template/MailPreview/index.ctp:89
+msgid "That's it, now refresh this page!"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/View/Helper/SimpleGraphHelper.php:76
+msgid "Starting {0}ms into the request, taking {1}ms"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/au_vlp/vendor/cakephp/debug_kit/src/View/Helper/TidyHelper.php:110
+msgid "No markup errors found"
+msgstr ""

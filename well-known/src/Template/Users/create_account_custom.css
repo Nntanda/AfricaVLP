@@ -1,0 +1,30 @@
+/* Custom styles for create_account new fields */
+
+.form-group select,
+.form-group input[type="date"],
+.form-group input[type="file"] {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+.form-group select:focus,
+.form-group input[type="date"]:focus,
+.form-group input[type="file"]:focus {
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+
+.fileinput {
+    margin-top: 10px;
+}
+
+label {
+    font-weight: 600;
+    margin-bottom: 5px;
+    display: block;
+}
