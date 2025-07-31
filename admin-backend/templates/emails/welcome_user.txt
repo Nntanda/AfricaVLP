@@ -1,0 +1,25 @@
+Welcome to AU-VLP Portal
+
+Hello {{ user.first_name }} {{ user.last_name }},
+
+Welcome to the African Union Youth Leadership Program (AU-VLP) Portal! Your account has been successfully created.
+
+Account Details:
+- Email: {{ user.email }}
+- Organization: {{ user.organization.name|default:"Not assigned" }}
+
+You can now access the portal to:
+- View and participate in program events
+- Access resources and materials
+- Connect with other program participants
+- Update your profile and organization information
+
+Access the Portal: {{ frontend_url }}/login
+
+If you have any questions or need assistance, please contact our support team.
+
+Best regards,
+The AU-VLP Team
+
+---
+This is an automated message from the AU-VLP system. Please do not reply to this email.

@@ -1,0 +1,22 @@
+Django>=4.2,<5.0
+djangorestframework
+mysqlclient
+django-cors-headers
+gunicorn
+djangorestframework-simplejwt
+celery
+redis
+django-environ
+django-modeltranslation
+django-filter
+
+# Testing dependencies
+pytest
+pytest-django
+pytest-cov
+pytest-mock
+factory-boy
+faker
+coverage
+locust
+django-test-plus 

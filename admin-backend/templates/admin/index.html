@@ -1,0 +1,144 @@
+{% extends "admin/base_site.html" %}
+{% load i18n static %}
+
+{% block extrahead %}
+{{ block.super }}
+<style>
+    .dashboard-stats {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        margin-bottom: 30px;
+    }
+    
+    .stat-card {
+        background: white;
+        border: 1px solid #dee2e6;
+        border-radius: 8px;
+        padding: 20px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        text-align: center;
+    }
+    
+    .stat-number {
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: #2a5298;
+        margin-bottom: 5px;
+    }
+    
+    .stat-label {
+        color: #6c757d;
+        font-size: 0.9rem;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+    
+    .welcome-message {
+        background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+        border: 1px solid #dee2e6;
+        border-radius: 8px;
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+    
+    .welcome-message h2 {
+        color: #2a5298;
+        margin-bottom: 10px;
+    }
+    
+    .quick-actions {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 15px;
+        margin-top: 20px;
+    }
+    
+    .quick-action {
+        background: #2a5298;
+        color: white;
+        padding: 15px;
+        border-radius: 6px;
+        text-decoration: none;
+        text-align: center;
+        transition: background-color 0.3s;
+    }
+    
+    .quick-action:hover {
+        background: #1e3c72;
+        color: white;
+        text-decoration: none;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="welcome-message">
+    <h2>Welcome to AU-VLP Admin Portal</h2>
+    <p>Manage the African Union Youth Leadership Program content, users, and organizations from this central dashboard.</p>
+    
+    <div class="quick-actions">
+        <a href="{% url 'admin:models_app_blogpost_changelist' %}" class="quick-action">
+            📝 Manage Blog Posts
+        </a>
+        <a href="{% url 'admin:models_app_news_changelist' %}" class="quick-action">
+            📰 Manage News
+        </a>
+        <a href="{% url 'admin:models_app_event_changelist' %}" class="quick-action">
+            📅 Manage Events
+        </a>
+        <a href="{% url 'admin:models_app_organization_changelist' %}" class="quick-action">
+            🏢 Manage Organizations
+        </a>
+        <a href="{% url 'admin:models_app_user_changelist' %}" class="quick-action">
+            👥 Manage Users
+        </a>
+        <a href="{% url 'admin:models_app_activitylog_changelist' %}" class="quick-action">
+            📊 View Activity Logs
+        </a>
+    </div>
+</div>
+
+<div class="dashboard-stats">
+    <div class="stat-card">
+        <div class="stat-number" id="blog-count">-</div>
+        <div class="stat-label">Blog Posts</div>
+    </div>
+    <div class="stat-card">
+        <div class="stat-number" id="news-count">-</div>
+        <div class="stat-label">News Articles</div>
+    </div>
+    <div class="stat-card">
+        <div class="stat-number" id="event-count">-</div>
+        <div class="stat-label">Events</div>
+    </div>
+    <div class="stat-card">
+        <div class="stat-number" id="org-count">-</div>
+        <div class="stat-label">Organizations</div>
+    </div>
+    <div class="stat-card">
+        <div class="stat-number" id="user-count">-</div>
+        <div class="stat-label">Users</div>
+    </div>
+    <div class="stat-card">
+        <div class="stat-number" id="resource-count">-</div>
+        <div class="stat-label">Resources</div>
+    </div>
+</div>
+
+{{ block.super }}
+
+<script>
+// Load dashboard statistics
+document.addEventListener('DOMContentLoaded', function() {
+    // This would typically fetch data from an API endpoint
+    // For now, we'll use placeholder values
+    document.getElementById('blog-count').textContent = '0';
+    document.getElementById('news-count').textContent = '0';
+    document.getElementById('event-count').textContent = '0';
+    document.getElementById('org-count').textContent = '0';
+    document.getElementById('user-count').textContent = '0';
+    document.getElementById('resource-count').textContent = '0';
+});
+</script>
+{% endblock %}

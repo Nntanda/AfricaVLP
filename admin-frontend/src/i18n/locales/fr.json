@@ -1,0 +1,152 @@
+{
+  "common": {
+    "loading": "Chargement...",
+    "error": "Erreur",
+    "success": "Succès",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "create": "Créer",
+    "search": "Rechercher",
+    "filter": "Filtrer",
+    "clear": "Effacer",
+    "yes": "Oui",
+    "no": "Non",
+    "confirm": "Confirmer",
+    "back": "Retour",
+    "next": "Suivant",
+    "previous": "Précédent",
+    "close": "Fermer",
+    "submit": "Soumettre",
+    "reset": "Réinitialiser"
+  },
+  "navigation": {
+    "dashboard": "Tableau de bord",
+    "blog": "Gestion du blog",
+    "users": "Gestion des utilisateurs",
+    "organizations": "Organisations",
+    "events": "Événements",
+    "resources": "Ressources",
+    "activity": "Journaux d'activité",
+    "settings": "Paramètres",
+    "logout": "Déconnexion"
+  },
+  "auth": {
+    "login": "Connexion",
+    "logout": "Déconnexion",
+    "email": "Email",
+    "password": "Mot de passe",
+    "loginButton": "Se connecter",
+    "loginError": "Identifiants invalides",
+    "loginSuccess": "Connexion réussie",
+    "logoutSuccess": "Déconnexion réussie",
+    "sessionExpired": "Session expirée. Veuillez vous reconnecter."
+  },
+  "dashboard": {
+    "title": "Tableau de bord administrateur",
+    "welcome": "Bienvenue dans l'administration AU-VLP",
+    "stats": {
+      "totalUsers": "Total des utilisateurs",
+      "totalOrganizations": "Total des organisations",
+      "totalBlogPosts": "Total des articles de blog",
+      "totalEvents": "Total des événements"
+    },
+    "recentActivity": "Activité récente",
+    "quickActions": "Actions rapides"
+  },
+  "blog": {
+    "title": "Gestion du blog",
+    "createPost": "Créer un nouvel article",
+    "editPost": "Modifier l'article",
+    "postTitle": "Titre de l'article",
+    "postContent": "Contenu",
+    "category": "Catégorie",
+    "tags": "Étiquettes",
+    "status": "Statut",
+    "published": "Publié",
+    "draft": "Brouillon",
+    "author": "Auteur",
+    "publishDate": "Date de publication",
+    "deleteConfirm": "Êtes-vous sûr de vouloir supprimer cet article ?"
+  },
+  "users": {
+    "title": "Gestion des utilisateurs",
+    "createUser": "Créer un nouvel utilisateur",
+    "editUser": "Modifier l'utilisateur",
+    "firstName": "Prénom",
+    "lastName": "Nom de famille",
+    "email": "Email",
+    "role": "Rôle",
+    "organization": "Organisation",
+    "status": "Statut",
+    "active": "Actif",
+    "inactive": "Inactif",
+    "lastLogin": "Dernière connexion",
+    "deleteConfirm": "Êtes-vous sûr de vouloir supprimer cet utilisateur ?"
+  },
+  "organizations": {
+    "title": "Gestion des organisations",
+    "createOrganization": "Créer une nouvelle organisation",
+    "editOrganization": "Modifier l'organisation",
+    "name": "Nom de l'organisation",
+    "description": "Description",
+    "website": "Site web",
+    "country": "Pays",
+    "city": "Ville",
+    "contactEmail": "Email de contact",
+    "contactPhone": "Téléphone de contact",
+    "members": "Membres",
+    "deleteConfirm": "Êtes-vous sûr de vouloir supprimer cette organisation ?"
+  },
+  "events": {
+    "title": "Gestion des événements",
+    "createEvent": "Créer un nouvel événement",
+    "editEvent": "Modifier l'événement",
+    "eventTitle": "Titre de l'événement",
+    "description": "Description",
+    "startDate": "Date de début",
+    "endDate": "Date de fin",
+    "location": "Lieu",
+    "organizer": "Organisateur",
+    "capacity": "Capacité",
+    "registrations": "Inscriptions",
+    "deleteConfirm": "Êtes-vous sûr de vouloir supprimer cet événement ?"
+  },
+  "resources": {
+    "title": "Gestion des ressources",
+    "createResource": "Créer une nouvelle ressource",
+    "editResource": "Modifier la ressource",
+    "resourceTitle": "Titre de la ressource",
+    "description": "Description",
+    "category": "Catégorie",
+    "fileUrl": "URL du fichier",
+    "downloadCount": "Téléchargements",
+    "deleteConfirm": "Êtes-vous sûr de vouloir supprimer cette ressource ?"
+  },
+  "activity": {
+    "title": "Journaux d'activité",
+    "user": "Utilisateur",
+    "action": "Action",
+    "timestamp": "Horodatage",
+    "details": "Détails",
+    "filterByUser": "Filtrer par utilisateur",
+    "filterByAction": "Filtrer par action",
+    "filterByDate": "Filtrer par date"
+  },
+  "validation": {
+    "required": "Ce champ est obligatoire",
+    "email": "Veuillez saisir une adresse email valide",
+    "minLength": "La longueur minimale est de {{min}} caractères",
+    "maxLength": "La longueur maximale est de {{max}} caractères",
+    "passwordMatch": "Les mots de passe ne correspondent pas"
+  },
+  "messages": {
+    "saveSuccess": "Modifications enregistrées avec succès",
+    "saveError": "Échec de l'enregistrement des modifications",
+    "deleteSuccess": "Élément supprimé avec succès",
+    "deleteError": "Échec de la suppression de l'élément",
+    "networkError": "Erreur réseau. Veuillez réessayer.",
+    "unexpectedError": "Une erreur inattendue s'est produite"
+  }
+}

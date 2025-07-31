@@ -1,0 +1,100 @@
+{% extends "admin/base.html" %}
+
+{% block title %}{{ title }} | {{ site_title|default:_('Django site admin') }}{% endblock %}
+
+{% block branding %}
+<h1 id="site-name">
+    <a href="{% url 'admin:index' %}">
+        <img src="{% load static %}{% static 'admin/img/au-vlp-logo.png' %}" alt="AU-VLP Logo" style="height: 40px; margin-right: 10px; vertical-align: middle;" onerror="this.style.display='none'">
+        AU-VLP Admin Portal
+    </a>
+</h1>
+{% endblock %}
+
+{% block nav-global %}{% endblock %}
+
+{% block extrahead %}
+{{ block.super }}
+<style>
+    /* Custom styling for AU-VLP Admin */
+    #header {
+        background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+        color: white;
+    }
+    
+    #branding h1, #branding h1 a:link, #branding h1 a:visited {
+        color: white;
+        font-weight: 600;
+    }
+    
+    .module h2, .module caption, .inline-group h2 {
+        background: #2a5298;
+        color: white;
+    }
+    
+    .button, input[type=submit], input[type=button], .submit-row input, a.button {
+        background: #2a5298;
+        border-color: #1e3c72;
+    }
+    
+    .button:hover, input[type=submit]:hover, input[type=button]:hover, .submit-row input:hover, a.button:hover {
+        background: #1e3c72;
+    }
+    
+    .selector-chosen h2 {
+        background: #2a5298;
+    }
+    
+    .calendar td.selected a, .calendarbox .calendarnav-previous:hover, .calendarbox .calendarnav-next:hover {
+        background: #2a5298;
+    }
+    
+    /* Status indicators */
+    .status-published { color: #28a745; font-weight: bold; }
+    .status-draft { color: #ffc107; font-weight: bold; }
+    .status-archived { color: #dc3545; font-weight: bold; }
+    .status-active { color: #28a745; font-weight: bold; }
+    .status-inactive { color: #dc3545; font-weight: bold; }
+    
+    /* Dashboard customization */
+    .dashboard .module table th {
+        background: #f8f9fa;
+        border-bottom: 2px solid #2a5298;
+    }
+    
+    /* Form styling */
+    .form-row .help {
+        color: #6c757d;
+        font-size: 0.875rem;
+    }
+    
+    /* Breadcrumbs */
+    .breadcrumbs {
+        background: #f8f9fa;
+        border-bottom: 1px solid #dee2e6;
+    }
+    
+    .breadcrumbs a {
+        color: #2a5298;
+    }
+    
+    /* Messages */
+    .messagelist .success {
+        background: #d4edda;
+        border-color: #c3e6cb;
+        color: #155724;
+    }
+    
+    .messagelist .warning {
+        background: #fff3cd;
+        border-color: #ffeaa7;
+        color: #856404;
+    }
+    
+    .messagelist .error {
+        background: #f8d7da;
+        border-color: #f5c6cb;
+        color: #721c24;
+    }
+</style>
+{% endblock %}

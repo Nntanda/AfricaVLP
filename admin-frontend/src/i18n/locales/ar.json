@@ -1,0 +1,152 @@
+{
+  "common": {
+    "loading": "جاري التحميل...",
+    "error": "خطأ",
+    "success": "نجح",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "create": "إنشاء",
+    "search": "بحث",
+    "filter": "تصفية",
+    "clear": "مسح",
+    "yes": "نعم",
+    "no": "لا",
+    "confirm": "تأكيد",
+    "back": "رجوع",
+    "next": "التالي",
+    "previous": "السابق",
+    "close": "إغلاق",
+    "submit": "إرسال",
+    "reset": "إعادة تعيين"
+  },
+  "navigation": {
+    "dashboard": "لوحة التحكم",
+    "blog": "إدارة المدونة",
+    "users": "إدارة المستخدمين",
+    "organizations": "المنظمات",
+    "events": "الأحداث",
+    "resources": "الموارد",
+    "activity": "سجلات النشاط",
+    "settings": "الإعدادات",
+    "logout": "تسجيل الخروج"
+  },
+  "auth": {
+    "login": "تسجيل الدخول",
+    "logout": "تسجيل الخروج",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "loginButton": "تسجيل الدخول",
+    "loginError": "بيانات اعتماد غير صحيحة",
+    "loginSuccess": "تم تسجيل الدخول بنجاح",
+    "logoutSuccess": "تم تسجيل الخروج بنجاح",
+    "sessionExpired": "انتهت صلاحية الجلسة. يرجى تسجيل الدخول مرة أخرى."
+  },
+  "dashboard": {
+    "title": "لوحة تحكم المدير",
+    "welcome": "مرحباً بك في إدارة AU-VLP",
+    "stats": {
+      "totalUsers": "إجمالي المستخدمين",
+      "totalOrganizations": "إجمالي المنظمات",
+      "totalBlogPosts": "إجمالي مقالات المدونة",
+      "totalEvents": "إجمالي الأحداث"
+    },
+    "recentActivity": "النشاط الأخير",
+    "quickActions": "الإجراءات السريعة"
+  },
+  "blog": {
+    "title": "إدارة المدونة",
+    "createPost": "إنشاء مقال جديد",
+    "editPost": "تعديل المقال",
+    "postTitle": "عنوان المقال",
+    "postContent": "المحتوى",
+    "category": "الفئة",
+    "tags": "العلامات",
+    "status": "الحالة",
+    "published": "منشور",
+    "draft": "مسودة",
+    "author": "المؤلف",
+    "publishDate": "تاريخ النشر",
+    "deleteConfirm": "هل أنت متأكد من أنك تريد حذف هذا المقال؟"
+  },
+  "users": {
+    "title": "إدارة المستخدمين",
+    "createUser": "إنشاء مستخدم جديد",
+    "editUser": "تعديل المستخدم",
+    "firstName": "الاسم الأول",
+    "lastName": "اسم العائلة",
+    "email": "البريد الإلكتروني",
+    "role": "الدور",
+    "organization": "المنظمة",
+    "status": "الحالة",
+    "active": "نشط",
+    "inactive": "غير نشط",
+    "lastLogin": "آخر تسجيل دخول",
+    "deleteConfirm": "هل أنت متأكد من أنك تريد حذف هذا المستخدم؟"
+  },
+  "organizations": {
+    "title": "إدارة المنظمات",
+    "createOrganization": "إنشاء منظمة جديدة",
+    "editOrganization": "تعديل المنظمة",
+    "name": "اسم المنظمة",
+    "description": "الوصف",
+    "website": "الموقع الإلكتروني",
+    "country": "البلد",
+    "city": "المدينة",
+    "contactEmail": "بريد التواصل",
+    "contactPhone": "هاتف التواصل",
+    "members": "الأعضاء",
+    "deleteConfirm": "هل أنت متأكد من أنك تريد حذف هذه المنظمة؟"
+  },
+  "events": {
+    "title": "إدارة الأحداث",
+    "createEvent": "إنشاء حدث جديد",
+    "editEvent": "تعديل الحدث",
+    "eventTitle": "عنوان الحدث",
+    "description": "الوصف",
+    "startDate": "تاريخ البداية",
+    "endDate": "تاريخ النهاية",
+    "location": "الموقع",
+    "organizer": "المنظم",
+    "capacity": "السعة",
+    "registrations": "التسجيلات",
+    "deleteConfirm": "هل أنت متأكد من أنك تريد حذف هذا الحدث؟"
+  },
+  "resources": {
+    "title": "إدارة الموارد",
+    "createResource": "إنشاء مورد جديد",
+    "editResource": "تعديل المورد",
+    "resourceTitle": "عنوان المورد",
+    "description": "الوصف",
+    "category": "الفئة",
+    "fileUrl": "رابط الملف",
+    "downloadCount": "التحميلات",
+    "deleteConfirm": "هل أنت متأكد من أنك تريد حذف هذا المورد؟"
+  },
+  "activity": {
+    "title": "سجلات النشاط",
+    "user": "المستخدم",
+    "action": "الإجراء",
+    "timestamp": "الطابع الزمني",
+    "details": "التفاصيل",
+    "filterByUser": "تصفية حسب المستخدم",
+    "filterByAction": "تصفية حسب الإجراء",
+    "filterByDate": "تصفية حسب التاريخ"
+  },
+  "validation": {
+    "required": "هذا الحقل مطلوب",
+    "email": "يرجى إدخال عنوان بريد إلكتروني صحيح",
+    "minLength": "الحد الأدنى للطول هو {{min}} أحرف",
+    "maxLength": "الحد الأقصى للطول هو {{max}} أحرف",
+    "passwordMatch": "كلمات المرور غير متطابقة"
+  },
+  "messages": {
+    "saveSuccess": "تم حفظ التغييرات بنجاح",
+    "saveError": "فشل في حفظ التغييرات",
+    "deleteSuccess": "تم حذف العنصر بنجاح",
+    "deleteError": "فشل في حذف العنصر",
+    "networkError": "خطأ في الشبكة. يرجى المحاولة مرة أخرى.",
+    "unexpectedError": "حدث خطأ غير متوقع"
+  }
+}

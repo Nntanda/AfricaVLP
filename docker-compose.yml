@@ -1,0 +1,185 @@
+version: '3.9'
+
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: example_root_password
+      MYSQL_DATABASE: africa_vlp
+      MYSQL_USER: africa_vlp_user
+      MYSQL_PASSWORD: example_password
+    ports:
+      - '3306:3306'
+    volumes:
+      - mysql_data:/var/lib/mysql
+    networks:
+      - backend
+
+  redis:
+    image: redis:7
+    container_name: redis
+    restart: always
+    ports:
+      - '6379:6379'
+    networks:
+      - backend
+
+  admin-backend:
+    build:
+      context: ./admin-backend
+    container_name: admin-backend
+    command: ["/start.sh"]
+    env_file:
+      - .env
+    volumes:
+      - ./admin-backend:/app
+      - static_admin:/app/static
+      - media_admin:/app/media
+    depends_on:
+      - mysql
+      - redis
+    networks:
+      - backend
+      - frontend
+    ports:
+      - '8000:8000'
+
+  celery-worker:
+    build:
+      context: ./admin-backend
+    container_name: celery-worker
+    command: celery -A admin_backend worker --loglevel=info --concurrency=4
+    env_file:
+      - .env
+    volumes:
+      - ./admin-backend:/app
+      - static_admin:/app/static
+      - media_admin:/app/media
+    depends_on:
+      - mysql
+      - redis
+      - admin-backend
+    networks:
+      - backend
+    restart: unless-stopped
+
+  celery-beat:
+    build:
+      context: ./admin-backend
+    container_name: celery-beat
+    command: celery -A admin_backend beat --loglevel=info --scheduler django_celery_beat.schedulers:DatabaseScheduler
+    env_file:
+      - .env
+    volumes:
+      - ./admin-backend:/app
+      - static_admin:/app/static
+      - media_admin:/app/media
+    depends_on:
+      - mysql
+      - redis
+      - admin-backend
+    networks:
+      - backend
+    restart: unless-stopped
+
+  celery-flower:
+    build:
+      context: ./admin-backend
+    container_name: celery-flower
+    command: celery -A admin_backend flower --port=5555
+    env_file:
+      - .env
+    volumes:
+      - ./admin-backend:/app
+    depends_on:
+      - redis
+      - celery-worker
+    networks:
+      - backend
+      - frontend
+    ports:
+      - '5555:5555'
+    restart: unless-stopped
+
+  wellknown-backend:
+    build:
+      context: ./wellknown-backend
+    container_name: wellknown-backend
+    command: ["/start.sh"]
+    env_file:
+      - .env
+    volumes:
+      - ./wellknown-backend:/app
+      - static_wellknown:/app/static
+      - media_wellknown:/app/media
+    depends_on:
+      - mysql
+      - redis
+    networks:
+      - backend
+      - frontend
+    ports:
+      - '8001:8000'
+
+  admin-frontend:
+    build:
+      context: ./admin-frontend
+    container_name: admin-frontend
+    env_file:
+      - .env
+    volumes:
+      - ./admin-frontend:/app
+    depends_on:
+      - admin-backend
+    networks:
+      - frontend
+    ports:
+      - '3000:3000'
+
+  wellknown-frontend:
+    build:
+      context: ./wellknown-frontend
+    container_name: wellknown-frontend
+    env_file:
+      - .env
+    volumes:
+      - ./wellknown-frontend:/app
+    depends_on:
+      - wellknown-backend
+    networks:
+      - frontend
+    ports:
+      - '3001:3000'
+
+  nginx:
+    image: nginx:alpine
+    container_name: nginx
+    depends_on:
+      - admin-backend
+      - wellknown-backend
+      - admin-frontend
+      - wellknown-frontend
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      - static_admin:/static/admin
+      - media_admin:/media/admin
+      - static_wellknown:/static/wellknown
+      - media_wellknown:/media/wellknown
+    ports:
+      - '80:80'
+      - '443:443'
+    networks:
+      - frontend
+
+volumes:
+  mysql_data:
+  static_admin:
+  media_admin:
+  static_wellknown:
+  media_wellknown:
+
+networks:
+  backend:
+  frontend:
