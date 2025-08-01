@@ -469,27 +469,3 @@ class StandardResultsSetPagination(serializers.Serializer):
     page_size = 20
     page_size_query_param = 'page_size'
     max_page_size = 100
-class T
-askResultSerializer(serializers.ModelSerializer):
-    """Serializer for TaskResult model"""
-    duration = serializers.ReadOnlyField()
-    is_completed = serializers.ReadOnlyField()
-    started_by_name = serializers.SerializerMethodField()
-    
-    class Meta:
-        model = TaskResult
-        fields = [
-            'id', 'task_id', 'task_name', 'status', 'result', 'traceback',
-            'started_by', 'started_by_name', 'created_at', 'updated_at', 
-            'completed_at', 'args', 'kwargs', 'retries', 'eta',
-            'duration', 'is_completed'
-        ]
-        read_only_fields = [
-            'id', 'created_at', 'updated_at', 'duration', 'is_completed'
-        ]
-    
-    def get_started_by_name(self, obj):
-        """Get the name of the admin who started the task"""
-        if obj.started_by:
-            return obj.started_by.name
-        return None

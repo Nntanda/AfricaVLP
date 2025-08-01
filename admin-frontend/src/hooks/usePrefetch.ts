@@ -1,6 +1,6 @@
 import { useQueryClient } from 'react-query';
 import { queryKeys, prefetchStrategies } from '../config/queryClient';
-import { apiClient } from '../services/api/client';
+import apiClient from '../services/api/client';
 
 // Prefetch hook for admin dashboard
 export const useDashboardPrefetch = () => {

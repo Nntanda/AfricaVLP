@@ -1,3 +1,6 @@
+"""
+Test settings for admin-backend
+"""
 from .settings import *
 
 # Use SQLite for testing
@@ -8,17 +11,12 @@ DATABASES = {
     }
 }
 
-# Enable model management for testing - will be handled in test setup
+# Allow migrations for tests to create tables
+# MIGRATION_MODULES = DisableMigrations()
 
-# Disable migrations for faster testing
-class DisableMigrations:
-    def __contains__(self, item):
-        return True
-    
-    def __getitem__(self, item):
-        return None
-
-MIGRATION_MODULES = DisableMigrations()
+# Disable Redis/Celery for tests
+CELERY_TASK_ALWAYS_EAGER = True
+CELERY_TASK_EAGER_PROPAGATES = True
 
 # Disable logging during tests
 LOGGING = {
@@ -39,13 +37,33 @@ PASSWORD_HASHERS = [
     'django.contrib.auth.hashers.MD5PasswordHasher',
 ]
 
-# Disable cache during tests
-CACHES = {
-    'default': {
-        'BACKEND': 'django.core.cache.backends.dummy.DummyCache',
-    }
-}
+# Disable debug toolbar for tests
+if 'debug_toolbar' in INSTALLED_APPS:
+    INSTALLED_APPS.remove('debug_toolbar')
 
-# Disable Celery during tests
-CELERY_TASK_ALWAYS_EAGER = True
-CELERY_TASK_EAGER_PROPAGATES = True
+if 'debug_toolbar.middleware.DebugToolbarMiddleware' in MIDDLEWARE:
+    MIDDLEWARE.remove('debug_toolbar.middleware.DebugToolbarMiddleware')
+# Override model management for tests
+def make_models_managed():
+    """Make all models managed for testing"""
+    from django.apps import apps
+    for model in apps.get_models():
+        if hasattr(model._meta, 'managed') and not model._meta.managed:
+            model._meta.managed = True
+
+# Make models managed for testing
+import django
+if django.apps.apps.ready:
+    make_models_managed()
+else:
+    # If apps aren't ready yet, we'll do this in a different way
+    from django.core.management import execute_from_command_line
+    import sys
+    
+    # Monkey patch to make models managed
+    original_setup = django.setup
+    def patched_setup():
+        result = original_setup()
+        make_models_managed()
+        return result
+    django.setup = patched_setup

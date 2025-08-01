@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useAuth } from '../hooks/useAuth';
+import useAuth from '../hooks/useAuth';
 import UserProfileForm from '../components/profile/UserProfileForm';
 import MessageCenter from '../components/communication/MessageCenter';
 import { User } from '../types';

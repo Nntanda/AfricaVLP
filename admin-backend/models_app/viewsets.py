@@ -780,27 +780,6 @@ class I18nViewSet(viewsets.ModelViewSet):
     pagination_class = StandardResultsSetPagination
     filter_backends = [DjangoFilterBackend, filters.SearchFilter]
     filterset_fields = ['locale', 'model', 'field']
-    search_fields = ['content']clas
-s TaskResultViewSet(viewsets.ReadOnlyModelViewSet):
-    """
-    ViewSet for viewing task results.
-    Provides read-only access to task execution history.
-    """
-    queryset = TaskResult.objects.all()
-    serializer_class = TaskResultSerializer
-    permission_classes = [IsAuthenticated]
-    filter_backends = [DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter]
-    filterset_fields = ['task_name', 'status', 'started_by']
-    search_fields = ['task_name', 'task_id']
-    ordering_fields = ['created_at', 'updated_at', 'completed_at']
-    ordering = ['-created_at']
-    
-    def get_queryset(self):
-        """Filter queryset based on user permissions"""
-        queryset = super().get_queryset()
-        
-        # If user is not super admin, only show their own tasks
-        if hasattr(self.request.user, 'role') and self.request.user.role != 'super_admin':
-            queryset = queryset.filter(started_by=self.request.user)
-        
-        return queryset
+    search_fields = ['content']
+
+

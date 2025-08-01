@@ -1,5 +1,4 @@
 import { QueryClient } from 'react-query';
-import { toast } from '../hooks/useToast';
 
 // Default query options
 const defaultQueryOptions = {
@@ -27,7 +26,7 @@ const defaultQueryOptions = {
     onError: (error: any) => {
       // Global error handling for mutations
       const message = error?.response?.data?.message || error?.message || 'An error occurred';
-      toast.error(message);
+      console.error('Mutation error:', message);
     },
   },
 };
@@ -115,9 +114,9 @@ export const prefetchStrategies = {
   // Prefetch common data on app load
   prefetchCommonData: async () => {
     await Promise.allSettled([
-      queryClient.prefetchQuery(queryKeys.auth.profile, () => import('../services/auth').then(m => m.getCurrentUser())),
-      queryClient.prefetchQuery(queryKeys.blogPosts.categories, () => import('../services/api/client').then(m => m.apiClient.get('/api/v1/blog/categories/'))),
-      queryClient.prefetchQuery(queryKeys.news.categories, () => import('../services/api/client').then(m => m.apiClient.get('/api/v1/news/categories/'))),
+      queryClient.prefetchQuery(queryKeys.auth.profile, () => import('../services/auth').then(m => m.default.getCurrentUser())),
+      queryClient.prefetchQuery(queryKeys.blogPosts.categories, () => import('../services/api/client').then(m => m.default.get('/api/v1/blog/categories/'))),
+      queryClient.prefetchQuery(queryKeys.news.categories, () => import('../services/api/client').then(m => m.default.get('/api/v1/news/categories/'))),
     ]);
   },
   
@@ -125,9 +124,9 @@ export const prefetchStrategies = {
   prefetchDashboardData: async () => {
     const filters = { page: 1, limit: 10 };
     await Promise.allSettled([
-      queryClient.prefetchQuery(queryKeys.blogPosts.list(filters), () => import('../services/api/client').then(m => m.apiClient.get('/api/v1/blog/posts/', { params: filters }))),
-      queryClient.prefetchQuery(queryKeys.users.list(filters), () => import('../services/api/client').then(m => m.apiClient.get('/api/v1/admin/users/', { params: filters }))),
-      queryClient.prefetchQuery(queryKeys.activityLogs.list(filters), () => import('../services/api/client').then(m => m.apiClient.get('/api/v1/admin/activity-logs/', { params: filters }))),
+      queryClient.prefetchQuery(queryKeys.blogPosts.list(filters), () => import('../services/api/client').then(m => m.default.get('/api/v1/blog/posts/', { params: filters }))),
+      queryClient.prefetchQuery(queryKeys.users.list(filters), () => import('../services/api/client').then(m => m.default.get('/api/v1/admin/users/', { params: filters }))),
+      queryClient.prefetchQuery(queryKeys.activityLogs.list(filters), () => import('../services/api/client').then(m => m.default.get('/api/v1/admin/activity-logs/', { params: filters }))),
     ]);
   },
 };

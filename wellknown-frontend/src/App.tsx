@@ -5,7 +5,7 @@ import { ReactQueryDevtools } from 'react-query/devtools';
 import { queryClient, prefetchStrategies, backgroundSync } from './config/queryClient';
 import ErrorBoundary from './components/common/ErrorBoundary';
 import { AuthProvider } from './context/AuthContext';
-import { ToastProvider, ToastContainer } from './context/ToastContext';
+import { ToastProvider } from './context/ToastContext';
 import { useOfflineDetection } from './hooks/useOfflineDetection';
 import AppRoutes from './routes';
 import './i18n';
@@ -38,7 +38,6 @@ const AppContent: React.FC = () => {
     <Router>
       <div className="App">
         <AppRoutes />
-        <ToastContainer />
       </div>
     </Router>
   );

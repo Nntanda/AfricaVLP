@@ -1,5 +1,5 @@
 import { useInfiniteQuery } from 'react-query';
-import { apiClient } from '../services/api/client';
+import apiClient from '../services/api/client';
 import { queryKeys } from '../config/queryClient';
 
 // Generic infinite query hook

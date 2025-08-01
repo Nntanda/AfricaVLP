@@ -20,6 +20,7 @@ from django.conf import settings
 from django.conf.urls.static import static
 from django.http import JsonResponse
 from models_app.admin import admin_site
+from models_app import health_views
 
 def api_root(request):
     return JsonResponse({
@@ -37,6 +38,11 @@ urlpatterns = [
     path('api/v1/auth/', include('authentication.urls')),
     path('api/v1/', include('models_app.urls')),
     path('', api_root, name='root'),
+    
+    # Health check endpoints at root level for Docker health checks
+    path('health/', health_views.health_check, name='root_health_check'),
+    path('health/live/', health_views.liveness_check, name='root_liveness_check'),
+    path('health/ready/', health_views.readiness_check, name='root_readiness_check'),
 ]
 
 if settings.DEBUG:

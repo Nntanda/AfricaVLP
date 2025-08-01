@@ -1,6 +1,6 @@
 import React from 'react';
 import { Resource } from '../../types';
-import { Badge } from '../ui/Badge';
+import Badge from '../ui/Badge';
 
 interface ResourceCardProps {
   resource: Resource;

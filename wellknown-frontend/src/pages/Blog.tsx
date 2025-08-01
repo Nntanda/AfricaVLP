@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import BlogCard from '../components/blog/BlogCard';
-import { Pagination } from '../components/ui/Pagination';
+import Pagination from '../components/ui/Pagination';
 import { BlogPost } from '../types';
 
 // Mock data - in real app this would come from API

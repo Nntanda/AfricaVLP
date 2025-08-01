@@ -1,6 +1,6 @@
 import { useCallback } from 'react';
 import { ApiError } from '../services/api/types';
-import { handleApiError, isAuthError, isNetworkError } from '../services/api/errorHandler';
+import { ApiErrorHandler } from '../services/api/errorHandler';
 import { AxiosError } from 'axios';
 
 interface UseErrorHandlerReturn {
@@ -14,7 +14,7 @@ export const useErrorHandler = (): UseErrorHandlerReturn => {
     let apiError: ApiError;
     
     if (error.name === 'AxiosError') {
-      apiError = handleApiError(error as AxiosError);
+      apiError = ApiErrorHandler.handleError(error as AxiosError);
     } else {
       apiError = {
         message: error.message || 'An unexpected error occurred',
@@ -28,9 +28,9 @@ export const useErrorHandler = (): UseErrorHandlerReturn => {
     }
     
     // Handle specific error types
-    if (isAuthError(apiError)) {
+    if (apiError.code === 'AUTHENTICATION_ERROR' || apiError.code === 'AUTHORIZATION_ERROR') {
       handleAuthError();
-    } else if (isNetworkError(apiError)) {
+    } else if (apiError.code === 'NETWORK_ERROR') {
       handleNetworkError();
     }
     

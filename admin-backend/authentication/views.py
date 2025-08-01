@@ -24,8 +24,11 @@ from .serializers import (
     ChangePasswordSerializer
 )
 from models_app.models import Admin, User
+from models_app.utils.logging_utils import (
+    get_logger, log_security_event, log_user_action, log_api_call
+)
 
-logger = logging.getLogger(__name__)
+logger = get_logger('authentication')
 
 
 class AdminLoginView(TokenObtainPairView):
@@ -35,17 +38,49 @@ class AdminLoginView(TokenObtainPairView):
     serializer_class = AdminTokenObtainPairSerializer
     
     def post(self, request, *args, **kwargs):
+        email = request.data.get('email')
+        client_ip = self._get_client_ip(request)
+        
         try:
             response = super().post(request, *args, **kwargs)
             if response.status_code == 200:
-                logger.info(f"Admin login successful: {request.data.get('email')}")
+                # Get user ID from response or lookup
+                try:
+                    admin = Admin.objects.get(email=email)
+                    user_id = admin.id
+                except Admin.DoesNotExist:
+                    user_id = None
+                
+                log_security_event(
+                    'admin_login_success',
+                    f"Admin login successful for {email}",
+                    user_id=user_id,
+                    ip_address=client_ip,
+                    email=email
+                )
+                log_user_action(user_id, 'login', 'admin_portal', email=email)
             return response
         except Exception as e:
-            logger.error(f"Admin login error: {str(e)}")
+            log_security_event(
+                'admin_login_failed',
+                f"Admin login failed for {email}: {str(e)}",
+                ip_address=client_ip,
+                email=email,
+                error=str(e)
+            )
             return Response(
                 {'error': 'Login failed'},
                 status=status.HTTP_400_BAD_REQUEST
             )
+    
+    def _get_client_ip(self, request):
+        """Extract client IP address from request."""
+        x_forwarded_for = request.META.get('HTTP_X_FORWARDED_FOR')
+        if x_forwarded_for:
+            ip = x_forwarded_for.split(',')[0].strip()
+        else:
+            ip = request.META.get('REMOTE_ADDR', '')
+        return ip
 
 
 class UserLoginView(TokenObtainPairView):
@@ -55,17 +90,49 @@ class UserLoginView(TokenObtainPairView):
     serializer_class = UserTokenObtainPairSerializer
     
     def post(self, request, *args, **kwargs):
+        email = request.data.get('email')
+        client_ip = self._get_client_ip(request)
+        
         try:
             response = super().post(request, *args, **kwargs)
             if response.status_code == 200:
-                logger.info(f"User login successful: {request.data.get('email')}")
+                # Get user ID from response or lookup
+                try:
+                    user = User.objects.get(email=email)
+                    user_id = user.id
+                except User.DoesNotExist:
+                    user_id = None
+                
+                log_security_event(
+                    'user_login_success',
+                    f"User login successful for {email}",
+                    user_id=user_id,
+                    ip_address=client_ip,
+                    email=email
+                )
+                log_user_action(user_id, 'login', 'user_portal', email=email)
             return response
         except Exception as e:
-            logger.error(f"User login error: {str(e)}")
+            log_security_event(
+                'user_login_failed',
+                f"User login failed for {email}: {str(e)}",
+                ip_address=client_ip,
+                email=email,
+                error=str(e)
+            )
             return Response(
                 {'error': 'Login failed'},
                 status=status.HTTP_400_BAD_REQUEST
             )
+    
+    def _get_client_ip(self, request):
+        """Extract client IP address from request."""
+        x_forwarded_for = request.META.get('HTTP_X_FORWARDED_FOR')
+        if x_forwarded_for:
+            ip = x_forwarded_for.split(',')[0].strip()
+        else:
+            ip = request.META.get('REMOTE_ADDR', '')
+        return ip
 
 
 class LogoutView(APIView):

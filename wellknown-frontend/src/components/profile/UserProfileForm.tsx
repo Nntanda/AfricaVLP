@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { User } from '../../types';
-import { Button } from '../ui/Button';
-import { Input } from '../ui/Input';
+import Button from '../ui/Button';
+import Input from '../ui/Input';
 
 interface UserProfileFormProps {
   user: User;

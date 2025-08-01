@@ -71,6 +71,7 @@ MIDDLEWARE = [
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
+    'models_app.logging_config.RequestResponseLoggingMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
@@ -109,6 +110,18 @@ DATABASES = {
         'PORT': env('DB_PORT', default='3306'),
         'OPTIONS': {
             'charset': 'utf8mb4',
+            'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
+            'autocommit': True,
+            'connect_timeout': 20,
+            'read_timeout': 30,
+            'write_timeout': 30,
+            'isolation_level': 'read committed',
+        },
+        'CONN_MAX_AGE': env('DB_CONN_MAX_AGE', default=300),  # 5 minutes
+        'CONN_HEALTH_CHECKS': True,
+        'TEST': {
+            'CHARSET': 'utf8mb4',
+            'COLLATION': 'utf8mb4_unicode_ci',
         },
     }
 }
@@ -197,13 +210,41 @@ CORS_ALLOWED_ORIGINS = env.list('CORS_ALLOWED_ORIGINS', default=[
     'http://localhost:3000',
     'http://127.0.0.1:3000',
     'http://admin-frontend:3000',
+    'http://admin.localhost',
+    'http://nginx',
 ])
 
 CORS_ALLOW_CREDENTIALS = True
+CORS_ALLOW_ALL_ORIGINS = DEBUG  # Only allow all origins in debug mode
+CORS_ALLOWED_ORIGIN_REGEXES = [
+    r"^http://localhost:\d+$",
+    r"^http://127\.0\.0\.1:\d+$",
+] if DEBUG else []
+
+# Additional CORS settings for better security
+CORS_ALLOW_HEADERS = [
+    'accept',
+    'accept-encoding',
+    'authorization',
+    'content-type',
+    'dnt',
+    'origin',
+    'user-agent',
+    'x-csrftoken',
+    'x-requested-with',
+]
+
+CORS_EXPOSE_HEADERS = [
+    'content-disposition',
+    'content-length',
+    'content-type',
+]
 
 # Celery Configuration
 CELERY_BROKER_URL = env('CELERY_BROKER_URL', default='redis://redis:6379/0')
 CELERY_RESULT_BACKEND = env('CELERY_RESULT_BACKEND', default='redis://redis:6379/0')
+
+# Enhanced Celery settings for production reliability
 CELERY_ACCEPT_CONTENT = ['json']
 CELERY_TASK_SERIALIZER = 'json'
 CELERY_RESULT_SERIALIZER = 'json'
@@ -212,6 +253,72 @@ CELERY_RESULT_EXPIRES = 3600  # Results expire after 1 hour
 CELERY_TASK_TRACK_STARTED = True
 CELERY_TASK_TIME_LIMIT = 30 * 60  # 30 minutes
 CELERY_TASK_SOFT_TIME_LIMIT = 25 * 60  # 25 minutes
+
+# Broker connection settings with retry logic
+CELERY_BROKER_CONNECTION_RETRY_ON_STARTUP = True
+CELERY_BROKER_CONNECTION_RETRY = True
+CELERY_BROKER_CONNECTION_MAX_RETRIES = 10
+CELERY_BROKER_CONNECTION_RETRY_DELAY = 5.0
+
+# Redis connection pool settings
+CELERY_BROKER_TRANSPORT_OPTIONS = {
+    'retry_on_timeout': True,
+    'retry_policy': {
+        'timeout': 5.0,
+    },
+    'socket_keepalive': True,
+    'socket_keepalive_options': {
+        'TCP_KEEPIDLE': 1,
+        'TCP_KEEPINTVL': 3,
+        'TCP_KEEPCNT': 5,
+    },
+    'health_check_interval': 30,
+}
+
+# Result backend settings
+CELERY_RESULT_BACKEND_TRANSPORT_OPTIONS = {
+    'retry_on_timeout': True,
+    'retry_policy': {
+        'timeout': 5.0,
+    },
+    'socket_keepalive': True,
+    'socket_keepalive_options': {
+        'TCP_KEEPIDLE': 1,
+        'TCP_KEEPINTVL': 3,
+        'TCP_KEEPCNT': 5,
+    },
+}
+
+# Worker settings for reliability
+CELERY_WORKER_PREFETCH_MULTIPLIER = 1
+CELERY_WORKER_MAX_TASKS_PER_CHILD = 1000
+CELERY_WORKER_DISABLE_RATE_LIMITS = False
+CELERY_TASK_ACKS_LATE = True
+CELERY_TASK_REJECT_ON_WORKER_LOST = True
+
+# Error handling settings
+CELERY_TASK_ANNOTATIONS = {
+    '*': {
+        'rate_limit': '100/m',
+        'time_limit': 30 * 60,
+        'soft_time_limit': 25 * 60,
+    },
+    'models_app.tasks.send_notification_email': {
+        'rate_limit': '50/m',
+        'max_retries': 3,
+        'default_retry_delay': 60,
+    },
+    'models_app.tasks.process_uploaded_image': {
+        'rate_limit': '20/m',
+        'max_retries': 3,
+        'default_retry_delay': 120,
+    },
+    'models_app.tasks.export_data_to_csv': {
+        'rate_limit': '5/m',
+        'time_limit': 60 * 60,  # 1 hour for large exports
+        'soft_time_limit': 55 * 60,
+    },
+}
 
 # Celery Beat Configuration for scheduled tasks
 CELERY_BEAT_SCHEDULE = {
@@ -262,44 +369,38 @@ EMAIL_HOST_PASSWORD = env('EMAIL_HOST_PASSWORD', default='')
 DEFAULT_FROM_EMAIL = env('DEFAULT_FROM_EMAIL', default='noreply@au-vlp.org')
 
 # Frontend URL for password reset links
-FRONTEND_URL = env('FRONTEND_URL', default='http://localhost:3000')
+FRONTEND_URL = env('ADMIN_FRONTEND_URL', default='http://localhost:3000')
+
+# Environment validation
+ENVIRONMENT = env('ENVIRONMENT', default='development')
+if ENVIRONMENT not in ['development', 'staging', 'production']:
+    raise ValueError(f"Invalid ENVIRONMENT value: {ENVIRONMENT}. Must be one of: development, staging, production")
+
+# Security settings based on environment
+if ENVIRONMENT == 'production':
+    SECURE_SSL_REDIRECT = env('SECURE_SSL_REDIRECT', default=True)
+    SECURE_BROWSER_XSS_FILTER = env('SECURE_BROWSER_XSS_FILTER', default=True)
+    SECURE_CONTENT_TYPE_NOSNIFF = env('SECURE_CONTENT_TYPE_NOSNIFF', default=True)
+    X_FRAME_OPTIONS = env('X_FRAME_OPTIONS', default='DENY')
+    SECURE_HSTS_SECONDS = env('SECURE_HSTS_SECONDS', default=31536000)
+    SECURE_HSTS_INCLUDE_SUBDOMAINS = True
+    SECURE_HSTS_PRELOAD = True
+else:
+    SECURE_SSL_REDIRECT = env('SECURE_SSL_REDIRECT', default=False)
+    SECURE_BROWSER_XSS_FILTER = env('SECURE_BROWSER_XSS_FILTER', default=True)
+    SECURE_CONTENT_TYPE_NOSNIFF = env('SECURE_CONTENT_TYPE_NOSNIFF', default=True)
+    X_FRAME_OPTIONS = env('X_FRAME_OPTIONS', default='SAMEORIGIN')
+
+# Import enhanced logging configuration
+from models_app.logging_config import get_enhanced_logging_config
 
 # Logging Configuration
-LOGGING = {
-    'version': 1,
-    'disable_existing_loggers': False,
-    'formatters': {
-        'verbose': {
-            'format': '{levelname} {asctime} {module} {process:d} {thread:d} {message}',
-            'style': '{',
-        },
-        'simple': {
-            'format': '{levelname} {message}',
-            'style': '{',
-        },
-    },
-    'handlers': {
-        'file': {
-            'level': 'INFO',
-            'class': 'logging.FileHandler',
-            'filename': BASE_DIR / 'logs' / 'django.log',
-            'formatter': 'verbose',
-        },
-        'console': {
-            'level': 'DEBUG',
-            'class': 'logging.StreamHandler',
-            'formatter': 'simple',
-        },
-    },
-    'root': {
-        'handlers': ['console', 'file'],
-        'level': 'INFO',
-    },
-    'loggers': {
-        'django': {
-            'handlers': ['console', 'file'],
-            'level': 'INFO',
-            'propagate': False,
-        },
-    },
-}
+LOGGING = get_enhanced_logging_config(BASE_DIR, DEBUG)
+
+# Environment validation on startup (development only)
+if DEBUG and env('ENABLE_STARTUP_VALIDATION', default=True):
+    try:
+        from models_app.utils.env_validator import validate_environment_on_startup
+        validate_environment_on_startup()
+    except ImportError:
+        pass  # Skip validation if utility is not available

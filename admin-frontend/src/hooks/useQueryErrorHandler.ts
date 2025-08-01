@@ -1,6 +1,6 @@
 import { useQueryClient } from 'react-query';
-import { toast } from './useToast';
 import { useAuth } from './useAuth';
+import { useToast } from '../context/ToastContext';
 
 // Error types
 interface ApiError {
@@ -19,6 +19,7 @@ interface ApiError {
 export const useQueryErrorHandler = () => {
   const queryClient = useQueryClient();
   const { logout } = useAuth();
+  const { addToast } = useToast();
 
   const handleError = (error: ApiError, context?: string) => {
     const status = error.response?.status;
@@ -28,18 +29,18 @@ export const useQueryErrorHandler = () => {
     switch (status) {
       case 401:
         // Unauthorized - logout user
-        toast.error('Session expired. Please login again.');
+        addToast({ type: 'error', title: 'Error', message: 'Session expired. Please login again.' });
         logout();
         break;
       
       case 403:
         // Forbidden
-        toast.error('You do not have permission to perform this action.');
+        addToast({ type: 'error', title: 'Error', message: 'You do not have permission to perform this action.' });
         break;
       
       case 404:
         // Not found
-        toast.error(context ? `${context} not found` : 'Resource not found');
+        addToast({ type: 'error', title: 'Error', message: context ? `${context} not found` : 'Resource not found' });
         break;
       
       case 422:
@@ -48,27 +49,27 @@ export const useQueryErrorHandler = () => {
         if (errors) {
           Object.entries(errors).forEach(([field, messages]) => {
             messages.forEach((msg: string) => {
-              toast.error(`${field}: ${msg}`);
+              addToast({ type: 'error', title: 'Validation Error', message: `${field}: ${msg}` });
             });
           });
         } else {
-          toast.error(message || 'Validation error occurred');
+          addToast({ type: 'error', title: 'Validation Error', message: message || 'Validation error occurred' });
         }
         break;
       
       case 429:
         // Rate limited
-        toast.error('Too many requests. Please try again later.');
+        addToast({ type: 'error', title: 'Rate Limited', message: 'Too many requests. Please try again later.' });
         break;
       
       case 500:
         // Server error
-        toast.error('Server error occurred. Please try again later.');
+        addToast({ type: 'error', title: 'Server Error', message: 'Server error occurred. Please try again later.' });
         break;
       
       default:
         // Generic error
-        toast.error(message || 'An unexpected error occurred');
+        addToast({ type: 'error', title: 'Error', message: message || 'An unexpected error occurred' });
     }
   };
 
@@ -131,14 +132,14 @@ export const useNetworkStatus = () => {
   const queryClient = useQueryClient();
 
   const handleOnline = () => {
-    toast.success('Connection restored');
+    addToast({ type: 'success', title: 'Connection Restored', message: 'Connection restored' });
     queryClient.refetchQueries({
       type: 'inactive',
     });
   };
 
   const handleOffline = () => {
-    toast.warning('Connection lost. Working in offline mode.');
+    addToast({ type: 'warning', title: 'Connection Lost', message: 'Connection lost. Working in offline mode.' });
   };
 
   // Set up event listeners

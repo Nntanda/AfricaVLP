@@ -1,7 +1,7 @@
-import { useQuery, useMutation, useQueryClient, UseQueryOptions, UseMutationOptions } from 'react-query';
-import { apiClient } from '../services/api/client';
+import { useQuery, useMutation, useQueryClient } from 'react-query';
+import apiClient from '../services/api/client';
 import { queryKeys } from '../config/queryClient';
-import { toast } from './useToast';
+import { useToast } from '../context/ToastContext';
 
 // Generic types
 interface PaginatedResponse<T> {
@@ -51,6 +51,7 @@ export const useBlogPost = (id: string | number) => {
 
 export const useBlogPostMutation = () => {
   const queryClient = useQueryClient();
+  const { addToast } = useToast();
   
   return useMutation(
     async (data: { id?: string | number; [key: string]: any }) => {
@@ -72,7 +73,11 @@ export const useBlogPostMutation = () => {
           queryClient.setQueryData(queryKeys.blogPosts.detail(variables.id), data);
         }
         
-        toast.success(variables.id ? 'Blog post updated successfully' : 'Blog post created successfully');
+        addToast({ 
+          type: 'success', 
+          title: 'Success', 
+          message: variables.id ? 'Blog post updated successfully' : 'Blog post created successfully' 
+        });
       },
     }
   );
@@ -80,6 +85,7 @@ export const useBlogPostMutation = () => {
 
 export const useBlogPostDelete = () => {
   const queryClient = useQueryClient();
+  const { addToast } = useToast();
   
   return useMutation(
     async (id: string | number) => {
@@ -91,7 +97,7 @@ export const useBlogPostDelete = () => {
         queryClient.removeQueries(queryKeys.blogPosts.detail(id));
         // Invalidate lists
         queryClient.invalidateQueries(queryKeys.blogPosts.lists());
-        toast.success('Blog post deleted successfully');
+        addToast({ type: 'success', title: 'Success', message: 'Blog post deleted successfully' });
       },
     }
   );
@@ -129,6 +135,7 @@ export const useUser = (id: string | number) => {
 
 export const useUserMutation = () => {
   const queryClient = useQueryClient();
+  const { addToast } = useToast();
   
   return useMutation(
     async (data: { id?: string | number; [key: string]: any }) => {
@@ -146,7 +153,11 @@ export const useUserMutation = () => {
         if (variables.id) {
           queryClient.setQueryData(queryKeys.users.detail(variables.id), data);
         }
-        toast.success(variables.id ? 'User updated successfully' : 'User created successfully');
+        addToast({ 
+          type: 'success', 
+          title: 'Success', 
+          message: variables.id ? 'User updated successfully' : 'User created successfully' 
+        });
       },
     }
   );

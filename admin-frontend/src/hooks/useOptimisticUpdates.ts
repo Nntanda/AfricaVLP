@@ -1,7 +1,7 @@
 import { useMutation, useQueryClient } from 'react-query';
-import { apiClient } from '../services/api/client';
+import apiClient from '../services/api/client';
 import { queryKeys } from '../config/queryClient';
-import { toast } from './useToast';
+import { useToast } from '../context/ToastContext';
 
 // Generic optimistic update hook
 export const useOptimisticMutation = <TData, TVariables>(
@@ -14,6 +14,7 @@ export const useOptimisticMutation = <TData, TVariables>(
   }
 ) => {
   const queryClient = useQueryClient();
+  const { addToast } = useToast();
 
   return useMutation(mutationFn, {
     onMutate: async (variables) => {

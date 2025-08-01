@@ -3,6 +3,7 @@ from rest_framework.routers import DefaultRouter
 from . import viewsets
 from . import search_views
 from . import task_views
+from . import health_views
 
 # Create a router and register our viewsets with it
 router = DefaultRouter()
@@ -43,7 +44,7 @@ router.register(r'admin-activity-logs', viewsets.AdminActivityLogViewSet)
 router.register(r'translations', viewsets.I18nViewSet)
 
 # Task management viewsets
-router.register(r'task-results', viewsets.TaskResultViewSet)
+# router.register(r'task-results', viewsets.TaskResultViewSet)  # Commented out - TaskResult model not implemented
 
 # The API URLs are now determined automatically by the router.
 urlpatterns = [
@@ -73,4 +74,9 @@ urlpatterns = [
     path('tasks/workers/', task_views.worker_status, name='worker_status'),
     path('tasks/revoke/<str:task_id>/', task_views.revoke_task, name='revoke_task'),
     path('tasks/download/<path:file_path>/', task_views.download_export, name='download_export'),
+    
+    # Health check endpoints
+    path('health/', health_views.health_check, name='health_check'),
+    path('health/live/', health_views.liveness_check, name='liveness_check'),
+    path('health/ready/', health_views.readiness_check, name='readiness_check'),
 ]

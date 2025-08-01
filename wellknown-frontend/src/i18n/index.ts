@@ -3,22 +3,8 @@ import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 import Backend from 'i18next-http-backend';
 
-// Import translation files
-import enTranslations from './locales/en.json';
-import frTranslations from './locales/fr.json';
-import arTranslations from './locales/ar.json';
-
-const resources = {
-  en: {
-    translation: enTranslations,
-  },
-  fr: {
-    translation: frTranslations,
-  },
-  ar: {
-    translation: arTranslations,
-  },
-};
+// Resources will be loaded via backend
+const resources = {};
 
 i18n
   .use(Backend)

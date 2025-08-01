@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { BlogPost } from '../../types';
-import { Badge } from '../ui/Badge';
+import Badge from '../ui/Badge';
 
 interface BlogCardProps {
   post: BlogPost;
@@ -40,7 +40,7 @@ const BlogCard: React.FC<BlogCardProps> = ({ post, className = '' }) => {
         <div className="flex items-center justify-between mb-3">
           <div className="flex flex-wrap gap-2">
             {post.categories.map((category) => (
-              <Badge key={category.id} variant="secondary">
+              <Badge key={category.id} variant="primary">
                 {category.name}
               </Badge>
             ))}

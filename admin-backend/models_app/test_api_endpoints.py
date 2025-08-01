@@ -1066,4 +1066,25 @@ class PermissionTest(BaseAPITestCase):
             '/api/v1/organizations/',
             '/api/v1/blog-posts/',
             '/api/v1/news/',
+            '/api/v1/events/',
+            '/api/v1/resources/',
+        ]
+        
+        for endpoint in endpoints:
+            # Test GET without authentication (should work - read only)
+            response = self.client.get(endpoint)
+            self.assertEqual(response.status_code, status.HTTP_200_OK)
+            
+            # Test POST without authentication (should fail)
+            response = self.client.post(endpoint, {})
+            self.assertEqual(response.status_code, status.HTTP_401_UNAUTHORIZED)
+            
+            # Test POST with admin authentication (should work)
+            self.authenticate_admin()
+            response = self.client.post(endpoint, {})
+            # Note: This might return 400 due to missing required fields, but not 401/403
+            self.assertNotEqual(response.status_code, status.HTTP_401_UNAUTHORIZED)
+            self.assertNotEqual(response.status_code, status.HTTP_403_FORBIDDEN)
+            
+            self.clear_authentication()
            

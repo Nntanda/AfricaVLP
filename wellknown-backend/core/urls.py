@@ -1,6 +1,7 @@
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
 from . import viewsets
+from . import health_views
 
 # Create a router and register our viewsets with it
 router = DefaultRouter()
@@ -35,4 +36,9 @@ router.register(r'resources', viewsets.ResourceViewSet)
 # The API URLs are now determined automatically by the router.
 urlpatterns = [
     path('', include(router.urls)),
+    
+    # Health check endpoints
+    path('health/', health_views.health_check, name='health_check'),
+    path('health/live/', health_views.liveness_check, name='liveness_check'),
+    path('health/ready/', health_views.readiness_check, name='readiness_check'),
 ]

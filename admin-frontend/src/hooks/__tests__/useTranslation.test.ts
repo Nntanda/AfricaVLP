@@ -49,8 +49,8 @@ describe('useTranslation hook', () => {
     const content = { en: 'Hello', fr: 'Bonjour' };
     expect(result.current.translateContent(content)).toBe('Hello');
   });
-});  i
-t('handles Arabic RTL correctly', () => {
+
+  it('handles Arabic RTL correctly', () => {
     mockI18n.language = 'ar';
     const { result } = renderHook(() => useTranslation());
     

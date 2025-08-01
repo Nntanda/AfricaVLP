@@ -1,5 +1,5 @@
 import { QueryClient } from 'react-query';
-import { toast } from '../hooks/useToast';
+// Toast will be handled by components using the hook
 
 // Default query options
 const defaultQueryOptions = {
@@ -26,8 +26,8 @@ const defaultQueryOptions = {
     retry: false,
     onError: (error: any) => {
       // Global error handling for mutations
-      const message = error?.response?.data?.message || error?.message || 'An error occurred';
-      toast.error(message);
+      console.error('Mutation error:', error);
+      // Toast notifications should be handled by individual components
     },
   },
 };

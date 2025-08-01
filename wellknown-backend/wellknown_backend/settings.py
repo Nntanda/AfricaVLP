@@ -70,6 +70,7 @@ MIDDLEWARE = [
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
+    'core.logging_config.RequestResponseLoggingMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
@@ -108,6 +109,18 @@ DATABASES = {
         'PORT': env('DB_PORT', default='3306'),
         'OPTIONS': {
             'charset': 'utf8mb4',
+            'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
+            'autocommit': True,
+            'connect_timeout': 20,
+            'read_timeout': 30,
+            'write_timeout': 30,
+            'isolation_level': 'read committed',
+        },
+        'CONN_MAX_AGE': env('DB_CONN_MAX_AGE', default=300),  # 5 minutes
+        'CONN_HEALTH_CHECKS': True,
+        'TEST': {
+            'CHARSET': 'utf8mb4',
+            'COLLATION': 'utf8mb4_unicode_ci',
         },
     }
 }
@@ -196,9 +209,35 @@ CORS_ALLOWED_ORIGINS = env.list('CORS_ALLOWED_ORIGINS', default=[
     'http://localhost:3001',
     'http://127.0.0.1:3001',
     'http://wellknown-frontend:3000',
+    'http://wellknown.localhost',
+    'http://nginx',
 ])
 
 CORS_ALLOW_CREDENTIALS = True
+CORS_ALLOW_ALL_ORIGINS = DEBUG  # Only allow all origins in debug mode
+CORS_ALLOWED_ORIGIN_REGEXES = [
+    r"^http://localhost:\d+$",
+    r"^http://127\.0\.0\.1:\d+$",
+] if DEBUG else []
+
+# Additional CORS settings for better security
+CORS_ALLOW_HEADERS = [
+    'accept',
+    'accept-encoding',
+    'authorization',
+    'content-type',
+    'dnt',
+    'origin',
+    'user-agent',
+    'x-csrftoken',
+    'x-requested-with',
+]
+
+CORS_EXPOSE_HEADERS = [
+    'content-disposition',
+    'content-length',
+    'content-type',
+]
 
 # Celery Configuration
 CELERY_BROKER_URL = env('CELERY_BROKER_URL', default='redis://redis:6379/0')
@@ -233,44 +272,38 @@ EMAIL_HOST_PASSWORD = env('EMAIL_HOST_PASSWORD', default='')
 DEFAULT_FROM_EMAIL = env('DEFAULT_FROM_EMAIL', default='noreply@au-vlp.org')
 
 # Frontend URL for password reset links
-FRONTEND_URL = env('FRONTEND_URL', default='http://localhost:3001')
+FRONTEND_URL = env('WELLKNOWN_FRONTEND_URL', default='http://localhost:3001')
+
+# Environment validation
+ENVIRONMENT = env('ENVIRONMENT', default='development')
+if ENVIRONMENT not in ['development', 'staging', 'production']:
+    raise ValueError(f"Invalid ENVIRONMENT value: {ENVIRONMENT}. Must be one of: development, staging, production")
+
+# Security settings based on environment
+if ENVIRONMENT == 'production':
+    SECURE_SSL_REDIRECT = env('SECURE_SSL_REDIRECT', default=True)
+    SECURE_BROWSER_XSS_FILTER = env('SECURE_BROWSER_XSS_FILTER', default=True)
+    SECURE_CONTENT_TYPE_NOSNIFF = env('SECURE_CONTENT_TYPE_NOSNIFF', default=True)
+    X_FRAME_OPTIONS = env('X_FRAME_OPTIONS', default='DENY')
+    SECURE_HSTS_SECONDS = env('SECURE_HSTS_SECONDS', default=31536000)
+    SECURE_HSTS_INCLUDE_SUBDOMAINS = True
+    SECURE_HSTS_PRELOAD = True
+else:
+    SECURE_SSL_REDIRECT = env('SECURE_SSL_REDIRECT', default=False)
+    SECURE_BROWSER_XSS_FILTER = env('SECURE_BROWSER_XSS_FILTER', default=True)
+    SECURE_CONTENT_TYPE_NOSNIFF = env('SECURE_CONTENT_TYPE_NOSNIFF', default=True)
+    X_FRAME_OPTIONS = env('X_FRAME_OPTIONS', default='SAMEORIGIN')
+
+# Import enhanced logging configuration
+from core.logging_config import get_enhanced_logging_config
 
 # Logging Configuration
-LOGGING = {
-    'version': 1,
-    'disable_existing_loggers': False,
-    'formatters': {
-        'verbose': {
-            'format': '{levelname} {asctime} {module} {process:d} {thread:d} {message}',
-            'style': '{',
-        },
-        'simple': {
-            'format': '{levelname} {message}',
-            'style': '{',
-        },
-    },
-    'handlers': {
-        'file': {
-            'level': 'INFO',
-            'class': 'logging.FileHandler',
-            'filename': BASE_DIR / 'logs' / 'django.log',
-            'formatter': 'verbose',
-        },
-        'console': {
-            'level': 'DEBUG',
-            'class': 'logging.StreamHandler',
-            'formatter': 'simple',
-        },
-    },
-    'root': {
-        'handlers': ['console', 'file'],
-        'level': 'INFO',
-    },
-    'loggers': {
-        'django': {
-            'handlers': ['console', 'file'],
-            'level': 'INFO',
-            'propagate': False,
-        },
-    },
-}
+LOGGING = get_enhanced_logging_config(BASE_DIR, DEBUG)
+
+# Environment validation on startup (development only)
+if DEBUG and env('ENABLE_STARTUP_VALIDATION', default=True):
+    try:
+        from core.utils.env_validator import validate_environment_on_startup
+        validate_environment_on_startup()
+    except ImportError:
+        pass  # Skip validation if utility is not available
