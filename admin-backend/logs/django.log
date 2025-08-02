@@ -7933,3 +7933,8 @@ WARNING 2025-07-31 11:05:05,961 inspector 1 140281659684544 Inspect method activ
 WARNING 2025-07-31 11:05:05,968 inspector 1 140281273902784 Inspect method revoked failed
 WARNING 2025-07-31 11:05:05,968 inspector 1 140281634506432 Inspect method active failed
 WARNING 2025-07-31 11:44:39,670 log 117 135927284882304 Not Found: /favicon.ico
+ERROR 2025-08-01 08:45:47,355 events 1 140281676469952 Failed to capture events: 'Error 111 connecting to redis:6379. Connection refused.', trying again in 1 seconds.
+ERROR 2025-08-01 08:45:52,460 events 1 140281676469952 Failed to capture events: 'Error -5 connecting to redis:6379. No address associated with hostname.', trying again in 2 seconds.
+ERROR 2025-08-01 08:46:02,912 events 1 140281676469952 Failed to capture events: 'Error -2 connecting to redis:6379. Name or service not known.', trying again in 4 seconds.
+INFO 2025-08-01 08:46:10,695 command 1 140281742388096 15 detected, shutting down
+ERROR 2025-08-01 08:46:16,047 events 1 140281676469952 Failed to capture events: 'Error -5 connecting to redis:6379. No address associated with hostname.', trying again in 8 seconds.
